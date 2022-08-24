@@ -1,60 +1,60 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class RegionTable extends Component {
-  region = this.props.region;
-  curState = this.props.curState;
-  render() {
+function RegionTable (props){
+  // region = this.props.region;
+  // curState = this.props.curState;
     return (
-      <tr className={this.region.total ? "reg-total" : "reg-row"}>
+      <tr className={props.scripts.total ? "reg-total" : "reg-row"}>
         <td
           className={
-            this.region.solid < this.curState.solid || this.region.solid === "-"
+            props.scripts.solid < props.curState.solid || props.scripts.solid === "-"
               ? "better"
               : "worse"
           }
         >
-          {this.region.solid}
+          {props.scripts.solid}
         </td>
         <td
           className={
-            this.region.sulfur < this.curState.sulfur ||
-            this.region.sulfur === "-"
+            props.scripts.sulfur < props.curState.sulfur ||
+            props.scripts.sulfur === "-"
               ? "better"
               : "worse"
           }
         >
-          {this.region.sulfur}
+          {props.scripts.sulfur}
         </td>
         <td
           className={
-            this.region.nitrogen < this.curState.nitrogen ||
-            this.region.nitrogen === "-"
+            props.scripts.nitrogen < props.curState.nitrogen ||
+            props.scripts.nitrogen === "-"
               ? "better"
               : "worse"
           }
         >
-          {this.region.nitrogen}
+          {props.scripts.nitrogen}
         </td>
         <td
           className={
-            this.region.carbon < this.curState.carbon ||
-            this.region.carbon === "-"
+            props.scripts.carbon < props.curState.carbon ||
+            props.scripts.carbon === "-"
               ? "better"
               : "worse"
           }
         >
-          {this.region.carbon}
+          {props.scripts.carbon}
         </td>
         <td
           className={
-            this.region.ash < this.curState.ash || this.region.ash === "-"
+            props.scripts.ash < props.curState.ash || props.scripts.ash === "-"
               ? "better"
               : "worse"
           }
         >
-          {this.region.ash}
+          {props.scripts.ash}
         </td>
       </tr>
     );
   }
-}
+
+export default RegionTable

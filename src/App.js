@@ -1,10 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import Container from "./components/Container";
 import Head from "./components/Head";
 import Footer from "./components/Footer";
 
-export default class App extends Component {
-  render() {
+function App () {
     console.log(document.documentElement.scrollWidth);
     console.log(document.documentElement.scrollHeight);
     return (
@@ -15,4 +14,5 @@ export default class App extends Component {
       </>
     );
   }
-}
+
+export default App
