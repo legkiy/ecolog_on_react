@@ -1,1 +1,3 @@
 https://wwayne.github.io/react-tooltip/  раздел "Theme and delay"
+https://react-icons.github.io/react-icons/ нативные иконки для реакта
+https://popper.js.org/react-popper/ отличные тутипы
