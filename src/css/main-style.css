@@ -78,14 +78,16 @@ main {
   color: white;
   background: local;
   cursor: pointer;
-  transform: scale(1.7);
+  transform: scale(1.8);
   border-radius: 4px;
 }
 .script-selection-button:hover {
   background: rgb(13, 72, 109);
 }
 .script-selection-button:active {
-  opacity: 0.5;
+  transition: 0.05s;
+  transform: scale(1.7);
+  opacity: 0.6;
 }
 .noSelect{
   margin-left: auto;
@@ -213,7 +215,7 @@ main {
   font-weight: 600;
 }
 .even {
-  background-color: rgb(230, 230, 230);
+  background-color: rgba(228, 228, 228, 0.781);
 }
 thead {
   text-align: center;
@@ -250,7 +252,7 @@ thead {
   border-right: 1px solid rgba(148, 148, 148, 0.445) !important;
 }
 .equally {
-  background-color: rgba(238, 228, 137, 0.568);
+  background-color: rgba(250, 248, 143, 0.582);
   border-right: 1px solid rgba(148, 148, 148, 0.445) !important;
 }
 

@@ -33,7 +33,7 @@ function Container() {
           <ImgContainer />
           <Table scriptIndex={scriptIndex} />
         </div>
-        <YaMap scriptIndex={scriptIndex}/>
+        <YaMap scriptIndex={scriptIndex} />
       </div>
     </div>
   );
