@@ -1,6 +1,6 @@
 import React from "react";
 import { GiLightningArc } from "react-icons/gi";
-import { DiApple } from "react-icons/di";
+import { GiFuelTank } from "react-icons/gi";
 // GiFuelTank GiBarrelLeak
 
 
@@ -17,7 +17,7 @@ function Button(props) {
         return <GiLightningArc />;
 
       case "coal":
-        return <DiApple />;
+        return <GiFuelTank />;
         default:
     }
   };
