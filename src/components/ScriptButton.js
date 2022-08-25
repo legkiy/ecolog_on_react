@@ -32,6 +32,7 @@ function Button(props) {
     >
       {getScriptIcon(props.scriptCase)}
     </button>
+    // adsasd
   );
 }
 
