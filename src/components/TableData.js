@@ -44,7 +44,7 @@ function TableData(props) {
               ) : null
             )
           ) : (
-            <td>Выбирете сценарий</td>
+            <td colSpan={5}>Выбирете сценарий</td>
           )}
         </tbody>
       ))}

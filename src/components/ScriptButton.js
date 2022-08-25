@@ -8,7 +8,7 @@ const SCRIPT_MAP = {
   // noSelect:5,
 };
 
-const Button = (props) => {
+function Button(props) {
   const getScriptIcon = (scriptCase) => {
     switch (scriptCase) {
       case "electra":
@@ -16,6 +16,7 @@ const Button = (props) => {
 
       case "coal":
         return <DiApple />;
+        default:
     }
   };
 
@@ -32,6 +33,6 @@ const Button = (props) => {
       {getScriptIcon(props.scriptCase)}
     </button>
   );
-};
+}
 
 export default Button;
