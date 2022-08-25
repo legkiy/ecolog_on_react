@@ -1,6 +1,8 @@
 import React from "react";
 import { GiLightningArc } from "react-icons/gi";
 import { DiApple } from "react-icons/di";
+// GiFuelTank GiBarrelLeak
+
 
 const SCRIPT_MAP = {
   electra: 0,
