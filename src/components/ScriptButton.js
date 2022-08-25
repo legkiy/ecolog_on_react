@@ -1,5 +1,6 @@
 import React from "react";
 import { GiLightningArc } from "react-icons/gi";
+import { GiCoalWagon } from "react-icons/gi";
 import { GiFuelTank } from "react-icons/gi";
 // GiFuelTank GiBarrelLeak
 
@@ -17,7 +18,7 @@ function Button(props) {
         return <GiLightningArc />;
 
       case "coal":
-        return <GiFuelTank />;
+        return <GiCoalWagon />;
         default:
     }
   };
@@ -34,7 +35,6 @@ function Button(props) {
     >
       {getScriptIcon(props.scriptCase)}
     </button>
-    // adsasd
   );
 }
 

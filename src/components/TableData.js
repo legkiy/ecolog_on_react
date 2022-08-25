@@ -44,7 +44,11 @@ function TableData(props) {
               ) : null
             )
           ) : (
-            <td colSpan={5}>Выбирете сценарий</td>
+            <tr>
+              <td colSpan={5} className="dont-chose">
+                Выбирете сценарий
+              </td>
+            </tr>
           )}
         </tbody>
       ))}
