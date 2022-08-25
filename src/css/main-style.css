@@ -70,14 +70,9 @@ main {
   font-weight: 400;
   padding-right: 6px;
 }
-.script-selection-list {
-  list-style: none;
-  align-self: center;
-}
-.script-selection-list li {
-  display: inline;
-}
+
 .script-selection-button {
+  display: flex;
   margin: 0 10px;
   border: none;
   color: white;
@@ -91,6 +86,9 @@ main {
 }
 .script-selection-button:active {
   opacity: 0.5;
+}
+.noSelect{
+  margin-left: auto;
 }
 .right-box {
   width: 32%;
@@ -240,6 +238,8 @@ thead {
 }
 .dont-chose {
   text-align: center;
+  color: rgba(88, 88, 88, 0.74);
+  /* background-color: rgba(179, 212, 218, 0.589); */
 }
 .better {
   background-color: rgba(157, 240, 157, 0.582);

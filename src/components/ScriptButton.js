@@ -2,13 +2,13 @@ import React from "react";
 import { GiLightningArc } from "react-icons/gi";
 import { GiCoalWagon } from "react-icons/gi";
 import { GiFuelTank } from "react-icons/gi";
+import { TiCancel } from "react-icons/ti";
 // GiFuelTank GiBarrelLeak
-
 
 const SCRIPT_MAP = {
   electra: 0,
   coal: 1,
-  // noSelect:5,
+  noSelect: null,
 };
 
 function Button(props) {
@@ -19,7 +19,9 @@ function Button(props) {
 
       case "coal":
         return <GiCoalWagon />;
-        default:
+      case "noSelect":
+        return <TiCancel />;
+      default:
     }
   };
 

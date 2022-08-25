@@ -10,6 +10,12 @@ function ScriptSlection(props) {
         setScriptIndex={props.setScriptIndex}
       />
       <ScriptButton scriptCase={"coal"} setScriptIndex={props.setScriptIndex} />
+      <div className="noSelect">
+        <ScriptButton
+          scriptCase={"noSelect"}
+          setScriptIndex={props.setScriptIndex}
+        />
+      </div>
     </div>
   );
 }
