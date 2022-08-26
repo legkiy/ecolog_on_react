@@ -14,18 +14,17 @@ function TableData(props) {
           <tr
             key={curState.id}
             className={`
-                  ${index % 2 === 0 ? "even" : ""} 
                   ${curState.total ? "reg-total" : "reg-row"}
                 `}
           >
             <td className="reg-name" rowSpan={2}>
               {curState.localName}
             </td>
-            <td rowSpan={2}>{curState.coal}</td>
-            <td rowSpan={2}>{curState.wood}</td>
-            <td rowSpan={2}>{curState.oil}</td>
-            <td rowSpan={2}>{curState.gas}</td>
-            <td rowSpan={2}>{curState.electric}</td>
+            <td>{curState.coal}</td>
+            <td>{curState.wood}</td>
+            <td>{curState.oil}</td>
+            <td>{curState.gas}</td>
+            <td>{curState.electric}</td>
             <td>{curState.solid}</td>
             <td>{curState.sulfur}</td>
             <td>{curState.nitrogen}</td>
@@ -45,7 +44,7 @@ function TableData(props) {
             )
           ) : (
             <tr>
-              <td colSpan={5} className="dont-chose">
+              <td colSpan={10} className="dont-chose">
                 Выберите сценарий
               </td>
             </tr>

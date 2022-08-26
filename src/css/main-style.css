@@ -207,7 +207,8 @@ main {
   vertical-align: middle;
 }
 .reg-name {
-  text-align: left;
+  text-align: left !important;
+  padding: 0 !important;
 }
 .reg-total {
   font-style: italic;
@@ -224,13 +225,13 @@ thead {
   border-bottom: 1px solid rgba(148, 148, 148, 0.384);
   background-clip: padding-box;
 }
-/* thead tr:first-child {
-  border-bottom: 1px solid rgba(148, 148, 148, 0.384);
-} */
 .curr-status-table td {
   border-right: 1px solid rgba(148, 148, 148, 0.445);
-  padding: 1px 1px;
+  border-bottom: 1px solid rgba(148, 148, 148, 0.445);
+  padding: 2px 5px;
   position: relative;
+  width: fit-content;
+  text-align: center;
 }
 .last-td {
   border-right: none !important;
@@ -240,7 +241,7 @@ thead {
 }
 .dont-chose {
   text-align: center;
-  color: rgba(88, 88, 88, 0.74);
+  color: rgba(88, 88, 88, 0.534);
   /* background-color: rgba(179, 212, 218, 0.589); */
 }
 .better {
