@@ -1,7 +1,7 @@
 html,
 body {
   /* height: 100%; */
-  font-family: "PT Sans", "Calibri", sans-serif;
+  font-family: 'PT Sans', 'Calibri', sans-serif;
   background: linear-gradient(170deg, white, rgb(188, 205, 212)) fixed;
   font-size: 15px;
 }
@@ -89,7 +89,7 @@ main {
   transform: scale(1.7);
   opacity: 0.6;
 }
-.noSelect{
+.noSelect {
   margin-left: auto;
 }
 .right-box {
@@ -139,7 +139,7 @@ main {
   margin: 5px auto;
 }
 .ico-legend::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -223,7 +223,6 @@ thead {
 }
 .curr-status-table thead td {
   border-bottom: 1px solid rgba(148, 148, 148, 0.384);
-  background-clip: padding-box;
 }
 .curr-status-table td {
   border-right: 1px solid rgba(148, 148, 148, 0.445);
@@ -232,6 +231,7 @@ thead {
   position: relative;
   width: fit-content;
   text-align: center;
+  background-clip: padding-box;
 }
 .last-td {
   border-right: none !important;
@@ -242,19 +242,15 @@ thead {
 .dont-chose {
   text-align: center;
   color: rgba(88, 88, 88, 0.534);
-  /* background-color: rgba(179, 212, 218, 0.589); */
 }
 .better {
-  background-color: rgba(157, 240, 157, 0.582);
-  border-right: 1px solid rgba(148, 148, 148, 0.445) !important;
+  background: rgba(157, 240, 157, 0.582);
 }
 .worse {
-  background-color: rgba(238, 137, 137, 0.568);
-  border-right: 1px solid rgba(148, 148, 148, 0.445) !important;
+  background: rgba(238, 137, 137, 0.568);
 }
 .equally {
-  background-color: rgba(250, 248, 143, 0.582);
-  border-right: 1px solid rgba(148, 148, 148, 0.445) !important;
+  background: rgba(250, 248, 143, 0.582);
 }
 
 .better:last-child {
@@ -298,7 +294,7 @@ td:hover .tooltip-span {
   visibility: visible;
 }
 .tooltip-span:before {
-  content: "";
+  content: '';
   width: 0;
   height: 0;
   position: absolute;
