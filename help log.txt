@@ -1,3 +1,12 @@
+залить не гит:
+git commit -am '<log>'
+git push 
+-----------------------------------
+скачать изменённые:
+git pull
+
+=====================================================================================================
+
 https://wwayne.github.io/react-tooltip/  раздел "Theme and delay"
 https://react-icons.github.io/react-icons/ нативные иконки для реакта
 https://popper.js.org/react-popper/ , https://floating-ui.com/ , https://atomiks.github.io/tippyjs/, отличные тутипы
