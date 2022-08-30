@@ -224,7 +224,6 @@ thead {
 }
 .curr-status-table thead td {
   border-bottom: 1px solid rgba(148, 148, 148, 0.384);
-  background-clip: padding-box;
 }
 .curr-status-table td {
   border-right: 1px solid rgba(148, 148, 148, 0.445);
@@ -233,6 +232,7 @@ thead {
   position: relative;
   width: fit-content;
   text-align: center;
+  background-clip: padding-box;
 }
 .last-td {
   border-right: none !important;

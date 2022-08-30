@@ -33,7 +33,8 @@ const gas = curAmountIrk.map((curAmountIrk) => curAmountIrk.gas);
 const electric = curAmountIrk.map((curAmountIrk) => curAmountIrk.electric);
 
 ChartJS.defaults.font.family = 'PT Sans';
-ChartJS.defaults.font.size = 12;
+// ChartJS.defaults.font.size = 12;
+ChartJS.defaults.color='black'
 
 const data = {
   labels: labels,
