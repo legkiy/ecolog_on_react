@@ -9,9 +9,12 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
-import curAmountIrk from './data/curAmountIrk.json';
-import script1Amount from './data/script1Amount.json';
-import script2Amount from './data/script2Amount.json';
+import curAmountIrk from './data/curAmount/curAmountIrk.json';
+import curAmountBur from './data/curAmount/curAmountBur.json'
+import script1Irk from './data/script1/script1Irk.json'
+import script1Bur from './data/script1/script1Bur.json'
+import script2Irk from './data/script2/script2Irk.json'
+import script2Bur from './data/script2/script2Bur.json'
 
 ChartJS.register(
   CategoryScale,
