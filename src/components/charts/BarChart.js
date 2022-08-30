@@ -29,6 +29,9 @@ const oil = curAmount.map((curAmount) => curAmount.oil);
 const gas = curAmount.map((curAmount) => curAmount.gas);
 const electric = curAmount.map((curAmount) => curAmount.electric);
 
+ChartJS.defaults.font.family = 'PT Sans';
+ChartJS.defaults.font.size = 12;
+
 const data = {
   labels: labels,
   datasets: [
@@ -60,10 +63,42 @@ const data = {
   ],
 };
 
+const options = {
+  layout: {
+    padding: 0,
+  },
+  plugins: {
+    tooltip: {
+      yAxlign: 'bottom',
+      usePointStyle: true,
+      // backgroundColor: 'rgba(255,255,255,0.9)',
+      // titleColor: 'rgb(0,0,0)',
+      // bodyColor: 'rgb(0,0,0)',
+      callbacks: {
+        labelPointStyle: function (context) {
+          return {
+            pointStyle: 'rectRounded',
+          };
+        },
+      },
+    },
+  },
+  responsive: true,
+  scales: {
+    x: {
+      stacked: true,
+    },
+    y: {
+      beginAtZero: true,
+      stacked: true,
+    },
+  },
+};
+
 function BarChart(props) {
   return (
     <div>
-      <Bar data={data} />
+      <Bar data={data} options={options} />
     </div>
   );
 }
