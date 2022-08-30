@@ -3,6 +3,7 @@ import YaMap from "./YaMap";
 import Table from "./Table";
 import ImgContainer from "./Img-container";
 import ScriptSlection from "./ScriptSlection";
+import BarChart from "./charts/BarChart";
 
 function Container() {
   const [scriptIndex, setScriptIndex] = useState(null);
@@ -30,7 +31,7 @@ function Container() {
             </p>
           </div>
           <ScriptSlection setScriptIndex={setScriptIndex} />
-          <ImgContainer />
+          <BarChart/>
           <Table scriptIndex={scriptIndex} />
         </div>
         <YaMap scriptIndex={scriptIndex} />
