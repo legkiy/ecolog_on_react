@@ -31,7 +31,7 @@ function Container() {
             </p>
           </div>
           <ScriptSlection setScriptIndex={setScriptIndex} />
-          <BarChart/>
+          <BarChart />
           <Table scriptIndex={scriptIndex} />
         </div>
         <YaMap scriptIndex={scriptIndex} />

@@ -9,7 +9,7 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
-import curAmount from './data/curAmount.json';
+import curAmountIrk from './data/curAmountIrk.json';
 import script1Amount from './data/script1Amount.json';
 import script2Amount from './data/script2Amount.json';
 
@@ -22,12 +22,12 @@ ChartJS.register(
   Legend
 );
 
-const labels = curAmount.map((curAmount) => curAmount.localName);
-const coal = curAmount.map((curAmount) => curAmount.coal);
-const wood = curAmount.map((curAmount) => curAmount.wood);
-const oil = curAmount.map((curAmount) => curAmount.oil);
-const gas = curAmount.map((curAmount) => curAmount.gas);
-const electric = curAmount.map((curAmount) => curAmount.electric);
+const labels = curAmountIrk.map((curAmountIrk) => curAmountIrk.localName);
+const coal = curAmountIrk.map((curAmountIrk) => curAmountIrk.coal);
+const wood = curAmountIrk.map((curAmountIrk) => curAmountIrk.wood);
+const oil = curAmountIrk.map((curAmountIrk) => curAmountIrk.oil);
+const gas = curAmountIrk.map((curAmountIrk) => curAmountIrk.gas);
+const electric = curAmountIrk.map((curAmountIrk) => curAmountIrk.electric);
 
 ChartJS.defaults.font.family = 'PT Sans';
 ChartJS.defaults.font.size = 12;
