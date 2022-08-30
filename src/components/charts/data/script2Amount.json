@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "localName": "Ольхонский",
+    "coal": 4,
+    "wood": 4,
+    "oil": 0,
+    "gas": 0,
+    "electric": 7
+  },
+  {
+    "id": 2,
+    "localName": "Иркутский",
+    "coal": 2,
+    "wood": 0,
+    "oil": 1,
+    "gas": 0,
+    "electric": 2
+  },
+  {
+    "id": 3,
+    "localName": "Слюдянский",
+    "coal": 26,
+    "wood": 0,
+    "oil": 0,
+    "gas": 0,
+    "electric": 8
+  },
+  {
+    "id": 5,
+    "localName": "Кабанский",
+    "coal": 23,
+    "wood": 1,
+    "oil": 0,
+    "gas": 2,
+    "electric": 0
+  },
+  {
+    "id": 6,
+    "localName": "Баргузинский",
+    "coal": 4,
+    "wood": 2,
+    "oil": 0,
+    "gas": 0,
+    "electric": 0
+  },
+  {
+    "id": 7,
+    "localName": "Прибайкальский",
+    "coal": 1,
+    "wood": 1,
+    "oil": 0,
+    "gas": 3,
+    "electric": 2
+  },
+  {
+    "id": 8,
+    "localName": "г.Северобайкальск",
+    "coal": 4,
+    "wood": 0,
+    "oil": 0,
+    "gas": 0,
+    "electric": 0
+  },
+  {
+    "id": 9,
+    "localName": "Северо-Байкальский",
+    "coal": 8,
+    "wood": 1,
+    "oil": 0,
+    "gas": 0,
+    "electric": 0
+  }
+]
