@@ -5,14 +5,15 @@ function RegionTable(props) {
     <tr className={props.scripts.total ? "reg-total" : "reg-row"}>
       <td
         className={
-          props.scripts.coal < props.curState.coal || props.scripts.coal === "-"
+          props.scripts.coal < props.curState.coal
             ? "better"
             : props.scripts.coal > props.curState.coal
             ? "worse"
             : "equally"
         }
       >
-        {props.scripts.coal}
+        {((props.scripts.coal/props.curState.coal)*100).toFixed(1)}%
+        {/* {props.scripts.coal === 0 ? '-' :props.scripts.coal} */}
       </td>
       <td
         className={
