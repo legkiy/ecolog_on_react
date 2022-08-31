@@ -1,9 +1,16 @@
-import React, { useState } from "react";
-import YaMap from "./YaMap";
-import Table from "./Table";
-import ImgContainer from "./Img-container";
-import ScriptSlection from "./ScriptSlection";
-import BarChart from "./charts/BarChart";
+import React, { useState } from 'react';
+import YaMap from './YaMap';
+import Table from './Table';
+import ImgContainer from './Img-container';
+import ScriptSlection from './ScriptSlection';
+import BarChart from './charts/BarChart';
+
+import curAmountIrk from './charts/data/curAmount/curAmountIrk.json';
+import curAmountBur from './charts/data/curAmount/curAmountBur.json';
+import script1Irk from './charts/data/script1/script1Irk.json';
+import script1Bur from './charts/data/script1/script1Bur.json';
+import script2Irk from './charts/data/script2/script2Irk.json';
+import script2Bur from './charts/data/script2/script2Bur.json';
 
 function Container() {
   const [scriptIndex, setScriptIndex] = useState(null);
@@ -31,7 +38,8 @@ function Container() {
             </p>
           </div>
           <ScriptSlection setScriptIndex={setScriptIndex} />
-          <BarChart />
+          <BarChart chartOut={curAmountIrk} />
+          <BarChart chartOut={curAmountBur} />
           <Table scriptIndex={scriptIndex} />
         </div>
         <YaMap scriptIndex={scriptIndex} />
