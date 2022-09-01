@@ -12,9 +12,10 @@ function RegionTable(props) {
             : 'equally'
         }
       >
-        {props.curState.coal !== 0
-          ? ((props.scripts.coal / props.curState.coal) * 100).toFixed(1)
-          : 100.0}
+        {(props.curState.coal !== 0
+          ? (props.scripts.coal / props.curState.coal) * 100
+          : 100
+        ).toFixed(1)}
         %{/* {props.scripts.coal === 0 ? '-' :props.scripts.coal} */}
       </td>
       <td
@@ -26,9 +27,10 @@ function RegionTable(props) {
             : 'equally'
         }
       >
-        {props.curState.wood !== 0
-          ? ((props.scripts.wood / props.curState.wood) * 100).toFixed(1)
-          : 100.0}
+        {(props.curState.wood !== 0
+          ? (props.scripts.wood / props.curState.wood) * 100
+          : 100
+        ).toFixed(1)}
         %{/* {props.scripts.wood === 0 ? '-' :props.scripts.wood} */}
       </td>
       <td
@@ -40,9 +42,10 @@ function RegionTable(props) {
             : 'equally'
         }
       >
-        {props.curState.oil !== 0
-          ? ((props.scripts.oil / props.curState.oil) * 100).toFixed(1)
-          : 100.0}
+        {(props.curState.oil !== 0
+          ? (props.scripts.oil / props.curState.oil) * 100
+          : 100
+        ).toFixed(1)}
         %{/* {props.scripts.oil === 0 ? '-' :props.scripts.oil} */}
       </td>
       <td
@@ -54,9 +57,10 @@ function RegionTable(props) {
             : 'equally'
         }
       >
-        {props.curState.gas !== 0
-          ? ((props.scripts.gas / props.curState.gas) * 100).toFixed(1)
-          : 100.0}
+        {(props.curState.gas !== 0
+          ? (props.scripts.gas / props.curState.gas) * 100
+          : 100
+        ).toFixed(1)}
         %{/* {props.scripts.gas === 0 ? '-' :props.scripts.gas} */}
       </td>
       <td
@@ -68,11 +72,10 @@ function RegionTable(props) {
             : 'equally'
         }
       >
-        {props.curState.electric !== 0
-          ? ((props.scripts.electric / props.curState.electric) * 100).toFixed(
-              1
-            )
-          : 100.0}
+        {(props.curState.electric !== 0
+          ? (props.scripts.electric / props.curState.electric) * 100
+          : 100
+        ).toFixed(1)}
         %{/* {props.scripts.electric === 0 ? '-' : props.scripts.electric} */}
       </td>
       <td
@@ -84,9 +87,10 @@ function RegionTable(props) {
             : 'equally'
         }
       >
-        {props.curState.solid !== 0
-          ? ((props.scripts.solid / props.curState.solid) * 100).toFixed(1)
-          : 100.0}
+        {(props.curState.solid !== 0
+          ? (props.scripts.solid / props.curState.solid) * 100
+          : 100
+        ).toFixed(1)}
         %{/* {props.scripts.solid === 0 ? '-' :props.scripts.solid} */}
       </td>
       <td
@@ -98,9 +102,10 @@ function RegionTable(props) {
             : 'equally'
         }
       >
-        {props.curState.sulfur !== 0
-          ? ((props.scripts.sulfur / props.curState.sulfur) * 100).toFixed(1)
-          : 100.0}
+        {(props.curState.sulfur !== 0
+          ? (props.scripts.sulfur / props.curState.sulfur) * 100
+          : 100
+        ).toFixed(1)}
         %{/* {props.scripts.sulfur === 0 ? '-' :props.scripts.sulfur} */}
       </td>
       <td
@@ -112,11 +117,10 @@ function RegionTable(props) {
             : 'equally'
         }
       >
-        {props.curState.nitrogen !== 0
-          ? ((props.scripts.nitrogen / props.curState.nitrogen) * 100).toFixed(
-              1
-            )
-          : 100.0}
+        {(props.curState.nitrogen !== 0
+          ? (props.scripts.nitrogen / props.curState.nitrogen) * 100
+          : 100
+        ).toFixed(1)}
         %{/* {props.scripts.nitrogen === 0 ? '-' :props.scripts.nitrogen} */}
       </td>
       <td
@@ -128,9 +132,10 @@ function RegionTable(props) {
             : 'equally'
         }
       >
-        {props.curState.carbon !== 0
-          ? ((props.scripts.carbon / props.curState.carbon) * 100).toFixed(1)
-          : 100.0}
+        {(props.curState.carbon !== 0
+          ? (props.scripts.carbon / props.curState.carbon) * 100
+          : 100
+        ).toFixed(1)}
         %{/* {props.scripts.carbon === 0 ? '-' :props.scripts.carbon} */}
       </td>
       <td
@@ -142,9 +147,10 @@ function RegionTable(props) {
             : 'equally'
         }
       >
-        {props.curState.ash !== 0
-          ? ((props.scripts.ash / props.curState.ash) * 100).toFixed(1)
-          : 100.0}
+        {(props.curState.ash !== 0
+          ? (props.scripts.ash / props.curState.ash) * 100
+          : 100
+        ).toFixed(1)}
         %{/* {props.scripts.ash === 0 ? '-' :props.scripts.ash} */}
       </td>
     </tr>
