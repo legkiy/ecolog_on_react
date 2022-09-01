@@ -121,9 +121,11 @@ main {
   position: relative;
   height: 620px;
 }
-.scroll,
-.popup {
-  border-radius: 10px;
+.ymaps-2-1-79-balloon__layout,
+.ymaps-2-1-79-balloon,
+.ymaps-2-1-79-inner-panes,
+.ymaps-2-1-79-map {
+  border-radius: 6px;
 }
 .chart-table {
   text-align: center;
