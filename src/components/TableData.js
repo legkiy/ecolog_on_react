@@ -5,8 +5,9 @@ import script2 from './boilerScript/script2.json';
 import RegionScript from './RegionScript';
 
 function TableData(props) {
-  const scripts = [script1, script2];
-  console.log(props.scriptIndex);
+
+  const scripts = [null,script1, script2];
+
   return (
     <>
       {region.map((curState, index) => (
@@ -32,7 +33,7 @@ function TableData(props) {
             <td>{curState.ash === 0 ? '-' : curState.ash}</td>
           </tr>
           {/* {props.scriptIndex} */}
-          {props.scriptIndex !== null ? (
+          {props.scriptIndex !== 0 ? (
             scripts[props.scriptIndex].map((scripts) =>
               curState.id === scripts.id ? (
                 <RegionScript

@@ -6,9 +6,9 @@ import { TiCancel } from "react-icons/ti";
 // GiFuelTank GiBarrelLeak
 
 const SCRIPT_MAP = {
-  electra: 0,
-  coal: 1,
-  noSelect: null,
+  noSelect: 0,
+  electra: 1,
+  coal: 2,
 };
 
 function Button(props) {
@@ -16,7 +16,6 @@ function Button(props) {
     switch (scriptCase) {
       case "electra":
         return <GiLightningArc />;
-
       case "coal":
         return <GiCoalWagon />;
       case "noSelect":
