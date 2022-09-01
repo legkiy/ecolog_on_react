@@ -9,12 +9,6 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
-import curAmountIrk from './data/curAmount/curAmountIrk.json';
-import curAmountBur from './data/curAmount/curAmountBur.json';
-import script1Irk from './data/script1/script1Irk.json';
-import script1Bur from './data/script1/script1Bur.json';
-import script2Irk from './data/script2/script2Irk.json';
-import script2Bur from './data/script2/script2Bur.json';
 
 ChartJS.register(
   CategoryScale,
@@ -93,8 +87,8 @@ function BarChart(props) {
     scales: {
       x: {
         stacked: true,
-        grid:{
-          display:false,
+        grid: {
+          display: false,
         },
       },
       y: {
@@ -105,7 +99,7 @@ function BarChart(props) {
   };
   return (
     <>
-      <Bar data={data} options={options}/>
+      <Bar data={data} options={options} />
     </>
   );
 }
