@@ -17,7 +17,7 @@
   {
     "id": 1,
     "localName": "Ольхонский",
-    "coal": 5000,
+    "coal": 0,
     "wood": 463,
     "oil": 0,
     "gas": 0,
@@ -31,7 +31,7 @@
   {
     "id": 2,
     "localName": "Иркутский",
-    "coal": 500,
+    "coal": 0,
     "wood": 0,
     "oil": 0,
     "gas": 0,
@@ -45,7 +45,7 @@
   {
     "id": 3,
     "localName": "Слюдянский",
-    "coal": 88700,
+    "coal": 0,
     "wood": 0,
     "oil": 0,
     "gas": 0,

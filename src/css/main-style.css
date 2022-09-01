@@ -109,10 +109,8 @@ main {
   position: relative;
   height: 620px;
 }
-.ymaps-2-1-79-balloon__layout,
-.ymaps-2-1-79-balloon,
-.ymaps-2-1-79-inner-panes,
-.ymaps-2-1-79-map {
+.scroll,
+.popup {
   border-radius: 10px;
 }
 .chart-table {
