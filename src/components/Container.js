@@ -38,8 +38,15 @@ function Container() {
             </p>
           </div>
           <ScriptSlection setScriptIndex={setScriptIndex} />
-          <BarChart chartOut={curAmountIrk} />
-          <BarChart chartOut={curAmountBur} />
+          <div>
+            <h3>Коль-во котельных</h3>
+            <div className="bar-1">
+              <BarChart chartOut={curAmountIrk} />
+            </div>
+            <div className="bar-2">
+              <BarChart chartOut={curAmountBur} />
+            </div>
+          </div>
           <Table scriptIndex={scriptIndex} />
         </div>
         <YaMap scriptIndex={scriptIndex} />

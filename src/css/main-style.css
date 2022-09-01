@@ -92,6 +92,14 @@ main {
 .noSelect {
   margin-left: auto;
 }
+.bar-1{
+  height:200px;
+  width: 400px;
+}
+.bar-2{
+  height:200px;
+  width: 649px;
+}
 .right-box {
   width: 32%;
   height: 650px;

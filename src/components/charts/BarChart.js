@@ -69,10 +69,14 @@ function BarChart(props) {
   };
 
   const options = {
+    maintainAspectRatio: false,
     layout: {
       padding: 0,
     },
     plugins: {
+      legend: {
+        display: false,
+      },
       tooltip: {
         yAxlign: 'bottom',
         usePointStyle: true,
@@ -89,6 +93,9 @@ function BarChart(props) {
     scales: {
       x: {
         stacked: true,
+        grid:{
+          display:false,
+        },
       },
       y: {
         beginAtZero: true,
@@ -97,9 +104,9 @@ function BarChart(props) {
     },
   };
   return (
-    <div>
-      <Bar data={data} options={options} />
-    </div>
+    <>
+      <Bar data={data} options={options}/>
+    </>
   );
 }
 
