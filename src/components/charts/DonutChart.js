@@ -11,11 +11,22 @@ export default function DonutChart(props) {
     ],
   };
   const options = {
+    maintainAspectRatio: false,
     plugins: {
       legend: {
         display: false,
       },
+      tooltip: {
+        usePointStyle: true,
+        callbacks: {
+          labelPointStyle: function () {
+            return {
+              pointStyle: 'rectRounded',
+            };
+          },
+        },
+      },
     },
   };
-  return <Doughnut data={data} options={options}/>;
+  return <Doughnut data={data} options={options} />;
 }

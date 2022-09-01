@@ -100,6 +100,10 @@ main {
   height:200px;
   width: 650px;
 }
+.donut{
+  height: 200px;
+  width: 200px;
+}
 .right-box {
   width: 32%;
   height: 650px;
