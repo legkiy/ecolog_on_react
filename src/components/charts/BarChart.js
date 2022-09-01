@@ -28,7 +28,7 @@ function BarChart(props) {
   const electric = props.chartOut.map((chosenScript) => chosenScript.electric);
 
   ChartJS.defaults.font.family = 'PT Sans';
-  // ChartJS.defaults.font.size = 12;
+  ChartJS.defaults.font.size = 13;
   ChartJS.defaults.color = 'black';
 
   const data = {
@@ -63,6 +63,7 @@ function BarChart(props) {
   };
 
   const options = {
+    indexAxis: 'y',
     maintainAspectRatio: false,
     layout: {
       padding: 0,
@@ -72,7 +73,6 @@ function BarChart(props) {
         display: false,
       },
       tooltip: {
-        yAxlign: 'bottom',
         usePointStyle: true,
         callbacks: {
           labelPointStyle: function () {
