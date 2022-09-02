@@ -17,19 +17,36 @@ export default function ChartBlock(props) {
   const amountBur = [curAmountBur, script1Bur, script2Bur];
 
   return (
-    <div>
-      <div className="bar-1">
-        <BarChart chartOut={amountIrk[props.scriptIndex]} />
+    <div className="flex-box">
+      <div>
+        <div className="flex-box">
+          <div>
+            <div className="bar-1">
+              <BarChart chartOut={amountIrk[props.scriptIndex]} />
+            </div>
+          </div>
+          <div className="donut">
+            <DonutChart chartOut={powerIrk} />
+          </div>
+        </div>
+        <div className="flex-box">
+          <div>
+            <div className="bar-2">
+              <BarChart chartOut={amountBur[props.scriptIndex]} />
+            </div>
+          </div>
+          <div className="donut">
+            <DonutChart chartOut={powerBur} />
+          </div>
+        </div>
       </div>
-      <div className="bar-2">
-        <BarChart chartOut={amountBur[props.scriptIndex]} />
-      </div>
-      <div className="donut">
-        <DonutChart chartOut={powerIrk} />
-      </div>
-      <div className="donut">
-        <DonutChart chartOut={powerBur} />
-      </div>
+      <ul className="bar-legend">
+        <li className="ico-legend">уголь</li>
+        <li className="ico-legend">древесина</li>
+        <li className="ico-legend">мазут</li>
+        <li className="ico-legend">газ</li>
+        <li className="ico-legend">эл/энергия</li>
+      </ul>
     </div>
   );
 }

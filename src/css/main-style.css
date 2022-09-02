@@ -94,15 +94,36 @@ main {
 }
 .bar-1 {
   height: 140px;
-  width: 500px;
+  width: 465px;
+  padding-left: 49px;
+  margin-left: auto;
 }
 .bar-2 {
   height: 200px;
-  width: 500px;
+  width: 514px;
+  margin-left: auto;
+}
+.bar-chart-box {
+  border: 1px solid black;
+  width: 50%;
+}
+@media (max-width: 1601px) {
+  .bar-1 {
+    height: 140px;
+    width: 380px;
+    margin-left: auto;
+  }
+  .bar-2 {
+    height: 200px;
+    width: 430px;
+    margin-left: auto;
+  }
 }
 .donut {
-  height: 200px;
-  width: 200px;
+  width: 150px;
+}
+.donut-chart-box {
+  border: 1px solid black;
 }
 .right-box {
   width: 32%;
@@ -185,7 +206,7 @@ main {
   vertical-align: bottom;
   height: 9rem;
 }
-@media (max-width: 1580px) {
+/* @media (max-width: 1580px) {
   .img1 {
     height: 7rem;
   }
@@ -193,7 +214,7 @@ main {
     vertical-align: bottom;
     height: 6rem;
   }
-}
+} */
 .centr-items {
   margin: 0 auto;
 }
