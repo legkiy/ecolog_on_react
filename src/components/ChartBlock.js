@@ -21,12 +21,16 @@ export default function ChartBlock(props) {
       <div>
         <div className="flex-box">
           <div>
+            <h3>Коль-во котельных</h3>
             <div className="bar-1">
               <BarChart chartOut={amountIrk[props.scriptIndex]} />
             </div>
           </div>
-          <div className="donut">
-            <DonutChart chartOut={powerIrk} />
+          <div>
+            <h3>Установленная мощность</h3>
+            <div className="donut">
+              <DonutChart chartOut={powerIrk} />
+            </div>
           </div>
         </div>
         <div className="flex-box">

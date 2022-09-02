@@ -32,7 +32,6 @@ function Container() {
           </div>
           <ScriptSlection setScriptIndex={setScriptIndex} />
           <div>
-            <h3>Коль-во котельных</h3>
             <ChartBlock scriptIndex={scriptIndex} />
           </div>
           <Table scriptIndex={scriptIndex} />
