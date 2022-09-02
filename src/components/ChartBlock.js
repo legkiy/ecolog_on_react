@@ -20,20 +20,35 @@ export default function ChartBlock(props) {
     <div className="flex-box">
       <div>
         <div className="flex-box">
+          <div className="chart-region-name">
+            <h3>
+              Иркутская
+              <br /> область
+            </h3>
+          </div>
           <div>
-            <h3>Коль-во котельных</h3>
-            <div className="bar-1">
-              <BarChart chartOut={amountIrk[props.scriptIndex]} />
+            <h3 className="banner">Коль-во котельных</h3>
+            <div>
+              <div className="bar-1">
+                <BarChart chartOut={amountIrk[props.scriptIndex]} />
+              </div>
             </div>
           </div>
           <div>
-            <h3>Установленная мощность</h3>
+            <h3 className="banner">Установленная мощность</h3>
             <div className="donut">
               <DonutChart chartOut={powerIrk} />
             </div>
           </div>
         </div>
         <div className="flex-box">
+          <div className="chart-region-name">
+            <h3>
+              Республика
+              <br />
+              бурятия
+            </h3>
+          </div>
           <div>
             <div className="bar-2">
               <BarChart chartOut={amountBur[props.scriptIndex]} />
@@ -44,13 +59,13 @@ export default function ChartBlock(props) {
           </div>
         </div>
       </div>
-      <ul className="bar-legend">
+      {/* <ul className="bar-legend">
         <li className="ico-legend">уголь</li>
         <li className="ico-legend">древесина</li>
         <li className="ico-legend">мазут</li>
         <li className="ico-legend">газ</li>
         <li className="ico-legend">эл/энергия</li>
-      </ul>
+      </ul> */}
     </div>
   );
 }
