@@ -12,7 +12,7 @@ import script2Bur from './charts/data/amount/script2/script2Bur.json';
 import powerIrk from './charts/data/power/curAmount/powerIrk.json';
 import powerBur from './charts/data/power/curAmount/powerBur.json';
 
-export default function ChartBlock(props) {
+export default function ChartBlock({scriptIndex}) {
   const amountIrk = [curAmountIrk, script1Irk, script2Irk];
   const amountBur = [curAmountBur, script1Bur, script2Bur];
 
@@ -30,7 +30,7 @@ export default function ChartBlock(props) {
             <h3 className="banner">Коль-во котельных</h3>
             <div>
               <div className="bar-1">
-                <BarChart chartOut={amountIrk[props.scriptIndex]} />
+                <BarChart chartOut={amountIrk[scriptIndex]} />
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function ChartBlock(props) {
           </div>
           <div>
             <div className="bar-2">
-              <BarChart chartOut={amountBur[props.scriptIndex]} />
+              <BarChart chartOut={amountBur[scriptIndex]} />
             </div>
           </div>
           <div className="donut">

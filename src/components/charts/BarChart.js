@@ -19,13 +19,13 @@ ChartJS.register(
   Legend
 );
 
-function BarChart(props) {
-  const labels = props.chartOut.map((chosenScript) => chosenScript.localName);
-  const coal = props.chartOut.map((chosenScript) => chosenScript.coal);
-  const wood = props.chartOut.map((chosenScript) => chosenScript.wood);
-  const oil = props.chartOut.map((chosenScript) => chosenScript.oil);
-  const gas = props.chartOut.map((chosenScript) => chosenScript.gas);
-  const electric = props.chartOut.map((chosenScript) => chosenScript.electric);
+function BarChart({chartOut}) {
+  const labels = chartOut.map((chosenScript) => chosenScript.localName);
+  const coal = chartOut.map((chosenScript) => chosenScript.coal);
+  const wood = chartOut.map((chosenScript) => chosenScript.wood);
+  const oil = chartOut.map((chosenScript) => chosenScript.oil);
+  const gas = chartOut.map((chosenScript) => chosenScript.gas);
+  const electric = chartOut.map((chosenScript) => chosenScript.electric);
 
   ChartJS.defaults.font.family = 'PT Sans';
   ChartJS.defaults.font.size = 13;
