@@ -1,18 +1,35 @@
 import React from 'react';
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
+import { Chart, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';
+// import 'chart.js-plugin-labels-dv';
+import ChartDataLabels from 'chartjs-plugin-datalabels';
+import { end } from '@popperjs/core';
 
-ChartJS.register(ArcElement, Tooltip, Legend);
 export default function DonutChart(props) {
+  Chart.register(ArcElement, Tooltip, Legend);
+  // Chart.register(ChartDataLabels)
+
   const data = {
     labels: props.chartOut.labels,
     datasets: [
-      { data: props.chartOut.data, backgroundColor: props.chartOut.color },
+      {
+        data: props.chartOut.data,
+        backgroundColor: props.chartOut.color,
+        label: 132312,
+      },
     ],
   };
   const options = {
     maintainAspectRatio: false,
+
     plugins: {
+      datalabels: {
+        color: 'black',
+        formatter: (value, context) => {
+          if (value < 1) return null;
+          return value;
+        },
+      },
       legend: {
         display: false,
       },

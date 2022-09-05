@@ -19,7 +19,7 @@ ChartJS.register(
   Legend
 );
 
-function BarChart({chartOut}) {
+function BarChart({ chartOut }) {
   const labels = chartOut.map((chosenScript) => chosenScript.localName);
   const coal = chartOut.map((chosenScript) => chosenScript.coal);
   const wood = chartOut.map((chosenScript) => chosenScript.wood);
@@ -69,6 +69,7 @@ function BarChart({chartOut}) {
       padding: 0,
     },
     plugins: {
+      datalabels: false,
       legend: {
         display: false,
       },
