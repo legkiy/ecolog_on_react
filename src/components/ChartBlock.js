@@ -35,7 +35,7 @@ export default function ChartBlock({ scriptIndex }) {
             </div>
           </div>
           <div>
-            <h3 className="banner">Установленная мощность</h3>
+            <h3 className="banner">Установленная мощность, Гкал/ч</h3>
             <div className="donut">
               <DonutChart chartOut={powerIrk} />
             </div>

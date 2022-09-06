@@ -1,9 +1,11 @@
-import React from "react";
-import { GiLightningArc } from "react-icons/gi";
-import { GiCoalWagon } from "react-icons/gi";
-import { GiFuelTank } from "react-icons/gi";
-import { TiCancel } from "react-icons/ti";
-// GiFuelTank GiBarrelLeak
+import React from 'react';
+import { GiLightningArc } from 'react-icons/gi';
+import { GiCoalWagon } from 'react-icons/gi';
+import { GiFuelTank } from 'react-icons/gi';
+import { TiCancel } from 'react-icons/ti';
+//GiBarrelLeak
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css';
 
 const SCRIPT_MAP = {
   noSelect: 0,
@@ -14,11 +16,11 @@ const SCRIPT_MAP = {
 function Button(props) {
   const getScriptIcon = (scriptCase) => {
     switch (scriptCase) {
-      case "electra":
+      case 'electra':
         return <GiLightningArc />;
-      case "coal":
+      case 'coal':
         return <GiCoalWagon />;
-      case "noSelect":
+      case 'noSelect':
         return <TiCancel />;
       default:
     }
@@ -29,13 +31,19 @@ function Button(props) {
   };
 
   return (
-    <button
-      className="script-selection-button"
-      type="button"
-      onClick={() => handleOnClick()}
+    <Tippy
+      content={props.scriptDiscriptions}
+      interactive={true}
+      placement={'bottom'}
     >
-      {getScriptIcon(props.scriptCase)}
-    </button>
+      <button
+        className="script-selection-button"
+        type="button"
+        onClick={() => handleOnClick()}
+      >
+        {getScriptIcon(props.scriptCase)}
+      </button>
+    </Tippy>
   );
 }
 

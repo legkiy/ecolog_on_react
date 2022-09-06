@@ -91,12 +91,29 @@ main {
 .noSelect {
   margin-left: auto;
 }
+.tippy-box {
+  background-color: rgb(16, 97, 148);
+  border-radius: 8px;
+  box-shadow: 1px 4px 10px 1px rgba(0, 0, 0, 0.432);
+  font-size: 0.9rem;
+}
+.tippy-box[data-placement^='top'] > .tippy-arrow::before {
+  border-top-color: rgb(16, 97, 148);
+}
+.tippy-box[data-placement^='bottom'] > .tippy-arrow::before {
+  border-bottom-color: rgb(16, 97, 148);
+}
+.tippy-box[data-placement^='left'] > .tippy-arrow::before {
+  border-left-color: rgb(16, 97, 148);
+}
+.tippy-box[data-placement^='right'] > .tippy-arrow::before {
+  border-right-color: rgb(16, 97, 148);
+}
 .bar-1 {
   height: 140px;
   width: 465px;
-  margin: auto 0;
+  margin: 10px 0;
   padding-left: 49px;
-  margin-left: auto;
 }
 .bar-2 {
   height: 200px;
@@ -121,7 +138,7 @@ main {
 }
 .donut {
   width: 140px;
-  margin: auto 20px;
+  margin: auto;
 }
 .donut-chart-box {
   border: 1px solid black;
@@ -193,18 +210,8 @@ main {
 .ico-legend:nth-child(5)::before {
   background-color: #8eb4e3;
 }
-
-.img-name {
-  height: 2rem;
-}
 .centr-items {
   margin: auto;
-  width: 100%;
-}
-.img-box {
-  text-align: center;
-  /* margin: 0; */
-  /* height: 100%; */
 }
 .table-box {
   /* border: 2px solid rgba(0, 0, 0, 0.788); */
