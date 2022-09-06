@@ -38,7 +38,7 @@ function ScriptSlection(props) {
         <ScriptButton
           scriptCase={'noSelect'}
           setScriptIndex={props.setScriptIndex}
-          scriptDiscriptions={'Отчистит сценарий'}
+          scriptDiscriptions={'Отчистить сценарий'}
         />
       </div>
     </div>
