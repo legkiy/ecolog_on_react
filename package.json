@@ -16,7 +16,6 @@
     "react-icons": "^4.4.0",
     "react-popper": "^2.3.0",
     "react-scripts": "^2.1.8",
-    "react-tooltip": "^4.2.21",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
