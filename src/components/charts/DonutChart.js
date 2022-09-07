@@ -1,13 +1,12 @@
 import React from 'react';
 import { Chart, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';
-// import 'chart.js-plugin-labels-dv';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
-import { end } from '@popperjs/core';
 
 export default function DonutChart(props) {
   Chart.register(ArcElement, Tooltip, Legend);
-  // Chart.register(ChartDataLabels)
+
+  // Chart.register(ChartDataLabels); //добавление подписей внутрь графиков
 
   const data = {
     labels: props.chartOut.labels,
