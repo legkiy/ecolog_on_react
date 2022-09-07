@@ -27,17 +27,17 @@ export default function ChartBlock({ scriptIndex }) {
             </h3>
           </div>
           <div>
+            <h3 className="banner">Установленная мощность, Гкал/ч</h3>
+            <div className="donut">
+              <DonutChart chartOut={powerIrk} />
+            </div>
+          </div>
+          <div>
             <h3 className="banner">Коль-во котельных</h3>
             <div className="centr-items">
               <div className="bar-1">
                 <BarChart chartOut={amountIrk[scriptIndex]} />
               </div>
-            </div>
-          </div>
-          <div>
-            <h3 className="banner">Установленная мощность, Гкал/ч</h3>
-            <div className="donut">
-              <DonutChart chartOut={powerIrk} />
             </div>
           </div>
         </div>
@@ -49,13 +49,13 @@ export default function ChartBlock({ scriptIndex }) {
               Бурятия
             </h3>
           </div>
+          <div className="donut">
+            <DonutChart chartOut={powerBur} />
+          </div>
           <div>
             <div className="bar-2">
               <BarChart chartOut={amountBur[scriptIndex]} />
             </div>
-          </div>
-          <div className="donut">
-            <DonutChart chartOut={powerBur} />
           </div>
         </div>
       </div>
