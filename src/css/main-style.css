@@ -116,7 +116,7 @@ main {
 .bar-1 {
   height: 140px;
   width: 465px;
-  margin: 5px 0 0 49px;
+  margin: 21.5px 0 0 49px;
 }
 .bar-2 {
   height: 200px;
@@ -142,6 +142,12 @@ main {
     width: 430px;
     margin-left: auto;
   }
+  .left-box {
+    width: 845px;
+  }
+  .right-box {
+    width: 445px;
+  }
 }
 .donut {
   width: 140px;
@@ -149,7 +155,7 @@ main {
 }
 .donut-box {
   margin: auto;
-  width: 235px;
+  width: 190px;
 }
 .chart-title {
   text-align: center;
