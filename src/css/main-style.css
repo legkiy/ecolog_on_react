@@ -47,7 +47,7 @@ main {
   font-size: 1.5rem;
 }
 .left-box {
-  width: 1027px;
+  width: 950px;
   padding: 0;
 }
 .discription {
@@ -115,8 +115,9 @@ main {
 }
 .bar-1 {
   height: 140px;
-  width: 465px;
-  margin: 21.5px 0 0 49px;
+  width: 462px;
+  margin: 21.5px 0 0 0;
+  margin-left: auto;
 }
 .bar-2 {
   height: 200px;
@@ -167,7 +168,7 @@ main {
   width: 76px;
 }
 .right-box {
-  width: 499px;
+  width: 576px;
   height: 650px;
 }
 .flex-box {
@@ -229,7 +230,7 @@ main {
 .table-box {
   display: flex;
   height: min-content;
-  margin: 10px 0 0 0;
+  margin: 4px 0 0 0;
   align-items: center;
   font-size: 0.9rem;
   padding: 0 20px;
@@ -244,7 +245,7 @@ main {
 .reg-name {
   text-align: left !important;
   padding: 0 !important;
-  width: fit-content !important;
+  width: 160px !important;
 }
 .reg-total {
   font-style: italic;
@@ -309,7 +310,7 @@ thead {
 }
 .ico-table-legend {
   position: relative;
-  padding: 0 20px 0 33px;
+  padding: 0 10px 0 33px;
   display: inline-block;
 }
 .ico-table-legend::before {
@@ -323,13 +324,16 @@ thead {
   border: 1px solid rgba(148, 148, 148, 0.384);
   vertical-align: bottom;
 }
-.ico-table-legend:nth-child(1)::before {
-  background-color: rgba(157, 240, 157, 0.582);
+.ico-table-legend:nth-child(2)::before {
+  background-color: rgba(255, 255, 255, 0.582);
 }
 .ico-table-legend:nth-child(2)::before {
-  background-color: rgba(238, 137, 137, 0.568);
+  background-color: rgba(157, 240, 157, 0.582);
 }
 .ico-table-legend:nth-child(3)::before {
+  background-color: rgba(238, 137, 137, 0.568);
+}
+.ico-table-legend:nth-child(4)::before {
   background-color: rgba(250, 248, 143, 0.582);
 }
 .tooltip {
@@ -375,7 +379,7 @@ td:hover .tooltip-span {
   border-left: 14px solid transparent;
 }
 .footnote {
-  margin: 20px;
+  margin: 5px 20px;
   padding: 0 20px;
 }
 .footer {

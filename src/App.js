@@ -10,7 +10,6 @@ function App () {
       <>
         <Head />
         <Container />
-        <Footer />
       </>
     );
   }
