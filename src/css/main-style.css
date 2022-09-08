@@ -47,7 +47,7 @@ main {
   font-size: 1.5rem;
 }
 .left-box {
-  width: 67%;
+  width: 1027px;
   padding: 0;
 }
 .discription {
@@ -110,19 +110,17 @@ main {
 .tippy-box[data-placement^='right'] > .tippy-arrow::before {
   border-right-color: rgb(16, 97, 148);
 }
+.bar-box {
+  width: 514px;
+}
 .bar-1 {
   height: 140px;
   width: 465px;
-  margin: 5px 0;
-  padding-left: 49px;
+  margin: 5px 0 0 49px;
 }
 .bar-2 {
   height: 200px;
   width: 514px;
-}
-.bar-chart-box {
-  border: 1px solid black;
-  width: 50%;
 }
 @media (max-width: 1601px) {
   .box-80 {
@@ -130,6 +128,9 @@ main {
   }
   .discription {
     width: 1220px;
+  }
+  .bar-box {
+    width: 430px;
   }
   .bar-1 {
     height: 140px;
@@ -160,7 +161,7 @@ main {
   width: 76px;
 }
 .right-box {
-  width: 32%;
+  width: 499px;
   height: 650px;
 }
 .flex-box {
