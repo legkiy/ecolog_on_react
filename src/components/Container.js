@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import YaMap from './YaMap';
 import Table from './Table';
-import ImgContainer from './Img-container';
 import ScriptSlection from './ScriptSlection';
 import ChartBlock from './ChartBlock';
 
