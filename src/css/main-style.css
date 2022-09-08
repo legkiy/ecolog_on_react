@@ -133,6 +133,12 @@ main {
   .bar-box {
     width: 430px;
   }
+  .left-box {
+    width: 845px;
+  }
+  .right-box {
+    width: 445px !important;
+  }
   .bar-1 {
     height: 140px;
     width: 381px;
@@ -142,12 +148,6 @@ main {
     height: 200px;
     width: 430px;
     margin-left: auto;
-  }
-  .left-box {
-    width: 845px;
-  }
-  .right-box {
-    width: 445px;
   }
 }
 .donut {

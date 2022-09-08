@@ -1,12 +1,7 @@
-import React, { useState } from 'react';
-import YaMap from './YaMap';
-import Table from './Table';
-import ImgContainer from './Img-container';
-import ScriptSlection from './ScriptSlection';
-import ChartBlock from './ChartBlock';
+import React from 'react';
+import MainBox from './MainBox';
 
 function Container() {
-  const [scriptIndex, setScriptIndex] = useState(0);
   return (
     <div className="container box-80">
       <h1 className="title">
@@ -27,16 +22,7 @@ function Container() {
           образования золошлаковых отходов от электростанций и котельных.
         </p>
       </div>
-      <ScriptSlection setScriptIndex={setScriptIndex} />
-      <div className="flex-box">
-        <div className="left-box">
-          <div>
-            <ChartBlock scriptIndex={scriptIndex} />
-          </div>
-          <Table scriptIndex={scriptIndex} />
-        </div>
-        <YaMap scriptIndex={scriptIndex} />
-      </div>
+      <MainBox />
     </div>
   );
 }
