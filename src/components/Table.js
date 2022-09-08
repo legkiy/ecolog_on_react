@@ -1,9 +1,7 @@
-import React from "react";
-import ReactTooltip from "react-tooltip";
-import TableData from "./TableData";
+import React from 'react';
+import TableData from './TableData';
 
 function Table(props) {
-  const tooltip = ["Вслывающее окно lib"];
   return (
     <div>
       <div className="table-box">
@@ -35,21 +33,8 @@ function Table(props) {
               </td>
             </tr>
             <tr>
-              <td data-tip={tooltip[0]}>
-                уголь
-                <ReactTooltip
-                  className="tooltip"
-                  delayHide={100}
-                  multiline={true}
-                  effect="solid"
-                  arrowColor="#ffffff"
-                  offset={{ top: -6, left: 0 }}
-                />
-              </td>
-              <td className="wood">
-                древесина
-                <span className="tooltip-span">Вслывающее окно span</span>
-              </td>
+              <td>уголь</td>
+              <td>древесина</td>
               <td>мазут</td>
               <td>газ</td>
               <td>эл/энергия</td>
@@ -74,12 +59,19 @@ function Table(props) {
           <TableData scriptIndex={props.scriptIndex} />
         </table>
       </div>
+      <div className="table-legend-box">
+        <ul className="table-legend">
+          <li className="ico-table-legend">&mdash;улучшение;</li>
+          <li className="ico-table-legend">&mdash;ухудшение;</li>
+          <li className="ico-table-legend">&mdash;не изменилось.</li>
+        </ul>
+      </div>
       <div className="footnote">
         <ul>
           <li>
             <i>
               SO<sub>2</sub>
-            </i>{" "}
+            </i>{' '}
             &mdash; диоксид серы
           </li>
           <li>
@@ -91,7 +83,7 @@ function Table(props) {
           <li>
             <i>
               CO<sub>2</sub>
-            </i>{" "}
+            </i>{' '}
             &mdash; диоксид углерода
           </li>
           <li>ЗШО &mdash; золошлаковые отходы</li>

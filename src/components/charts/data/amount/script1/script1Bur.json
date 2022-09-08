@@ -1,0 +1,47 @@
+[
+  {
+    "id": 5,
+    "localName": "Кабанский",
+    "coal": 0,
+    "wood": 1,
+    "oil": 0,
+    "gas": 2,
+    "electric": 23
+  },
+  {
+    "id": 6,
+    "localName": "Баргузинский",
+    "coal": 0,
+    "wood": 2,
+    "oil": 0,
+    "gas": 0,
+    "electric": 4
+  },
+  {
+    "id": 7,
+    "localName": "Прибайкальский",
+    "coal": 0,
+    "wood": 1,
+    "oil": 0,
+    "gas": 3,
+    "electric": 3
+  },
+  {
+    "id": 8,
+    "localName": "г.Северобайкальск",
+    "coal": 0,
+    "wood": 0,
+    "oil": 0,
+    "gas": 0,
+    "electric": 4
+  },
+  {
+    "id": 9,
+    "localName": "Северо-Байкальский",
+    "coal": 0,
+    "wood": 1,
+    "oil": 0,
+    "gas": 0,
+    "electric": 8
+  }
+]

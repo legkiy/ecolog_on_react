@@ -11,7 +11,6 @@ main {
 #root {
   display: flex;
   flex-direction: column;
-  /* height: 100%; */
 }
 .head {
   background-color: rgb(14, 71, 107);
@@ -34,7 +33,7 @@ main {
 }
 .box-80 {
   margin: auto;
-  width: 80%;
+  width: 1536px;
 }
 .container {
   height: 100%;
@@ -54,7 +53,8 @@ main {
 .discription {
   text-align: justify;
   font-size: 1rem;
-  padding: 5px 20px;
+  margin: auto;
+  width: 1400px;
 }
 .script-selection-box {
   display: flex;
@@ -92,8 +92,76 @@ main {
 .noSelect {
   margin-left: auto;
 }
+.tippy-box {
+  background-color: rgb(16, 97, 148);
+  border-radius: 8px;
+  box-shadow: 1px 4px 10px 1px rgba(0, 0, 0, 0.432);
+  font-size: 1rem;
+}
+.tippy-box[data-placement^='top'] > .tippy-arrow::before {
+  border-top-color: rgb(16, 97, 148);
+}
+.tippy-box[data-placement^='bottom'] > .tippy-arrow::before {
+  border-bottom-color: rgb(16, 97, 148);
+}
+.tippy-box[data-placement^='left'] > .tippy-arrow::before {
+  border-left-color: rgb(16, 97, 148);
+}
+.tippy-box[data-placement^='right'] > .tippy-arrow::before {
+  border-right-color: rgb(16, 97, 148);
+}
+.bar-1 {
+  height: 140px;
+  width: 465px;
+  margin: 5px 0;
+  padding-left: 49px;
+}
+.bar-2 {
+  height: 200px;
+  width: 514px;
+}
+.bar-chart-box {
+  border: 1px solid black;
+  width: 50%;
+}
+@media (max-width: 1601px) {
+  .box-80 {
+    width: 1300px;
+  }
+  .discription {
+    width: 1220px;
+  }
+  .bar-1 {
+    height: 140px;
+    width: 381px;
+    margin-left: auto;
+  }
+  .bar-2 {
+    height: 200px;
+    width: 430px;
+    margin-left: auto;
+  }
+}
+.donut {
+  width: 140px;
+  margin: auto;
+}
+.donut-box {
+  margin: auto;
+  width: 235px;
+}
+.chart-title {
+  text-align: center;
+  font-size: 2rem;
+}
+.chart-region-name {
+  padding-left: 10px;
+  margin: auto 0;
+  width: 76px;
+}
 .right-box {
   width: 32%;
+  height: 650px;
 }
 .flex-box {
   display: flex;
@@ -106,32 +174,18 @@ main {
 }
 .ya-map {
   position: relative;
-  height: 610px;
+  height: 620px;
 }
 .ymaps-2-1-79-balloon__layout,
 .ymaps-2-1-79-balloon,
 .ymaps-2-1-79-inner-panes,
 .ymaps-2-1-79-map {
-  border-radius: 10px;
-}
-.chart-table {
-  text-align: center;
-  border-collapse: collapse;
-  width: fit-content;
-  margin: auto;
-}
-.chart-table td {
-  padding: 0 2px;
-}
-.chart-bord {
-  border-left: 1px solid rgba(148, 148, 148, 0.384);
-  padding: 0 0 0 1px !important;
+  border-radius: 6px;
 }
 .bar-legend {
   padding: 0;
   text-align: left;
   list-style: none;
-  width: min-content;
 }
 .ico-legend {
   position: relative;
@@ -162,36 +216,10 @@ main {
 .ico-legend:nth-child(5)::before {
   background-color: #8eb4e3;
 }
-.img-name {
-  height: 2rem;
-}
-.img1 {
-  height: 10rem;
-}
-.img2 {
-  vertical-align: bottom;
-  height: 9rem;
-}
-@media (max-width: 1580px) {
-  .img1 {
-    height: 7rem;
-  }
-  .img2 {
-    vertical-align: bottom;
-    height: 6rem;
-  }
-}
 .centr-items {
-  margin: 0 auto;
-}
-.img-box {
-  text-align: center;
-  /* margin: 0; */
-  /* height: 100%; */
+  margin: auto;
 }
 .table-box {
-  /* border: 2px solid rgba(0, 0, 0, 0.788); */
-  /* width: max-content; */
   display: flex;
   height: min-content;
   margin: 10px 0 0 0;
@@ -209,6 +237,7 @@ main {
 .reg-name {
   text-align: left !important;
   padding: 0 !important;
+  width: fit-content !important;
 }
 .reg-total {
   font-style: italic;
@@ -261,6 +290,36 @@ thead {
 }
 .equally:last-child {
   border-right: none !important;
+}
+.table-legend {
+  padding-top: 5px;
+  text-align: center;
+  list-style: none;
+}
+.ico-table-legend {
+  position: relative;
+  padding: 0 20px 0 33px;
+  display: inline-block;
+}
+.ico-table-legend::before {
+  content: '';
+  position: absolute;
+  /* top: 3px; */
+  left: 0;
+  width: 2rem;
+  height: 1rem;
+  border-radius: 4px;
+  border: 1px solid rgba(148, 148, 148, 0.384);
+  vertical-align: bottom;
+}
+.ico-table-legend:nth-child(1)::before {
+  background-color: rgba(157, 240, 157, 0.582);
+}
+.ico-table-legend:nth-child(2)::before {
+  background-color: rgba(238, 137, 137, 0.568);
+}
+.ico-table-legend:nth-child(3)::before {
+  background-color: rgba(250, 248, 143, 0.582);
 }
 .tooltip {
   pointer-events: auto !important;
