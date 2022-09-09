@@ -2,6 +2,7 @@ import React from 'react';
 import ScriptButton from './ScriptButton';
 
 function ScriptSlection(props) {
+  // console.log(props.setScriptIndex)
   return (
     <div className="script-selection-box">
       <h2 className="script-selection-title">Выбор сценария</h2>
@@ -31,6 +32,15 @@ function ScriptSlection(props) {
               бюородинский бурый уголь. При этом увеличится расход топлива с
               26,3 до 28,4 тыс. т/год.
             </p>
+          </div>
+        }
+      />
+      <ScriptButton
+        scriptCase={'wood'}
+        setScriptIndex={props.setScriptIndex}
+        scriptDiscriptions={
+          <div>
+            <p></p>
           </div>
         }
       />

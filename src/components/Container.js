@@ -1,7 +1,9 @@
-import React from 'react';
-import MainBox from './MainBox';
+import React, { useState } from 'react';
+import MainBox from './mainBoxFolder/MainBox';
+import ScriptSlection from './ScriptSlection';
 
 function Container() {
+  const [scriptIndex, setScriptIndex] = useState(0);
   return (
     <div className="container box-80">
       <h1 className="title">
@@ -22,7 +24,8 @@ function Container() {
           образования золошлаковых отходов от электростанций и котельных.
         </p>
       </div>
-      <MainBox />
+      <ScriptSlection setScriptIndex={setScriptIndex} />
+      <MainBox scriptIndex={scriptIndex}/>
     </div>
   );
 }
