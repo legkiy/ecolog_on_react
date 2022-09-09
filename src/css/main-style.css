@@ -1,12 +1,8 @@
 html,
 body {
-  /* height: 100%; */
   font-family: 'PT Sans', 'Calibri', sans-serif;
   background: linear-gradient(170deg, white, rgb(188, 205, 212)) fixed;
   font-size: 15px;
-  height: 100%;
-}
-main {
   height: 100%;
 }
 #root {
@@ -61,7 +57,7 @@ main {
 .script-selection-box {
   display: flex;
   background-color: rgb(21, 95, 141);
-  border-radius: 6px ;
+  border-radius: 6px;
   color: white;
   height: 39px;
   margin: 0 10px;
@@ -95,7 +91,7 @@ main {
 .noSelect {
   margin-left: auto;
 }
-.img-recyclePower{
+.img-recyclePower {
   height: 1rem;
 }
 .tippy-box {
@@ -153,7 +149,7 @@ main {
   .bar-2 {
     height: 200px;
     width: 430px;
-    margin-left: auto;
+    /* margin-left: auto; */
   }
 }
 .donut {
@@ -245,7 +241,7 @@ main {
 .curr-status-table {
   border-collapse: collapse;
   width: 100%;
-  cursor:default;
+  cursor: default;
 }
 .coll-title {
   vertical-align: middle;
@@ -349,6 +345,8 @@ thead {
   padding: 0 20px;
 }
 .only-map-box {
+  height: calc(100%);
+
   width: 90%;
   margin: auto;
 }

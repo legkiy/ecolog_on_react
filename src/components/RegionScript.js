@@ -12,10 +12,9 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {(curState.coal !== 0
-          ? (scripts.coal / curState.coal) * 100
-          : 100
-        ).toFixed(1)}
+        {(curState.coal ? (scripts.coal / curState.coal) * 100 : 100).toFixed(
+          1
+        )}
         %{/* {scripts.coal === 0 ? '-' :scripts.coal} */}
       </td>
       <td
@@ -27,10 +26,9 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {(curState.wood !== 0
-          ? (scripts.wood / curState.wood) * 100
-          : 100
-        ).toFixed(1)}
+        {(curState.wood ? (scripts.wood / curState.wood) * 100 : 100).toFixed(
+          1
+        )}
         %{/* {scripts.wood === 0 ? '-' :scripts.wood} */}
       </td>
       <td
@@ -42,11 +40,8 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {(curState.oil !== 0
-          ? (scripts.oil / curState.oil) * 100
-          : 100
-        ).toFixed(1)}
-        %{/* {scripts.oil === 0 ? '-' :scripts.oil} */}
+        {(curState.oil ? (scripts.oil / curState.oil) * 100 : 100).toFixed(1)}%
+        {/* {scripts.oil === 0 ? '-' :scripts.oil} */}
       </td>
       <td
         className={
@@ -57,11 +52,8 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {(curState.gas !== 0
-          ? (scripts.gas / curState.gas) * 100
-          : 100
-        ).toFixed(1)}
-        %{/* {scripts.gas === 0 ? '-' :scripts.gas} */}
+        {(curState.gas ? (scripts.gas / curState.gas) * 100 : 100).toFixed(1)}%
+        {/* {scripts.gas === 0 ? '-' :scripts.gas} */}
       </td>
       <td
         className={
@@ -72,7 +64,7 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {(curState.electric !== 0
+        {(curState.electric
           ? (scripts.electric / curState.electric) * 100
           : 100
         ).toFixed(1)}
@@ -87,7 +79,7 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {(curState.solid !== 0
+        {(curState.solid
           ? (scripts.solid / curState.solid) * 100
           : 100
         ).toFixed(1)}
@@ -102,7 +94,7 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {(curState.sulfur !== 0
+        {(curState.sulfur
           ? (scripts.sulfur / curState.sulfur) * 100
           : 100
         ).toFixed(1)}
@@ -117,7 +109,7 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {(curState.nitrogen !== 0
+        {(curState.nitrogen
           ? (scripts.nitrogen / curState.nitrogen) * 100
           : 100
         ).toFixed(1)}
@@ -132,7 +124,7 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {(curState.carbon !== 0
+        {(curState.carbon
           ? (scripts.carbon / curState.carbon) * 100
           : 100
         ).toFixed(1)}
@@ -147,11 +139,8 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {(curState.ash !== 0
-          ? (scripts.ash / curState.ash) * 100
-          : 100
-        ).toFixed(1)}
-        %{/* {scripts.ash === 0 ? '-' :scripts.ash} */}
+        {(curState.ash ? (scripts.ash / curState.ash) * 100 : 100).toFixed(1)}%
+        {/* {scripts.ash === 0 ? '-' :scripts.ash} */}
       </td>
     </tr>
   );
