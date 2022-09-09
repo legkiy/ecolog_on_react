@@ -44,6 +44,16 @@ function ScriptSlection(props) {
           </div>
         }
       />
+      <ScriptButton
+        scriptCase={'recyclePower'}
+        setScriptIndex={props.setScriptIndex}
+        scriptDiscriptions={
+          <div>
+            <p></p>
+          </div>
+        }
+      />
+
       <div className="noSelect">
         <ScriptButton
           scriptCase={'noSelect'}

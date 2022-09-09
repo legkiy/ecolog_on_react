@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Regions from "./boilerScript/regions.json";
+import regions from "./boilerScript/regions.json";
 import barOlh from "../img/bar-chart/bar-olh.png";
 import barIrk from "../img/bar-chart/bar-irk.png";
 import barSlud from "../img/bar-chart/bar-slud.png";
@@ -12,7 +12,6 @@ import ringIrk from "../img/bar-chart/ringIrk.png";
 import ringBur from "../img/bar-chart/ringBur.png";
 
 export default class PieImg extends Component {
-  regions = Regions;
   render() {
     return (
       <div>

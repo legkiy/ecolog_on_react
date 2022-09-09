@@ -13,9 +13,9 @@ import powerIrk from './charts/data/power/curAmount/powerIrk.json';
 import powerBur from './charts/data/power/curAmount/powerBur.json';
 
 export default function ChartBlock({ scriptIndex }) {
-  const amountIrk = [curAmountIrk, script1Irk, script2Irk, ''];
-  const amountBur = [curAmountBur, script1Bur, script2Bur, ''];
-  console.log(scriptIndex);
+  const amountIrk = [curAmountIrk, script1Irk, script2Irk,];
+  const amountBur = [curAmountBur, script1Bur, script2Bur,];
+
   return (
     <div className="flex-box">
       <div>

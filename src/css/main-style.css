@@ -60,10 +60,11 @@ main {
 .script-selection-box {
   display: flex;
   background-color: rgb(21, 95, 141);
+  border-radius: 6px ;
   color: white;
   height: 39px;
-  margin-right: 10px;
-  padding: 0 20px;
+  margin: 0 10px;
+  padding: 0 10px;
   align-items: center;
 }
 .script-selection-title {
@@ -92,6 +93,9 @@ main {
 }
 .noSelect {
   margin-left: auto;
+}
+.img-recyclePower{
+  height: 1rem;
 }
 .tippy-box {
   background-color: rgb(16, 97, 148);
@@ -240,6 +244,7 @@ main {
 .curr-status-table {
   border-collapse: collapse;
   width: 100%;
+  cursor:default;
 }
 .coll-title {
   vertical-align: middle;

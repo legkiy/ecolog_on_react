@@ -4,6 +4,7 @@ import ScriptSlection from './ScriptSlection';
 
 function Container() {
   const [scriptIndex, setScriptIndex] = useState(0);
+  console.log(scriptIndex);
   return (
     <div className="container box-80">
       <h1 className="title">
@@ -25,7 +26,7 @@ function Container() {
         </p>
       </div>
       <ScriptSlection setScriptIndex={setScriptIndex} />
-      <MainBox scriptIndex={scriptIndex}/>
+      <MainBox scriptIndex={scriptIndex} />
     </div>
   );
 }
