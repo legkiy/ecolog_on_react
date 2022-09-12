@@ -13,8 +13,8 @@ import powerIrk from './charts/data/power/curAmount/powerIrk.json';
 import powerBur from './charts/data/power/curAmount/powerBur.json';
 
 export default function ChartBlock({ scriptIndex }) {
-  const amountIrk = [curAmountIrk, script1Irk, script2Irk];
-  const amountBur = [curAmountBur, script1Bur, script2Bur];
+  const amountIrk = [curAmountIrk, script1Irk, script2Irk,];
+  const amountBur = [curAmountBur, script1Bur, script2Bur,];
 
   return (
     <div className="flex-box">
@@ -28,7 +28,10 @@ export default function ChartBlock({ scriptIndex }) {
           </div>
           <div>
             <div className="donut-box">
-              <h3 className="banner">Установленная мощность, Гкал/ч</h3>
+              <h3 className="banner">
+                Установленная мощность,
+                <br /> Гкал/ч
+              </h3>
               <div className="donut">
                 <DonutChart chartOut={powerIrk} />
               </div>
@@ -36,7 +39,7 @@ export default function ChartBlock({ scriptIndex }) {
           </div>
           <div>
             <h3 className="banner">Кол-во котельных</h3>
-            <div>
+            <div className="bar-box">
               <div className="bar-1">
                 <BarChart chartOut={amountIrk[scriptIndex]} />
               </div>
@@ -56,7 +59,7 @@ export default function ChartBlock({ scriptIndex }) {
               <DonutChart chartOut={powerBur} />
             </div>
           </div>
-          <div>
+          <div className="bar-box">
             <div className="bar-2">
               <BarChart chartOut={amountBur[scriptIndex]} />
             </div>

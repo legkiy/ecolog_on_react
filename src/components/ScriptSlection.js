@@ -2,6 +2,7 @@ import React from 'react';
 import ScriptButton from './ScriptButton';
 
 function ScriptSlection(props) {
+  // console.log(props.setScriptIndex)
   return (
     <div className="script-selection-box">
       <h2 className="script-selection-title">Выбор сценария</h2>
@@ -34,6 +35,25 @@ function ScriptSlection(props) {
           </div>
         }
       />
+      <ScriptButton
+        scriptCase={'wood'}
+        setScriptIndex={props.setScriptIndex}
+        scriptDiscriptions={
+          <div>
+            <p></p>
+          </div>
+        }
+      />
+      <ScriptButton
+        scriptCase={'recyclePower'}
+        setScriptIndex={props.setScriptIndex}
+        scriptDiscriptions={
+          <div>
+            <p></p>
+          </div>
+        }
+      />
+
       <div className="noSelect">
         <ScriptButton
           scriptCase={'noSelect'}

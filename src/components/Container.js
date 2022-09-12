@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
+<<<<<<< HEAD
 import YaMap from './YaMap';
 import Table from './Table';
+=======
+import MainBox from './mainBoxFolder/MainBox';
+>>>>>>> dev
 import ScriptSlection from './ScriptSlection';
-import ChartBlock from './ChartBlock';
 
 function Container() {
   const [scriptIndex, setScriptIndex] = useState(0);
+  console.log(scriptIndex);
   return (
     <div className="container box-80">
       <h1 className="title">
@@ -27,15 +31,7 @@ function Container() {
         </p>
       </div>
       <ScriptSlection setScriptIndex={setScriptIndex} />
-      <div className="flex-box">
-        <div className="left-box">
-          <div>
-            <ChartBlock scriptIndex={scriptIndex} />
-          </div>
-          <Table scriptIndex={scriptIndex} />
-        </div>
-        <YaMap scriptIndex={scriptIndex} />
-      </div>
+      <MainBox scriptIndex={scriptIndex} />
     </div>
   );
 }

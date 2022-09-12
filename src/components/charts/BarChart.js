@@ -28,7 +28,7 @@ function BarChart({ chartOut }) {
   const electric = chartOut.map((chosenScript) => chosenScript.electric);
 
   ChartJS.defaults.font.family = 'PT Sans';
-  ChartJS.defaults.font.size = 13;
+  ChartJS.defaults.font.size = 14;
   ChartJS.defaults.color = 'black';
 
   const data = {
@@ -67,6 +67,7 @@ function BarChart({ chartOut }) {
     maintainAspectRatio: false,
     layout: {
       padding: 0,
+      margin: 0,
     },
     plugins: {
       datalabels: false,
@@ -84,7 +85,7 @@ function BarChart({ chartOut }) {
         },
       },
     },
-    responsive: true,
+    // responsive: true,
     scales: {
       x: {
         stacked: true,

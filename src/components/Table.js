@@ -61,6 +61,7 @@ function Table(props) {
       </div>
       <div className="table-legend-box">
         <ul className="table-legend">
+          <li className="ico-table-legend">&mdash;текущее состояние;</li>
           <li className="ico-table-legend">&mdash;улучшение;</li>
           <li className="ico-table-legend">&mdash;ухудшение;</li>
           <li className="ico-table-legend">&mdash;не изменилось.</li>

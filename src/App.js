@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "./components/Container";
 import Head from "./components/Head";
-import Footer from "./components/Footer";
 
 function App () {
     console.log(document.documentElement.scrollWidth);
@@ -10,7 +9,6 @@ function App () {
       <>
         <Head />
         <Container />
-        <Footer />
       </>
     );
   }
