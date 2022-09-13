@@ -3,17 +3,17 @@ import { Chart, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';
 // import ChartDataLabels from 'chartjs-plugin-datalabels';
 
-export default function DonutChart(props) {
+export default function DonutChart({chartOut}) {
   Chart.register(ArcElement, Tooltip, Legend);
 
   // Chart.register(ChartDataLabels); //добавление подписей внутрь графиков
 
   const data = {
-    labels: props.chartOut.labels,
+    labels: chartOut.labels,
     datasets: [
       {
-        data: props.chartOut.data,
-        backgroundColor: props.chartOut.color,
+        data: chartOut.data,
+        backgroundColor: chartOut.color,
         label: 132312,
       },
     ],

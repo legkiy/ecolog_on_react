@@ -1,12 +1,11 @@
 import React from 'react';
-import region from './boilerScript/regions.json';
-import script1 from './boilerScript/script1.json';
-import script2 from './boilerScript/script2.json';
-import RegionScript from './RegionScript';
+import region from '../boilerScript/regions.json';
+import script1 from '../boilerScript/script1.json';
+import script2 from '../boilerScript/script2.json';
+import RegionScript from './TableSriptChosen';
 
-function TableData(props) {
-
-  const scripts = [null,script1, script2];
+function TableData({ scriptIndex }) {
+  const scripts = [null, script1, script2];
 
   return (
     <>
@@ -32,9 +31,9 @@ function TableData(props) {
             <td>{curState.carbon === 0 ? '-' : curState.carbon}</td>
             <td>{curState.ash === 0 ? '-' : curState.ash}</td>
           </tr>
-          {/* {props.scriptIndex} */}
-          {props.scriptIndex !== 0 ? (
-            scripts[props.scriptIndex].map((scripts) =>
+          {/* {scriptIndex} */}
+          {scriptIndex !== 0 ? (
+            scripts[scriptIndex].map((scripts) =>
               curState.id === scripts.id ? (
                 <RegionScript
                   key={scripts.id}

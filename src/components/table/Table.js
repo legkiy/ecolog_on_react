@@ -1,7 +1,7 @@
 import React from 'react';
 import TableData from './TableData';
 
-function Table(props) {
+function Table({scriptIndex}) {
   return (
     <div>
       <div className="table-box">
@@ -56,7 +56,7 @@ function Table(props) {
               </td>
             </tr>
           </thead>
-          <TableData scriptIndex={props.scriptIndex} />
+          <TableData scriptIndex={scriptIndex} />
         </table>
       </div>
       <div className="table-legend-box">
