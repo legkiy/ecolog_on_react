@@ -1,6 +1,6 @@
 import React from 'react';
 import ChartBlock from '../ChartBlock';
-import Table from '../Table';
+import Table from '../table/Table';
 import YaMap from '../YaMap';
 
 export default function MainWitheTable({ scriptIndex }) {
