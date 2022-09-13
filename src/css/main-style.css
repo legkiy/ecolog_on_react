@@ -40,8 +40,8 @@ body {
   text-align: center;
   color: #aa7700;
   font-weight: 500;
-  margin: 5px auto;
-  font-size: 1.5rem;
+  margin: 1px auto;
+  font-size: 1.6rem;
 }
 .left-box {
   width: 950px;
@@ -52,7 +52,7 @@ body {
   font-size: 1rem;
   margin: auto;
   width: 1400px;
-  padding-bottom: 5px;
+  padding: 5px 0;
 }
 .script-selection-box {
   display: flex;
@@ -345,8 +345,8 @@ thead {
   padding: 0 20px;
 }
 .only-map-box {
-  height: calc(100%);
-
+  height: calc(100vh - 193px);
+  background-color: white;
   width: 90%;
   margin: auto;
 }
