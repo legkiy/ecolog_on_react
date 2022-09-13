@@ -1,10 +1,5 @@
 import React, { useState } from 'react';
-<<<<<<< HEAD
-import YaMap from './YaMap';
-import Table from './Table';
-=======
 import MainBox from './mainBoxFolder/MainBox';
->>>>>>> dev
 import ScriptSlection from './ScriptSlection';
 
 function Container() {
