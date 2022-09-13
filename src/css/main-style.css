@@ -41,7 +41,8 @@ body {
   color: #aa7700;
   font-weight: 500;
   margin: 1px auto;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  padding-bottom: 3px;
 }
 .left-box {
   width: 950px;
