@@ -1,7 +1,6 @@
 import React from 'react';
 import BarChart from './charts/BarChart';
 import DonutChart from './charts/DonutChart';
-// asdasdasd
 import curAmountIrk from './charts/data/amount/curAmount/curAmountIrk.json';
 import curAmountBur from './charts/data/amount/curAmount/curAmountBur.json';
 import script1Irk from './charts/data/amount/script1/script1Irk.json';
