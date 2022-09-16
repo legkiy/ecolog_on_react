@@ -55,22 +55,22 @@ body {
   width: 1400px;
   padding: 5px 0;
 }
-.script-selection-box {
+.center-inside {
   display: flex;
+  align-items: center;
+}
+.script-selection-box {
   background-color: rgb(21, 95, 141);
-  border-radius: 6px;
   color: white;
   height: 39px;
-  margin: 0 10px;
+
   padding: 0 10px;
-  align-items: center;
 }
 .script-selection-title {
   font-size: 1.2rem;
   font-weight: 400;
-  padding-right: 6px;
+  padding: 6px;
 }
-
 .script-selection-button {
   display: flex;
   margin: 0 10px;
@@ -91,6 +91,11 @@ body {
 }
 .noSelect {
   margin-left: auto;
+}
+.horizontal-border {
+  height: 1.2rem;
+  border-radius: 5px;
+  border-right: 0.5px solid rgba(206, 206, 206, 0.568);
 }
 .img-recyclePower {
   height: 1rem;
