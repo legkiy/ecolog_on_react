@@ -26,7 +26,7 @@ function ScriptSlection({ setScriptIndex }) {
           }
         />
       </div>
-      <div className='horizontal-border'></div>
+      <div className="horizontal-border"></div>
       <div className="center-inside">
         <h2 className="script-selection-title">Выбор сценария</h2>
         <ScriptButton
@@ -63,7 +63,7 @@ function ScriptSlection({ setScriptIndex }) {
         <ScriptButton
           scriptCase={'noSelect'}
           setScriptIndex={setScriptIndex}
-          scriptDiscriptions={'Отчистить сценарий'}
+          scriptDiscriptions={'Отчистить выбор'}
         />
       </div>
     </div>
