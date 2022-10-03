@@ -11,8 +11,12 @@ function ScriptSlection({ setScriptIndex }) {
           scriptCase={'wood'}
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
-            <div>
-              <p></p>
+            <div className="tippy-div">
+              <p>
+                Производителли древесного топлива
+                <br />
+                по Иркутской области и республики Бурятия
+              </p>
             </div>
           }
         />
