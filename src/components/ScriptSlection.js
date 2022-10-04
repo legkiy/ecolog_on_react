@@ -6,7 +6,7 @@ function ScriptSlection({ setScriptIndex }) {
   return (
     <div className="script-selection-box center-inside">
       <div className="center-inside">
-        <h2 className="script-selection-title">Энерго ресурсы</h2>
+        <h2 className="script-selection-title">Энергетические ресурсы</h2>
         <ScriptButton
           scriptCase={'wood'}
           setScriptIndex={setScriptIndex}
