@@ -13,9 +13,8 @@ function ScriptSlection({ setScriptIndex }) {
           scriptDiscriptions={
             <div className="tippy-div">
               <p>
-                Производителли древесного топлива
-                <br />
-                по Иркутской области и республики Бурятия
+                Производителли древесного топлива по Иркутской области и
+                республики Бурятия
               </p>
             </div>
           }
