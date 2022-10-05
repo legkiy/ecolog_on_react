@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import MapDiscription from './MapDiscription';
 
 export default function MainOnlyMap({ scriptIndex }) {
   const urls = [
@@ -25,6 +26,7 @@ export default function MainOnlyMap({ scriptIndex }) {
       <div className="ya-map-box">
         <div className="ya-map" id="ya-map"></div>
       </div>
+      <MapDiscription scriptIndex={scriptIndex} />
     </div>
   );
 }
