@@ -161,9 +161,12 @@ body {
     height: 200px;
     width: 430px;
   }
-  .ya-map-box .ya-map {
+  .ya-map {
     height: 500px !important;
   }
+}
+.ya-map-box {
+  height: 80%;
 }
 .donut {
   width: 140px;
@@ -198,7 +201,7 @@ body {
 }
 .ya-map {
   position: relative;
-  height: 620px;
+  height: 100%;
 }
 .ymaps-2-1-79-balloon__layout,
 .ymaps-2-1-79-balloon,
