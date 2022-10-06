@@ -30,7 +30,7 @@ function Button(props) {
           <img src={recyclePower} className="img-recyclePower" alt=""></img>
         );
       case 'noSelect':
-        return <TiCancel />;
+        return <p>Текущее состояние</p>;
       default:
     }
   };

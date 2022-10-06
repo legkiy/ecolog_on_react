@@ -6,18 +6,13 @@ function ScriptSlection({ setScriptIndex }) {
   return (
     <div className="script-selection-box center-inside">
       <div className="center-inside">
-        <h2 className="script-selection-title">
-          Расположение энергетических ресурсов
-        </h2>
+        <h2 className="script-selection-title">Энергетические ресурсы</h2>
         <ScriptButton
           scriptCase={'wood'}
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
             <div className="tippy-div">
-              <p>
-                Производителли древесного топлива по Иркутской области и
-                республики Бурятия
-              </p>
+              <p>Производителли древесного топлива</p>
             </div>
           }
         />
@@ -33,7 +28,14 @@ function ScriptSlection({ setScriptIndex }) {
       </div>
       <div className="horizontal-border"></div>
       <div className="center-inside">
-        <h2 className="script-selection-title">Выбор сценария</h2>
+        <div className="noSelect">
+          <ScriptButton
+            scriptCase={'noSelect'}
+            setScriptIndex={setScriptIndex}
+            scriptDiscriptions={''}
+          />
+        </div>
+        <h2 className="script-selection-title">Cценарии</h2>
         <ScriptButton
           scriptCase={'electra'}
           setScriptIndex={setScriptIndex}
@@ -62,13 +64,6 @@ function ScriptSlection({ setScriptIndex }) {
               </p>
             </div>
           }
-        />
-      </div>
-      <div className="noSelect">
-        <ScriptButton
-          scriptCase={'noSelect'}
-          setScriptIndex={setScriptIndex}
-          scriptDiscriptions={'Отчистить выбор'}
         />
       </div>
     </div>

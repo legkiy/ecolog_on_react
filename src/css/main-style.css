@@ -90,7 +90,8 @@ body {
   opacity: 0.6;
 }
 .noSelect {
-  margin-left: auto;
+  margin: 0 10px 0 10px;
+  transform: scale(0.7)
 }
 .horizontal-border {
   height: 1.2rem;
