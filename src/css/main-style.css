@@ -162,9 +162,6 @@ body {
     height: 200px;
     width: 430px;
   }
-  .ya-map {
-    height: 500px !important;
-  }
 }
 .ya-map-box {
   height: 80%;
@@ -354,7 +351,7 @@ thead {
   background-color: rgba(250, 248, 143, 0.582);
 }
 .footnote {
-  margin: 5px 20px;
+  margin: 4px 20px;
   padding: 0 20px;
 }
 .only-map-box {
