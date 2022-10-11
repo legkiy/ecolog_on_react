@@ -89,9 +89,9 @@ body {
   transform: scale(1.7);
   opacity: 0.6;
 }
-.noSelect {
-  margin: 0 10px 0 10px;
-  transform: scale(0.7)
+.no-select {
+  font-size: 0.7rem;
+  margin: 0 38px;
 }
 .horizontal-border {
   height: 1.2rem;

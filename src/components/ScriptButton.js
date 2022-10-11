@@ -16,8 +16,8 @@ const SCRIPT_MAP = {
   recyclePower: 4,
 };
 
-function Button(props) {
-  const getScriptIcon = (scriptCase) => {
+export default function Button(props) {
+  function getScriptIcon(scriptCase) {
     switch (scriptCase) {
       case 'electra':
         return <GiLightningArc />;
@@ -33,12 +33,12 @@ function Button(props) {
         return <p>Текущее состояние</p>;
       default:
     }
-  };
+  }
 
   const handleOnClick = () => {
     props.setScriptIndex(SCRIPT_MAP[props.scriptCase]);
   };
-
+  console.log('case: ' + getScriptIcon);
   return (
     <Tippy
       content={props.scriptDiscriptions}
@@ -56,5 +56,3 @@ function Button(props) {
     </Tippy>
   );
 }
-
-export default Button;

@@ -28,13 +28,14 @@ function ScriptSlection({ setScriptIndex }) {
       </div>
       <div className="horizontal-border"></div>
       <div className="center-inside">
-        <div className="noSelect">
-          <ScriptButton
-            scriptCase={'noSelect'}
-            setScriptIndex={setScriptIndex}
-            scriptDiscriptions={''}
-          />
-        </div>
+        <button
+          className="script-selection-button no-select"
+          onClick={() => setScriptIndex(0)}
+          type="button"
+        >
+          Текущее состояние
+        </button>
+        <div className="horizontal-border"></div>
         <h2 className="script-selection-title">Cценарии</h2>
         <ScriptButton
           scriptCase={'electra'}
