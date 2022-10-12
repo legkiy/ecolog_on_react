@@ -5,8 +5,10 @@ export default function MainOnlyMap({ scriptIndex }) {
   const urls = [
     //wood map
     'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4a221686dbf5fd263c2c7cf067e14d9cf30e4a511542453c1b9c0d6a074f3373&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
-    //solar and wind map
-    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A37d77bd26d859f7f3c97b9ba7a643ea9adde78afa6ab3567825212b16dfd74ea&amp;width=760&amp;height=513&amp;lang=ru_RU&amp;scroll=true',
+    //solar
+    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9de8096eb46d0ace793bdd19ee894c2dd17324dcc68599f5bf9604dd26e2c89d&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
+    //wind
+    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1c5ea34a91ac050694549da76b4fa8f43a6e59c0577ca39a16f7e118449827f1&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
   ];
   useEffect(() => {
     const mapWay = document.getElementById('ya-map');

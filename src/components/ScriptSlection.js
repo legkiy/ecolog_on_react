@@ -38,7 +38,7 @@ function ScriptSlection({ setScriptIndex }) {
       <div className="horizontal-border"></div>
       <div className="center-inside">
         <button
-          className="script-selection-button no-select"
+          className="no-select"
           onClick={() => setScriptIndex(0)}
           type="button"
         >
