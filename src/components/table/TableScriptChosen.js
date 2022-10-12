@@ -12,10 +12,10 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {/* {(curState.coal ? (scripts.coal / curState.coal) * 100 : 100).toFixed(
+        {(curState.coal ? (scripts.coal / curState.coal) * 100 : 100).toFixed(
           1
-        ) + '%'} */}
-        {scripts.coal === 0 ? '-' : scripts.coal}
+        ) + '%'}
+        {/* {scripts.coal === 0 ? '-' : scripts.coal} */}
       </td>
       <td
         className={
@@ -26,10 +26,10 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {/* {(curState.wood ? (scripts.wood / curState.wood) * 100 : 100).toFixed(
+        {(curState.wood ? (scripts.wood / curState.wood) * 100 : 100).toFixed(
           1
-        ) + '%'} */}
-        {scripts.wood === 0 ? '-' : scripts.wood}
+        ) + '%'}
+        {/* {scripts.wood === 0 ? '-' : scripts.wood} */}
       </td>
       <td
         className={
@@ -40,9 +40,9 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {/* {(curState.oil ? (scripts.oil / curState.oil) * 100 : 100).toFixed(1) +
-          '%'} */}
-        {scripts.oil === 0 ? '-' : scripts.oil}
+        {(curState.oil ? (scripts.oil / curState.oil) * 100 : 100).toFixed(1) +
+          '%'}
+        {/* {scripts.oil === 0 ? '-' : scripts.oil} */}
       </td>
       <td
         className={
@@ -53,9 +53,9 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {/* {(curState.gas ? (scripts.gas / curState.gas) * 100 : 100).toFixed(1) +
-          '%'} */}
-        {scripts.gas === 0 ? '-' : scripts.gas}
+        {(curState.gas ? (scripts.gas / curState.gas) * 100 : 100).toFixed(1) +
+          '%'}
+        {/* {scripts.gas === 0 ? '-' : scripts.gas} */}
       </td>
       <td
         className={
@@ -66,11 +66,11 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {/* {(curState.electric
+        {(curState.electric
           ? (scripts.electric / curState.electric) * 100
           : 100
-        ).toFixed(1) + '%'} */}
-        {scripts.electric === 0 ? '-' : scripts.electric}
+        ).toFixed(1) + '%'}
+        {/* {scripts.electric === 0 ? '-' : scripts.electric} */}
       </td>
       <td
         className={
@@ -81,11 +81,11 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {/* {(curState.solid
+        {(curState.solid
           ? (scripts.solid / curState.solid) * 100
           : 100
-        ).toFixed(1) + '%'} */}
-        {scripts.solid === 0 ? '-' : scripts.solid}
+        ).toFixed(1) + '%'}
+        {/* {scripts.solid === 0 ? '-' : scripts.solid} */}
       </td>
       <td
         className={
@@ -96,11 +96,11 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {/* {(curState.sulfur
+        {(curState.sulfur
           ? (scripts.sulfur / curState.sulfur) * 100
           : 100
-        ).toFixed(1) + '%'} */}
-        {scripts.sulfur === 0 ? '-' : scripts.sulfur}
+        ).toFixed(1) + '%'}
+        {/* {scripts.sulfur === 0 ? '-' : scripts.sulfur} */}
       </td>
       <td
         className={
@@ -111,11 +111,11 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {/* {(curState.nitrogen
+        {(curState.nitrogen
           ? (scripts.nitrogen / curState.nitrogen) * 100
           : 100
-        ).toFixed(1) + '%'} */}
-        {scripts.nitrogen === 0 ? '-' : scripts.nitrogen}
+        ).toFixed(1) + '%'}
+        {/* {scripts.nitrogen === 0 ? '-' : scripts.nitrogen} */}
       </td>
       <td
         className={
@@ -126,11 +126,11 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {/* {(curState.carbon
+        {(curState.carbon
           ? (scripts.carbon / curState.carbon) * 100
           : 100
-        ).toFixed(1) + '%'} */}
-        {scripts.carbon === 0 ? '-' : scripts.carbon}
+        ).toFixed(1) + '%'}
+        {/* {scripts.carbon === 0 ? '-' : scripts.carbon} */}
       </td>
       <td
         className={
@@ -141,9 +141,9 @@ function RegionTable({ scripts, curState }) {
             : 'equally'
         }
       >
-        {/* {(curState.ash ? (scripts.ash / curState.ash) * 100 : 100).toFixed(1) +
-          '%'} */}
-        {scripts.ash === 0 ? '-' : scripts.ash}
+        {(curState.ash ? (scripts.ash / curState.ash) * 100 : 100).toFixed(1) +
+          '%'}
+        {/* {scripts.ash === 0 ? '-' : scripts.ash} */}
       </td>
     </tr>
   );

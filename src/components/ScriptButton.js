@@ -7,11 +7,11 @@ import {
   GiWindTurbine,
 } from 'react-icons/gi';
 // import { GiFuelTank } from 'react-icons/gi';
-import { TiCancel } from 'react-icons/ti';
+// import { TiCancel } from 'react-icons/ti';
 //GiBarrelLeak
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
-import recyclePower from '../img/recyclePower.png';
+// import recyclePower from '../img/recyclePower.png';
 
 const SCRIPT_MAP = {
   noSelect: 0,
