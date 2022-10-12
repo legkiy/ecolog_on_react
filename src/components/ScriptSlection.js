@@ -29,7 +29,7 @@ function ScriptSlection({ setScriptIndex }) {
           scriptCase={'wind'}
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
-            <div className='tooltip-box'>
+            <div className="tooltip-box">
               <p>Показатели ветроэнергетического потенциала</p>
             </div>
           }
@@ -67,8 +67,8 @@ function ScriptSlection({ setScriptIndex }) {
           scriptDiscriptions={
             <div>
               <p>
-                Предлагается в 31 котельной Слюдянского (9 котельных) и
-                Кабанского (22 шт.) районов сжигать экологически более
+                Предлагается в 34 котельных Слюдянского (9 котельных) и
+                Кабанского (25 шт.) районов сжигать экологически более
                 благоприятный бюородинский бурый уголь. При этом увеличится
                 расход топлива с 26,3 до 28,4 тыс. т/год.
               </p>

@@ -1,7 +1,7 @@
 import React from 'react';
-import region from '../boilerScript/regions.json';
-import script1 from '../boilerScript/script1.json';
-import script2 from '../boilerScript/script2.json';
+import region from './boilerScript/regions.json';
+import script1 from './boilerScript/script1.json';
+import script2 from './boilerScript/script2.json';
 import RegionScript from './TableScriptChosen';
 
 function TableData({ scriptIndex }) {
