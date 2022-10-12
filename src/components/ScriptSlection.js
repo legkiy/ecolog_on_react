@@ -17,11 +17,20 @@ function ScriptSlection({ setScriptIndex }) {
           }
         />
         <ScriptButton
-          scriptCase={'recyclePower'}
+          scriptCase={'solar'}
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
             <div>
-              <p>Показатели потенциала возобновляемых источников энергии</p>
+              <p>Показатели гелиопотенциала </p>
+            </div>
+          }
+        />
+        <ScriptButton
+          scriptCase={'wind'}
+          setScriptIndex={setScriptIndex}
+          scriptDiscriptions={
+            <div className='tooltip-box'>
+              <p>Показатели ветроэнергетического потенциала</p>
             </div>
           }
         />

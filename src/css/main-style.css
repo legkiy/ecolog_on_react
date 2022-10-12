@@ -91,7 +91,7 @@ body {
 }
 .no-select {
   font-size: 0.7rem;
-  margin: 0 38px;
+  margin: 0 39px;
 }
 .horizontal-border {
   height: 1.2rem;
@@ -106,7 +106,7 @@ body {
   border-radius: 8px;
   box-shadow: 1px 4px 10px 1px rgba(0, 0, 0, 0.432);
   font-size: 1rem;
-  max-width: 310px !important;
+  /* max-width: 310px !important; */
 }
 .tippy-box div p {
   text-align: justify;

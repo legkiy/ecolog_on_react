@@ -1,6 +1,11 @@
 import React from 'react';
 import { GiLightningArc } from 'react-icons/gi';
-import { GiCoalWagon, GiWoodPile } from 'react-icons/gi';
+import {
+  GiCoalWagon,
+  GiWoodPile,
+  GiSolarPower,
+  GiWindTurbine,
+} from 'react-icons/gi';
 // import { GiFuelTank } from 'react-icons/gi';
 import { TiCancel } from 'react-icons/ti';
 //GiBarrelLeak
@@ -13,7 +18,8 @@ const SCRIPT_MAP = {
   electra: 1,
   coal: 2,
   wood: 3,
-  recyclePower: 4,
+  solar: 4,
+  wind: 5,
 };
 
 export default function Button(props) {
@@ -25,10 +31,10 @@ export default function Button(props) {
         return <GiCoalWagon />;
       case 'wood':
         return <GiWoodPile />;
-      case 'recyclePower':
-        return (
-          <img src={recyclePower} className="img-recyclePower" alt=""></img>
-        );
+      case 'solar':
+        return <GiSolarPower />;
+      case 'wind':
+        return <GiWindTurbine />;
       case 'noSelect':
         return <p>Текущее состояние</p>;
       default:
