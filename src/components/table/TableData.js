@@ -20,6 +20,7 @@ function TableData({ scriptIndex }) {
             <td className="reg-name" rowSpan={2}>
               {curState.localName}
             </td>
+            <td>{curState.cherem_coal === 0 ? '-' : curState.cherem_coal}</td>
             <td>{curState.coal === 0 ? '-' : curState.coal}</td>
             <td>{curState.wood === 0 ? '-' : curState.wood}</td>
             <td>{curState.oil === 0 ? '-' : curState.oil}</td>

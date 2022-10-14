@@ -1,23 +1,23 @@
 import React from 'react';
 import TableData from './TableData';
 
-function Table({scriptIndex}) {
+function Table({ scriptIndex }) {
   return (
     <div>
       <div className="table-box">
         <table className="curr-status-table">
           <thead>
             <tr>
-              <td rowSpan={3}>
+              <td rowSpan={4}>
                 Субъект РФ,
                 <br />
                 район
               </td>
-              <td colSpan={5} rowSpan={2}>
+              <td colSpan={6} rowSpan={2}>
                 Расход топлива, т у.т./год
               </td>
               <td colSpan={4}>Выбросы в атмосферу, т/год</td>
-              <td rowSpan={3} className="last-td">
+              <td rowSpan={4} className="last-td">
                 ЗШО*,
                 <br />
                 т/год
@@ -25,7 +25,7 @@ function Table({scriptIndex}) {
             </tr>
             <tr>
               <td colSpan={3}>Загрязняющие вещества</td>
-              <td rowSpan={2}>
+              <td rowSpan={3}>
                 <i>
                   CO<sub>2</sub>
                 </i>
@@ -33,27 +33,31 @@ function Table({scriptIndex}) {
               </td>
             </tr>
             <tr>
-              <td>уголь</td>
-              <td>древесина</td>
-              <td>мазут</td>
-              <td>газ</td>
-              <td>эл/энергия</td>
-              <td>
+              <td colSpan={2}>уголь</td>
+              <td rowSpan={2}>древесина</td>
+              <td rowSpan={2}>мазут</td>
+              <td rowSpan={2}>газ</td>
+              <td rowSpan={2}>эл/энергия</td>
+              <td rowSpan={2}>
                 твердые
                 <br />
                 частицы
               </td>
-              <td>
+              <td rowSpan={2}>
                 <i>
                   SO<sub>2</sub>
                 </i>
                 *
               </td>
-              <td>
+              <td rowSpan={2}>
                 <i>
                   NO<sub>x</sub>*
                 </i>
               </td>
+            </tr>
+            <tr>
+              <td>Черем</td>
+              <td>Прочий</td>
             </tr>
           </thead>
           <TableData scriptIndex={scriptIndex} />

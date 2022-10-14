@@ -3,6 +3,19 @@ import React from 'react';
 function RegionTable({ scripts, curState }) {
   return (
     <tr className={scripts.total ? 'reg-total' : 'reg-row'}>
+       <td
+        className={
+          scripts.cherem_coal < curState.cherem_coal
+            ? 'better'
+            : scripts.cherem_coal > curState.cherem_coal
+            ? 'worse'
+            : 'equally'
+        }
+      >
+        {(curState.cherem_coal ? (scripts.cherem_coal / curState.cherem_coal) * 100 : 100).toFixed(
+          1
+        ) + '%'}
+        </td>
       <td
         className={
           scripts.coal < curState.coal

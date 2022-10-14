@@ -2,7 +2,8 @@
   {
     "id": 0,
     "localName": "Иркутская область",
-    "coal": 94100,
+    "cherem_coal": 4450,
+    "coal": 89650,
     "wood": 463,
     "oil": 1500,
     "gas": 0,
@@ -17,6 +18,7 @@
   {
     "id": 1,
     "localName": "Ольхонский",
+    "cherem_coal": 0,
     "coal": 4300,
     "wood": 463,
     "oil": 0,
@@ -31,6 +33,7 @@
   {
     "id": 2,
     "localName": "Иркутский",
+    "cherem_coal": 0,
     "coal": 1100,
     "wood": 0,
     "oil": 1500,
@@ -45,7 +48,8 @@
   {
     "id": 3,
     "localName": "Слюдянский",
-    "coal": 88700,
+    "cherem_coal": 4450,
+    "coal": 84250,
     "wood": 0,
     "oil": 0,
     "gas": 0,
@@ -59,7 +63,8 @@
   {
     "id": 4,
     "localName": "Республика Бурятия",
-    "coal": 93500,
+    "cherem_coal": 11300,
+    "coal": 82200,
     "wood": 604,
     "oil": 0,
     "gas": 1239,
@@ -74,7 +79,8 @@
   {
     "id": 5,
     "localName": "Кабанский",
-    "coal": 11300,
+    "cherem_coal": 11300,
+    "coal": 0,
     "wood": 0,
     "oil": 0,
     "gas": 154,
@@ -88,6 +94,7 @@
   {
     "id": 6,
     "localName": "Баргузинский",
+    "cherem_coal": 0,
     "coal": 1600,
     "wood": 65,
     "oil": 0,
@@ -102,6 +109,7 @@
   {
     "id": 7,
     "localName": "Прибайкальский",
+    "cherem_coal": 0,
     "coal": 1900,
     "wood": 383,
     "oil": 0,
@@ -116,6 +124,7 @@
   {
     "id": 8,
     "localName": "г.Северобайкальск",
+    "cherem_coal": 0,
     "coal": 66300,
     "wood": 0,
     "oil": 0,
@@ -130,6 +139,7 @@
   {
     "id": 9,
     "localName": "Северо-Байкальский",
+    "cherem_coal": 0,
     "coal": 12400,
     "wood": 156,
     "oil": 0,
