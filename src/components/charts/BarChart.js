@@ -21,6 +21,7 @@ ChartJS.register(
 
 function BarChart({ chartOut }) {
   const labels = chartOut.map((chosenScript) => chosenScript.localName);
+  const cheremCoal = chartOut.map((chosenScript) => chosenScript.cherem_coal);
   const coal = chartOut.map((chosenScript) => chosenScript.coal);
   const wood = chartOut.map((chosenScript) => chosenScript.wood);
   const oil = chartOut.map((chosenScript) => chosenScript.oil);
@@ -34,6 +35,11 @@ function BarChart({ chartOut }) {
   const data = {
     labels: labels,
     datasets: [
+      {
+        label: 'черемховский уголь',
+        backgroundColor: '#966b60',
+        data: cheremCoal,
+      },
       {
         label: 'уголь',
         backgroundColor: '#bfbfbf',

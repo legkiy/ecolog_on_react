@@ -56,8 +56,8 @@ function Table({ scriptIndex }) {
               </td>
             </tr>
             <tr>
-              <td>Черем</td>
-              <td>Прочий</td>
+              <td>черем.</td>
+              <td>прочий</td>
             </tr>
           </thead>
           <TableData scriptIndex={scriptIndex} />

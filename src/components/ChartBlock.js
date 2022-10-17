@@ -67,7 +67,8 @@ export default function ChartBlock({ scriptIndex }) {
       </div>
       <div className="centr-items">
         <ul className="bar-legend">
-          <li className="ico-legend">уголь</li>
+        <li className="ico-legend">черемховский уголь</li>
+          <li className="ico-legend">прочий уголь</li>
           <li className="ico-legend">древесина</li>
           <li className="ico-legend">мазут</li>
           <li className="ico-legend">газ</li>

@@ -2,7 +2,8 @@
   {
     "id": 5,
     "localName": "Кабанский",
-    "coal": 25,
+    "cherem_coal": 25,
+    "coal": 0,
     "wood": 1,
     "oil": 0,
     "gas": 2,
@@ -11,6 +12,7 @@
   {
     "id": 6,
     "localName": "Баргузинский",
+    "cherem_coal": 0,
     "coal": 4,
     "wood": 2,
     "oil": 0,
@@ -20,6 +22,7 @@
   {
     "id": 7,
     "localName": "Прибайкальский",
+    "cherem_coal": 0,
     "coal": 1,
     "wood": 1,
     "oil": 0,
@@ -29,6 +32,7 @@
   {
     "id": 8,
     "localName": "г.Северобайкальск",
+    "cherem_coal": 0,
     "coal": 4,
     "wood": 0,
     "oil": 0,
@@ -38,6 +42,7 @@
   {
     "id": 9,
     "localName": "Северо-Байкальский",
+    "cherem_coal": 0,
     "coal": 8,
     "wood": 1,
     "oil": 0,

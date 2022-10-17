@@ -2,6 +2,7 @@
   {
     "id": 1,
     "localName": "Ольхонский",
+    "cherem_coal": 0,
     "coal": 4,
     "wood": 4,
     "oil": 0,
@@ -11,6 +12,7 @@
   {
     "id": 2,
     "localName": "Иркутский",
+    "cherem_coal": 0,
     "coal": 2,
     "wood": 0,
     "oil": 1,
@@ -20,7 +22,8 @@
   {
     "id": 3,
     "localName": "Слюдянский",
-    "coal": 26,
+    "cherem_coal": 9,
+    "coal": 17,
     "wood": 0,
     "oil": 0,
     "gas": 0,
