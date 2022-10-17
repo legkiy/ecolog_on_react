@@ -47,6 +47,20 @@ function ScriptSlection({ setScriptIndex }) {
         <div className="horizontal-border"></div>
         <h2 className="script-selection-title">Cценарии</h2>
         <ScriptButton
+          scriptCase={'coal'}
+          setScriptIndex={setScriptIndex}
+          scriptDiscriptions={
+            <div>
+              <p>
+                Предлагается в 34 котельных Слюдянского (9 котельных) и
+                Кабанского (25 шт.) районов сжигать экологически более
+                благоприятный бюородинский бурый уголь. При этом увеличится
+                расход топлива с 26,3 до 28,4 тыс. т/год.
+              </p>
+            </div>
+          }
+        />
+        <ScriptButton
           scriptCase={'electra'}
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
@@ -57,20 +71,6 @@ function ScriptSlection({ setScriptIndex }) {
                 тыс.т) - на электроэнергию, при этом существующие котельные на
                 древесном и газовом топливе, как наиболее экологичные продолжают
                 функционировать
-              </p>
-            </div>
-          }
-        />
-        <ScriptButton
-          scriptCase={'coal'}
-          setScriptIndex={setScriptIndex}
-          scriptDiscriptions={
-            <div>
-              <p>
-                Предлагается в 34 котельных Слюдянского (9 котельных) и
-                Кабанского (25 шт.) районов сжигать экологически более
-                благоприятный бюородинский бурый уголь. При этом увеличится
-                расход топлива с 26,3 до 28,4 тыс. т/год.
               </p>
             </div>
           }

@@ -37,7 +37,7 @@ function BarChart({ chartOut }) {
     datasets: [
       {
         label: 'черемховский уголь',
-        backgroundColor: '#966b60',
+        backgroundColor: '#808080',
         data: cheremCoal,
       },
       {
@@ -47,22 +47,22 @@ function BarChart({ chartOut }) {
       },
       {
         label: 'дрeвесина',
-        backgroundColor: '#bcd89a',
+        backgroundColor: '#74c460',
         data: wood,
       },
       {
         label: 'мазут',
-        backgroundColor: '#ccc1da',
+        backgroundColor: '#b074ff',
         data: oil,
       },
       {
         label: 'газ',
-        backgroundColor: '#e4dd88',
+        backgroundColor: '#d6ce5a',
         data: gas,
       },
       {
         label: 'эл/энергия',
-        backgroundColor: '#8eb4e3',
+        backgroundColor: '#8bbfff',
         data: electric,
       },
     ],

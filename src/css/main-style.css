@@ -73,12 +73,12 @@ body {
 }
 .script-selection-button {
   display: flex;
-  margin: 0 10px;
+  margin: 0 12px;
   border: none;
   color: white;
   background: local;
   cursor: pointer;
-  transform: scale(1.8);
+  transform: scale(2);
   border-radius: 4px;
 }
 .script-selection-button:hover,
@@ -87,7 +87,7 @@ body {
 }
 .script-selection-button:active {
   transition: 0.05s;
-  transform: scale(1.7);
+  transform: scale(1.9);
   opacity: 0.6;
 }
 .no-select {
@@ -239,22 +239,22 @@ body {
   border-radius: 5px;
 }
 .ico-legend:nth-child(1)::before {
-  background-color: #966b60;
+  background-color: #808080;
 }
 .ico-legend:nth-child(2)::before {
   background-color: #bfbfbf;
 }
 .ico-legend:nth-child(3)::before {
-  background-color: #bcd89a;
+  background-color: #74c460;
 }
 .ico-legend:nth-child(4)::before {
-  background-color: #ccc1da;
+  background-color: #b074ff;
 }
 .ico-legend:nth-child(5)::before {
-  background-color: #e4dd88;
+  background-color: #d6ce5a;
 }
 .ico-legend:nth-child(6)::before {
-  background-color: #8eb4e3;
+  background-color: #8bbfff;
 }
 .centr-items {
   margin: auto;

@@ -1,7 +1,14 @@
 import React from 'react';
 
 export default function CollData({ coll, scripts, curState }) {
-  let perInTable = scripts[coll] / curState[coll];
+  let perInTable = (scripts[coll] / curState[coll] - 1) * 100;
+
+  if (curState[coll]) {
+    if (perInTable % 100 === 0) {
+      perInTable = perInTable.toFixed(0);
+    } else perInTable = perInTable.toFixed(1);
+  } else perInTable = curState[coll];
+
   return (
     <td
       className={
@@ -12,13 +19,12 @@ export default function CollData({ coll, scripts, curState }) {
           : 'equally'
       }
     >
-      {/* {(curState[coll] ? (perInTable) * 100 : 100).toFixed(
+      {perInTable + '%'}
+      {/* {(curState[coll] ? perInTable : 100).toFixed(
         1
       ) + '%'} */}
       {/* {scripts[coll] === 0 ? '-' : scripts[coll]} */}
-      {(curState[coll] !== 0 ? (perInTable - 1) * 100 : curState[coll]).toFixed(
-        1
-      ) + '%'}
+      {/* {Math.ceil(curState[coll] ? perInTable : curState[coll]).toFixed(1) + '%'} */}
     </td>
   );
 }
