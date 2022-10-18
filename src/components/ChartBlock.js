@@ -3,10 +3,10 @@ import BarChart from './charts/BarChart';
 import DonutChart from './charts/DonutChart';
 import curAmountIrk from './charts/data/amount/curAmount/curAmountIrk.json';
 import curAmountBur from './charts/data/amount/curAmount/curAmountBur.json';
-import script1Irk from './charts/data/amount/electra_script/irk_electra_script.json';
-import script1Bur from './charts/data/amount/electra_script/bur_electra_script.json';
-import script2Irk from './charts/data/amount/coal_script/irk_coal_script.json';
-import script2Bur from './charts/data/amount/coal_script/bur_coal_script.json';
+import script1Irk from './charts/data/amount/coal_script/irk_coal_script.json';
+import script1Bur from './charts/data/amount/coal_script/bur_coal_script.json';
+import script2Irk from './charts/data/amount/electra_script/irk_electra_script.json';
+import script2Bur from './charts/data/amount/electra_script/bur_electra_script.json';
 
 import powerIrk from './charts/data/power/curAmount/powerIrk.json';
 import powerBur from './charts/data/power/curAmount/powerBur.json';
@@ -67,7 +67,7 @@ export default function ChartBlock({ scriptIndex }) {
       </div>
       <div className="centr-items">
         <ul className="bar-legend">
-        <li className="ico-legend">черемховский уголь</li>
+          <li className="ico-legend">черемховский уголь</li>
           <li className="ico-legend">прочий уголь</li>
           <li className="ico-legend">древесина</li>
           <li className="ico-legend">мазут</li>

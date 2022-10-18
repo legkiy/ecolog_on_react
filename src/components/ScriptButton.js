@@ -15,20 +15,20 @@ import 'tippy.js/dist/tippy.css';
 
 const SCRIPT_MAP = {
   noSelect: 0,
-  electra: 1,
-  coal: 2,
+  coal: 1,
+  electra: 2,
   wood: 3,
   solar: 4,
   wind: 5,
 };
 
-export default function Button(props) {
+export default function Button({setScriptIndex,scriptCase,scriptDiscriptions}) {
   function getScriptIcon(scriptCase) {
     switch (scriptCase) {
-      case 'electra':
-        return <GiLightningArc />;
       case 'coal':
         return <GiCoalWagon />;
+      case 'electra':
+        return <GiLightningArc />;
       case 'wood':
         return <GiWoodPile />;
       case 'solar':
@@ -42,12 +42,12 @@ export default function Button(props) {
   }
 
   const handleOnClick = () => {
-    props.setScriptIndex(SCRIPT_MAP[props.scriptCase]);
+    setScriptIndex(SCRIPT_MAP[scriptCase]);
   };
   console.log('case: ' + getScriptIcon);
   return (
     <Tippy
-      content={props.scriptDiscriptions}
+      content={scriptDiscriptions}
       interactive={true}
       placement={'bottom'}
       appendTo={'parent'}
@@ -57,7 +57,7 @@ export default function Button(props) {
         type="button"
         onClick={() => handleOnClick()}
       >
-        {getScriptIcon(props.scriptCase)}
+        {getScriptIcon(scriptCase)}
       </button>
     </Tippy>
   );
