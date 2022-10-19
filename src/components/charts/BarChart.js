@@ -52,17 +52,17 @@ function BarChart({ chartOut }) {
       },
       {
         label: 'мазут',
-        backgroundColor: '#b074ff',
+        backgroundColor: '#d6ce5a',
         data: oil,
       },
       {
         label: 'газ',
-        backgroundColor: '#d6ce5a',
+        backgroundColor: '#8bbfff',
         data: gas,
       },
       {
         label: 'эл/энергия',
-        backgroundColor: '#8bbfff',
+        backgroundColor: '#c497ff',
         data: electric,
       },
     ],
