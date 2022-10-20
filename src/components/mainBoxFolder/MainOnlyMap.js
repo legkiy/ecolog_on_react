@@ -10,7 +10,7 @@ export default function MainOnlyMap({ scriptIndex }) {
     //wind
     'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A1c5ea34a91ac050694549da76b4fa8f43a6e59c0577ca39a16f7e118449827f1&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
     //termal
-    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2d808e71779a8cab3361e96dca0aa41eef58e43eeeac5e356382e4eb9fa2baef&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
+    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4e8b66174c6a5648da8e920b9676cd452acdd5e8fa1e1199b3831d4dce246a41&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
   ];
   useEffect(() => {
     const mapWay = document.getElementById('ya-map');

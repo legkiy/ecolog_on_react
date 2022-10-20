@@ -12,7 +12,7 @@ function ScriptSlection({ setScriptIndex }) {
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
             <div className="tippy-div">
-              <p>Производителли древесного топлива</p>
+              <p>Производители древесного топлива</p>
             </div>
           }
         />
@@ -30,7 +30,7 @@ function ScriptSlection({ setScriptIndex }) {
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
             <div className="tooltip-box">
-              <p>Показатели ветроэнергетического потенциала</p>
+              <p>Показатели ветропотенциала</p>
             </div>
           }
         />
@@ -39,7 +39,7 @@ function ScriptSlection({ setScriptIndex }) {
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
             <div className="tooltip-box">
-              <p>Температура почвы</p>
+              <p>Показатели геопотенциала</p>
             </div>
           }
         />

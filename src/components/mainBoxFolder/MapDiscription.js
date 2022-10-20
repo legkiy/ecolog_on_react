@@ -28,5 +28,14 @@ export default function MapDiscription({ scriptIndex }) {
         </ul>
       </div>
     );
+  } else if (scriptIndex === 6) {
+    return (
+      <div className="footnote">
+        <ul>
+          <li>Тумпература указана в &deg;C</li>
+          <li>h &mdash; глубина измерения температуры</li>
+        </ul>
+      </div>
+    );
   }
 }
