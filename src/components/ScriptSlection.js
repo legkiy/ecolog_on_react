@@ -34,6 +34,15 @@ function ScriptSlection({ setScriptIndex }) {
             </div>
           }
         />
+        <ScriptButton
+          scriptCase={'termal'}
+          setScriptIndex={setScriptIndex}
+          scriptDiscriptions={
+            <div className="tooltip-box">
+              <p>Температура почвы</p>
+            </div>
+          }
+        />
       </div>
       <div className="horizontal-border"></div>
       <div className="center-inside">

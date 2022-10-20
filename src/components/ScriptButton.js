@@ -1,11 +1,14 @@
 import React from 'react';
-import { GiLightningArc } from 'react-icons/gi';
 import {
+  GiLightningArc,
   GiCoalWagon,
   GiWoodPile,
   GiSolarPower,
   GiWindTurbine,
 } from 'react-icons/gi';
+// FaTemperatureHigh
+import { BsThermometerHalf } from 'react-icons/bs';
+
 // import { GiFuelTank } from 'react-icons/gi';
 // import { TiCancel } from 'react-icons/ti';
 //GiBarrelLeak
@@ -20,9 +23,14 @@ const SCRIPT_MAP = {
   wood: 3,
   solar: 4,
   wind: 5,
+  termal: 6,
 };
 
-export default function Button({setScriptIndex,scriptCase,scriptDiscriptions}) {
+export default function Button({
+  setScriptIndex,
+  scriptCase,
+  scriptDiscriptions,
+}) {
   function getScriptIcon(scriptCase) {
     switch (scriptCase) {
       case 'coal':
@@ -35,6 +43,8 @@ export default function Button({setScriptIndex,scriptCase,scriptDiscriptions}) {
         return <GiSolarPower />;
       case 'wind':
         return <GiWindTurbine />;
+      case 'termal':
+        return <BsThermometerHalf />;
       case 'noSelect':
         return <p>Текущее состояние</p>;
       default:
@@ -44,7 +54,6 @@ export default function Button({setScriptIndex,scriptCase,scriptDiscriptions}) {
   const handleOnClick = () => {
     setScriptIndex(SCRIPT_MAP[scriptCase]);
   };
-  console.log('case: ' + getScriptIcon);
   return (
     <Tippy
       content={scriptDiscriptions}
