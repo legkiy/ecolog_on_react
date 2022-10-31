@@ -5,6 +5,7 @@ import {
   GiWoodPile,
   GiSolarPower,
   GiWindTurbine,
+  GiFuelTank,
 } from 'react-icons/gi';
 // FaTemperatureHigh
 import { BsThermometerHalf } from 'react-icons/bs';
@@ -20,10 +21,11 @@ const SCRIPT_MAP = {
   noSelect: 0,
   coal: 1,
   electra: 2,
-  wood: 3,
-  solar: 4,
-  wind: 5,
-  termal: 6,
+  gas: 3,
+  wood: 4,
+  solar: 5,
+  wind: 6,
+  termal: 7,
 };
 
 export default function Button({
@@ -39,6 +41,8 @@ export default function Button({
         return <GiLightningArc />;
       case 'wood':
         return <GiWoodPile />;
+      case 'gas':
+        return <GiFuelTank />;
       case 'solar':
         return <GiSolarPower />;
       case 'wind':

@@ -118,7 +118,7 @@ body {
   border-radius: 8px;
   box-shadow: 1px 4px 10px 1px rgba(0, 0, 0, 0.432);
   font-size: 1rem;
-  /* max-width: 310px !important; */
+  max-width: 340px !important;
 }
 .tippy-box div p {
   text-align: justify;
