@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="box-80">
+      <div >
         <p>
           Экологические характеристики сценариев развития объектов
           теплоэнергетики центральной экологической зоны получены при выполнении

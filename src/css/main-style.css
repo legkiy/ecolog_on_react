@@ -375,4 +375,9 @@ thead {
   width: 90%;
   margin: auto;
 }
-/* asdasdasd */
+.footer {
+  background-color: rgb(14, 71, 107);
+  line-height: normal;
+  padding: 10px 20px;
+  color: white;
+}
