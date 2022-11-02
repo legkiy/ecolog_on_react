@@ -1,7 +1,7 @@
 import React from 'react';
 import CollData from './CollData';
 
-function RegionTable({ scripts, curState }) {
+function TableScriptChosen({ scripts, curState }) {
   return (
     <tr className={scripts.total ? 'reg-total' : 'reg-row'}>
       <CollData coll={'cherem_coal'} scripts={scripts} curState={curState} />
@@ -19,4 +19,4 @@ function RegionTable({ scripts, curState }) {
   );
 }
 
-export default RegionTable;
+export default TableScriptChosen;

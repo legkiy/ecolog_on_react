@@ -6,7 +6,7 @@
     "wood": 1,
     "oil": 0,
     "gas": 2,
-    "electric": 23
+    "electric": 27
   },
   {
     "id": 6,
@@ -24,7 +24,7 @@
     "wood": 1,
     "oil": 0,
     "gas": 3,
-    "electric": 3
+    "electric": 5
   },
   {
     "id": 8,

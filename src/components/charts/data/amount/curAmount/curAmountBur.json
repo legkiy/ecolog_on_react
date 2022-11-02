@@ -2,7 +2,7 @@
   {
     "id": 5,
     "localName": "Кабанский",
-    "cherem_coal": 25,
+    "cherem_coal": 27,
     "coal": 0,
     "wood": 1,
     "oil": 0,
@@ -23,11 +23,11 @@
     "id": 7,
     "localName": "Прибайкальский",
     "cherem_coal": 0,
-    "coal": 1,
+    "coal": 2,
     "wood": 1,
     "oil": 0,
     "gas": 3,
-    "electric": 2
+    "electric": 3
   },
   {
     "id": 8,

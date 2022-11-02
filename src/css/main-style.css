@@ -377,7 +377,7 @@ thead {
 }
 .footer {
   background-color: rgb(14, 71, 107);
-  line-height: normal;
+  line-height: 1.2;
   padding: 10px 20px;
   color: white;
 }

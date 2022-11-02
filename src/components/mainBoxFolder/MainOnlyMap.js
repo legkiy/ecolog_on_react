@@ -19,7 +19,7 @@ export default function MainOnlyMap({ scriptIndex }) {
     script.type = 'text/javascript';
     script.charset = 'utf-8';
     script.async = true;
-    script.src = urls[scriptIndex - 4];
+    script.src = urls[scriptIndex - 5];
     mapWay.appendChild(script);
   });
   return (

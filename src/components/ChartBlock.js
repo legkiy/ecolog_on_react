@@ -7,13 +7,29 @@ import script1Irk from './charts/data/amount/coal_script/irk_coal_script.json';
 import script1Bur from './charts/data/amount/coal_script/bur_coal_script.json';
 import script2Irk from './charts/data/amount/electra_script/irk_electra_script.json';
 import script2Bur from './charts/data/amount/electra_script/bur_electra_script.json';
+import script3Irk from './charts/data/amount/gas_script/irk_gas_script.json';
+import script3Bur from './charts/data/amount/gas_script/bur_gas_script.json';
+import script4Irk from './charts/data/amount/renew_script/irk_renew_script.json';
+import script4Bur from './charts/data/amount/renew_script/bur_renew_script.json';
 
 import powerIrk from './charts/data/power/curAmount/powerIrk.json';
 import powerBur from './charts/data/power/curAmount/powerBur.json';
 
 export default function ChartBlock({ scriptIndex }) {
-  const amountIrk = [curAmountIrk, script1Irk, script2Irk];
-  const amountBur = [curAmountBur, script1Bur, script2Bur];
+  const amountIrk = [
+    curAmountIrk,
+    script1Irk,
+    script2Irk,
+    script3Irk,
+    script4Irk,
+  ];
+  const amountBur = [
+    curAmountBur,
+    script1Bur,
+    script2Bur,
+    script3Bur,
+    script4Bur,
+  ];
 
   return (
     <div className="flex-box">

@@ -2,10 +2,13 @@ import React from 'react';
 import region from './boilerScript/now_script.json';
 import script1 from './boilerScript/coal_script.json';
 import script2 from './boilerScript/electra_script.json';
-import RegionScript from './TableScriptChosen';
+import script3 from './boilerScript/gas_script.json';
+import script4 from './boilerScript/renew_script.json';
+
+import TableScriptChosen from './TableScriptChosen';
 
 function TableData({ scriptIndex }) {
-  const scripts = [null, script1, script2];
+  const scripts = [null, script1, script2, script3, script4];
 
   return (
     <>
@@ -36,7 +39,7 @@ function TableData({ scriptIndex }) {
           {scriptIndex !== 0 ? (
             scripts[scriptIndex].map((scripts) =>
               curState.id === scripts.id ? (
-                <RegionScript
+                <TableScriptChosen
                   key={scripts.id}
                   scripts={scripts}
                   curState={curState}

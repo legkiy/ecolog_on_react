@@ -15,17 +15,18 @@ import { BsThermometerHalf } from 'react-icons/bs';
 //GiBarrelLeak
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
-// import recyclePower from '../img/recyclePower.png';
+import recyclePower from '../img/recyclePower.png';
 
 const SCRIPT_MAP = {
   noSelect: 0,
   coal: 1,
   electra: 2,
   gas: 3,
-  wood: 4,
-  solar: 5,
-  wind: 6,
-  termal: 7,
+  renew: 4,
+  wood: 5,
+  solar: 6,
+  wind: 7,
+  termal: 8,
 };
 
 export default function Button({
@@ -43,6 +44,8 @@ export default function Button({
         return <GiWoodPile />;
       case 'gas':
         return <GiFuelTank />;
+      case 'renew':
+        return <img src={recyclePower} className="img-recyclePower"></img>;
       case 'solar':
         return <GiSolarPower />;
       case 'wind':
