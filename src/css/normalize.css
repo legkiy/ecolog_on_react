@@ -361,6 +361,11 @@ h3 {
   padding: 0;
   margin: 0;
 }
+h4 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
 p {
   padding: 0;
   margin: 0;

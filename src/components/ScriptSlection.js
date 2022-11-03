@@ -2,7 +2,6 @@ import React from 'react';
 import ScriptButton from './ScriptButton';
 
 function ScriptSlection({ setScriptIndex }) {
-  // console.log(setScriptIndex)
   return (
     <div className="script-selection-box center-inside">
       <div className="center-inside">
@@ -60,6 +59,7 @@ function ScriptSlection({ setScriptIndex }) {
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
             <div>
+              <h4>Угольный</h4>
               <p>
                 Замещение черемховского угля в 31 котельной Слюдянского (9 шт.)
                 и Кабанского (22 шт.) районов на экологически более
@@ -74,6 +74,7 @@ function ScriptSlection({ setScriptIndex }) {
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
             <div>
+              <h4>Электрический</h4>
               <p>
                 Использование электроэнергии на цели теплоснабжения: <br />-
                 замещение угля в количестве 316,2 тыс. т и мазута 1,1 тыс. т на
@@ -90,6 +91,7 @@ function ScriptSlection({ setScriptIndex }) {
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
             <div>
+              <h4>Газовый</h4>
               <p>
                 - замещение угля в котельных на сжиженный и трубопроводный
                 природный газ;
@@ -105,6 +107,7 @@ function ScriptSlection({ setScriptIndex }) {
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
             <div>
+              <h4>Возобновляеммая энергетика</h4>
               <p>
                 - сооружение гибридных солнечно-дизельных комплексов в 3
                 населенных пунктах;

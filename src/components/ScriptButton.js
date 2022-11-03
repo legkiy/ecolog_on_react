@@ -45,7 +45,9 @@ export default function Button({
       case 'gas':
         return <GiFuelTank />;
       case 'renew':
-        return <img src={recyclePower} className="img-recyclePower"></img>;
+        return (
+          <img src={recyclePower} alt={''} className="img-recyclePower"></img>
+        );
       case 'solar':
         return <GiSolarPower />;
       case 'wind':
