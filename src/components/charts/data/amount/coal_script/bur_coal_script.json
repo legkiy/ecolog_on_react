@@ -11,8 +11,8 @@
   {
     "id": 6,
     "localName": "Баргузинский",
-    "coal": 4,
-    "wood": 2,
+    "coal": 6,
+    "wood": 0,
     "oil": 0,
     "gas": 0,
     "electric": 0
@@ -20,11 +20,11 @@
   {
     "id": 7,
     "localName": "Прибайкальский",
-    "coal": 1,
-    "wood": 1,
+    "coal": 2,
+    "wood": 2,
     "oil": 0,
     "gas": 3,
-    "electric": 2
+    "electric": 3
   },
   {
     "id": 8,

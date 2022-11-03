@@ -14,7 +14,7 @@
     "localName": "Иркутский",
     "cherem_coal": 0,
     "coal": 1,
-    "wood": 0,
+    "wood": 1,
     "oil": 1,
     "gas": 0,
     "electric": 2
@@ -23,7 +23,7 @@
     "id": 3,
     "localName": "Слюдянский",
     "cherem_coal": 9,
-    "coal": 7,
+    "coal": 8,
     "wood": 0,
     "oil": 0,
     "gas": 0,

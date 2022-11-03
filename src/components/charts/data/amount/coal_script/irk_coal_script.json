@@ -6,7 +6,7 @@
     "wood": 4,
     "oil": 0,
     "gas": 0,
-    "electric": 7
+    "electric": 10
   },
   {
     "id": 2,
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "localName": "Слюдянский",
-    "coal": 26,
+    "coal": 18,
     "wood": 0,
     "oil": 0,
     "gas": 0,

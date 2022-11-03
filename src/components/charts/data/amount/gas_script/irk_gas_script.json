@@ -3,7 +3,7 @@
     "id": 1,
     "localName": "Ольхонский",
     "coal": 0,
-    "wood": 4,
+    "wood": 5,
     "oil": 0,
     "gas": 3,
     "electric": 10
@@ -23,7 +23,7 @@
     "coal": 0,
     "wood": 0,
     "oil": 0,
-    "gas": 26,
+    "gas": 18,
     "electric": 8
   }
 ]
