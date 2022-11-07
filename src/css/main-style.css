@@ -63,7 +63,6 @@ body {
   background-color: rgb(21, 95, 141);
   color: white;
   height: 39px;
-
   padding: 0 10px;
 }
 .script-selection-title {
@@ -87,6 +86,10 @@ body {
 }
 .script-selection-button:active {
   transition: 0.05s;
+  transform: scale(1.9);
+  opacity: 0.6;
+}
+.selected {
   transform: scale(1.9);
   opacity: 0.6;
 }

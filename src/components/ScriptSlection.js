@@ -1,12 +1,13 @@
 import React from 'react';
 import ScriptButton from './ScriptButton';
 
-function ScriptSlection({ setScriptIndex }) {
+function ScriptSlection({ setScriptIndex, scriptIndex }) {
   return (
     <div className="script-selection-box center-inside">
       <div className="center-inside">
         <h2 className="script-selection-title">Энергетические ресурсы</h2>
         <ScriptButton
+          scriptIndex={scriptIndex}
           scriptCase={'wood'}
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
@@ -16,6 +17,7 @@ function ScriptSlection({ setScriptIndex }) {
           }
         />
         <ScriptButton
+          scriptIndex={scriptIndex}
           scriptCase={'solar'}
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
@@ -25,6 +27,7 @@ function ScriptSlection({ setScriptIndex }) {
           }
         />
         <ScriptButton
+          scriptIndex={scriptIndex}
           scriptCase={'wind'}
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
@@ -34,6 +37,7 @@ function ScriptSlection({ setScriptIndex }) {
           }
         />
         <ScriptButton
+          scriptIndex={scriptIndex}
           scriptCase={'termal'}
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
@@ -55,6 +59,7 @@ function ScriptSlection({ setScriptIndex }) {
         <div className="horizontal-border"></div>
         <h2 className="script-selection-title">Cценарии</h2>
         <ScriptButton
+          scriptIndex={scriptIndex}
           scriptCase={'coal'}
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
@@ -70,6 +75,7 @@ function ScriptSlection({ setScriptIndex }) {
           }
         />
         <ScriptButton
+          scriptIndex={scriptIndex}
           scriptCase={'electra'}
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
@@ -87,6 +93,7 @@ function ScriptSlection({ setScriptIndex }) {
           }
         />
         <ScriptButton
+          scriptIndex={scriptIndex}
           scriptCase={'gas'}
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={
@@ -103,6 +110,7 @@ function ScriptSlection({ setScriptIndex }) {
           }
         />
         <ScriptButton
+          scriptIndex={scriptIndex}
           scriptCase={'renew'}
           setScriptIndex={setScriptIndex}
           scriptDiscriptions={

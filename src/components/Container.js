@@ -26,7 +26,7 @@ function Container() {
           природных энергоресурсов.
         </p>
       </div>
-      <ScriptSlection setScriptIndex={setScriptIndex} />
+      <ScriptSlection setScriptIndex={setScriptIndex} scriptIndex={scriptIndex}/>
       <MainBox scriptIndex={scriptIndex} />
     </div>
   );

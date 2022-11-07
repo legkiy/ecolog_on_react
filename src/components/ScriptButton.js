@@ -29,6 +29,7 @@ export default function Button({
   setScriptIndex,
   scriptCase,
   scriptDiscriptions,
+  scriptIndex,
 }) {
   function getScriptIcon(scriptCase) {
     switch (scriptCase) {
@@ -59,6 +60,7 @@ export default function Button({
   const handleOnClick = () => {
     setScriptIndex(SCRIPT_MAP[scriptCase]);
   };
+
   return (
     <Tippy
       content={scriptDiscriptions}
@@ -67,7 +69,9 @@ export default function Button({
       appendTo={'parent'}
     >
       <button
-        className="script-selection-button"
+        className={`script-selection-button ${
+          Object.keys(SCRIPT_MAP)[scriptIndex] === scriptCase && 'selected'
+        }`}
         type="button"
         onClick={() => handleOnClick()}
       >
