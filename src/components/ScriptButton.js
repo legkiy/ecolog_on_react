@@ -7,12 +7,8 @@ import {
   GiWindTurbine,
   GiFuelTank,
 } from 'react-icons/gi';
-// FaTemperatureHigh
 import { BsThermometerHalf } from 'react-icons/bs';
 
-// import { GiFuelTank } from 'react-icons/gi';
-// import { TiCancel } from 'react-icons/ti';
-//GiBarrelLeak
 import Tippy from '@tippyjs/react';
 import 'tippy.js/dist/tippy.css';
 import recyclePower from '../img/recyclePower.png';

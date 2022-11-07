@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function MapDiscription({ scriptIndex }) {
-  if (scriptIndex === 4) {
+  if (scriptIndex === 6) {
     return (
       <div className="footnote">
         <ul>
@@ -20,7 +20,7 @@ export default function MapDiscription({ scriptIndex }) {
         </ul>
       </div>
     );
-  } else if (scriptIndex === 5) {
+  } else if (scriptIndex === 7) {
     return (
       <div className="footnote">
         <ul>
@@ -28,11 +28,11 @@ export default function MapDiscription({ scriptIndex }) {
         </ul>
       </div>
     );
-  } else if (scriptIndex === 6) {
+  } else if (scriptIndex === 8) {
     return (
       <div className="footnote">
         <ul>
-          <li>Тумпература указана в &deg;C</li>
+          <li>По каждой высоте указаа тумпература в &deg;C</li>
           <li>h &mdash; глубина измерения температуры</li>
         </ul>
       </div>
