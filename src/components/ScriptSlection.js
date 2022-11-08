@@ -1,8 +1,5 @@
 import React from 'react';
 import ScriptButton from './ScriptButton';
-const SCRIPT_MAP = {
-  noSelect: 0,
-}
 
 function ScriptSlection({ setScriptIndex, scriptIndex }) {
   return (
@@ -53,9 +50,7 @@ function ScriptSlection({ setScriptIndex, scriptIndex }) {
       <div className="horizontal-border"></div>
       <div className="center-inside">
         <button
-          className={`no-select ${
-            Object.keys(SCRIPT_MAP)[scriptIndex] === 'noSelect' && 'selected-now-script'
-          }`}
+          className={`no-select ${scriptIndex === 0 && 'selected-now-script'}`}
           onClick={() => setScriptIndex(0)}
           type="button"
         >
