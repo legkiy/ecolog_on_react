@@ -277,7 +277,6 @@ body {
 .curr-status-table {
   border-collapse: collapse;
   width: 100%;
-  cursor: default;
 }
 .coll-title {
   vertical-align: middle;

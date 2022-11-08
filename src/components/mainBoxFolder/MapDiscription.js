@@ -32,7 +32,7 @@ export default function MapDiscription({ scriptIndex }) {
     return (
       <div className="footnote">
         <ul>
-          <li>По каждой высоте указаа тумпература в &deg;C</li>
+          <li>По каждой высоте тумпература указана в &deg;C</li>
           <li>h &mdash; глубина измерения температуры</li>
         </ul>
       </div>
