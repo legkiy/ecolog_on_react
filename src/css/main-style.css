@@ -108,6 +108,10 @@ body {
   transform: scale(0.98);
   opacity: 0.6;
 }
+.selected-now-script {
+  transform: scale(0.98);
+  opacity: 0.6;
+}
 .horizontal-border {
   height: 1.2rem;
   border-radius: 5px;
