@@ -1,1087 +1,10 @@
 {
   "type": "FeatureCollection",
-  "metadata": { "name": "котельные.kml", "creator": "Yandex Map Constructor" },
+  "metadata": { "name": "coal", "creator": "Yandex Map Constructor" },
   "features": [
     {
       "type": "Feature",
       "id": 0,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.2988092173694, 53.47989586478543]
-      },
-      "properties": {
-        "description": "Котельная  СОШ, с. Адамовское\n\nУстановленная мощность 1,02 Гкал/ч\n\nСП «Адамовское»",
-        "marker-color": "#8a4b22"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 1,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [108.3015262319964, 52.9878051820555]
-      },
-      "properties": {
-        "description": "Котельная Горячинск курорт\n\nУстановленная мощность 3,1 Гкал/ч\n\n2 котла",
-        "marker-color": "#8a4b22"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 2,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [107.9766663452452, 52.80008974600682]
-      },
-      "properties": {
-        "description": "Котельная гремячинск <br/>\n\nУстановленная мощность 0,4 Гкал/ч\n\n2 котла",
-        "marker-color": "#8a4b22"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 3,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [108.2245396751371, 52.94673980449835]
-      },
-      "properties": {
-        "description": "Котельная Школа Турка\n\nУстановленная мощность 1,8 Гкал/ч\n\n1 котел",
-        "marker-color": "#8a4b22"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 4,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [108.222867827236, 52.93056482220316]
-      },
-      "properties": {
-        "description": "Котельная Турка\n\nУстановленная мощность 4,3 Гкал/ч",
-        "marker-color": "#8a4b22"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 5,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [108.2184868973025, 52.94732535120473]
-      },
-      "properties": {
-        "description": "Котельная Турка\n\nУстановленная мощность 5,2 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 6,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.2654617611404, 53.43069034626527]
-      },
-      "properties": {
-        "description": "Котельная ООШ, с. Гусиха\n\nУстановленная мощность 0,54 Гкал/ч\n\nГП «Усть-Баргузин»",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 7,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.0273165370643, 53.40965899117119]
-      },
-      "properties": {
-        "description": "Котельная МУЗ ЦРБ, п. Усть-Баргузин\n\nУстановленная мощность 2,25 Гкал/ч\n\nГП «Усть-Баргузин»",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 8,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.0402937719004, 53.40707614510968]
-      },
-      "properties": {
-        "description": "Котельная д/с«Солнышко»\n\nУстановленная мощность 1,36 Гкал/ч\n\nГП «Усть-Баргузин»",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 9,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.0378765016755, 53.39992051967699]
-      },
-      "properties": {
-        "description": "Котельная ДЮСШ\n\nУстановленная мощность 1,02 Гкал/ч\n\nГП «Усть-Баргузин»",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 10,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.0453265170654, 53.40294746445954]
-      },
-      "properties": {
-        "description": "Малая котельная\n\nУстановленная мощность 2,117 Гкал/ч\n\nГП «Усть-Баргузин»",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 11,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [105.8431847930825, 51.70926330228854]
-      },
-      "properties": {
-        "description": "Котельная №2, г. Бабушкин\n\nУстановленная мощность 1,81 Гкал/ч\n\nООО \"Комфорт\"",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 12,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [105.8518672716923, 51.71238048501738]
-      },
-      "properties": {
-        "description": "Котельная №4, г. Бабушкин\n\nУстановленная мощность 5,5 Гкал/ч\n\n ООО \"Комфорт\"",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 13,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [105.8620527317314, 51.71683795136048]
-      },
-      "properties": {
-        "description": "Котельная №1, г. Бабушкин\n\nУстановленная мощность 2,4 Гкал/ч\n\nООО \"Комфорт\"",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 14,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [105.75997823224, 51.68696389209332]
-      },
-      "properties": {
-        "description": "Котельная №1, Клюевка\n\nУстановленная мощность 1,2 Гкал/ч\n\nООО \"Комфорт\"",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 15,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.6511103213496, 52.04864616198861]
-      },
-      "properties": {
-        "description": "Котельная №3 Кабанск\n\nУстановленная мощность 3,4 Гкал/ч\n\n6 котлов",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 16,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.6427198495295, 52.0587996434296]
-      },
-      "properties": {
-        "description": "Котельная №6 Кабанск\n\nУстановленная мощность 3,4 Гкал/ч\n\n6 котлов",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 17,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.4704585618508, 52.18340786764421]
-      },
-      "properties": {
-        "description": "Котельная с. Шигаево\n\nУстановленная мощность 2,2 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 18,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.4871901576912, 52.16989408416114]
-      },
-      "properties": {
-        "description": "Котельная с. Творогово\n\nУстановленная мощность 2,2 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 19,
-      "geometry": { "type": "Point", "coordinates": [104.637972, 51.466072] },
-      "properties": {
-        "description": "Котельная №1 Выдрино\n\nУстановленная мощность 0,1 Гкал/ч\n\n6 котлов",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 20,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.648686, 51.44693399999999]
-      },
-      "properties": {
-        "description": "Котельная №2 Выдрино\n\nУстановленная мощность 1 Гкал/ч\n\n4 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 21,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.6447281632969, 51.45908626395016]
-      },
-      "properties": {
-        "description": "Котельная №3 Выдрино\n\nУстановленная мощность 0,1 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 22,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.6559166104856, 51.4707005639044]
-      },
-      "properties": {
-        "description": "Котельная №4 Выдрино\n\nУстановленная мощность 0,5  Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 23,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.1922431209695, 52.02280496741152]
-      },
-      "properties": {
-        "description": "Котельная, с. Посольское (новостройка)\n\nУстановленная мощность 2,7 Гкал/ч\n\nООО \"Тепломастер\"",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 24,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.1841823937352, 52.02034833466897]
-      },
-      "properties": {
-        "description": "Котельная, с. Посольское (школа)\n\nУстановленная мощность 1,8 Гкал/ч\n\nООО \"Тепломастер\"",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 25,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.551431908101, 52.10751002041987]
-      },
-      "properties": {
-        "description": "Котельная, с. Колесово\n\nУстановленная мощность 1,3 Гкал/ч\n\n ООО \"Тепломастер\"",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 26,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.6529169084727, 52.22524897663749]
-      },
-      "properties": {
-        "description": "Котельная №13, с. Байкало-Кудара\n\nУстановленная мощность 1,8 Гкал/ч\n\nООО \"Тепломастер\"",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 27,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.8356734836783, 52.31926293776449]
-      },
-      "properties": {
-        "description": "Котельная, с. Оймур\n\nУстановленная мощность 1,2 Гкал/ч\n\n ООО \"Тепломастер\"",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 28,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.6492040383646, 52.228704770995]
-      },
-      "properties": {
-        "description": "Котельная №9, с. Байкало-Кудара\n\nУстановленная мощность 2,7 Гкал/ч\n\nООО \"Тепломастер\"",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 29,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.6184191192416, 52.25331712037143]
-      },
-      "properties": {
-        "description": "Котельная, с. Корсаково\n\nУстановленная мощность 1,8 Гкал/ч\n\n ООО \"Тепломастер\"",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 30,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.7326063629672, 52.11484144997912]
-      },
-      "properties": {
-        "description": "Котельная с. Шергино\n\nУстановленная мощность 1,6 Гкал/ч\n\nОАО Передвижная механизированная колонна",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 31,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.310810962055, 55.63885445653218]
-      },
-      "properties": {
-        "description": "Котельная №6, г. Северобайкальк\t\n\nУстановленная мощность 6 Гкал/ч\n\n4 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 32,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.1896246573323, 55.36155827147278]
-      },
-      "properties": {
-        "description": "Котельная с.Байкальское\n\nУстановленная мощность 0,3 Гкал/ч\n\n3 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 33,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.3268122020318, 55.64540385780974]
-      },
-      "properties": {
-        "description": "Котельная №11 г. Северобайкальск\n\nУстановекнная мощность 12,9 Гкал/ч\n\n3 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 34,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.3581443578524, 55.64659252078427]
-      },
-      "properties": {
-        "description": "Центральная котельная \n\nУстановленная мощность 164 Гкал/ч",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 35,
-      "geometry": { "type": "Point", "coordinates": [109.333471, 55.622972] },
-      "properties": {
-        "description": "Котельная № 12, г. Северобайкальск\n\nУстановленная мощность 12,9 Гкал/ч\n\n3 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 36,
-      "geometry": { "type": "Point", "coordinates": [109.350529, 55.636366] },
-      "properties": {
-        "description": "Котельная №10, г. Северобайкальск\n\nУстановленная мощность 8,6 Гкал/ч\n\n4 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 37,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.7638280572339, 55.88123486574538]
-      },
-      "properties": {
-        "description": "Котельная с. Холодное ул. Таежная 5а\n\nУстановленная мощность 0,8 Гкал/ч\n\n4 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 38,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [110.1400906745686, 55.84583316160344]
-      },
-      "properties": {
-        "description": "Котельная п. Верхняя заимка\n\nУстановленная мощность 7,24 Гкал/ч\n\n4 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 39,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [110.102104767702, 55.93769251357615]
-      },
-      "properties": {
-        "description": "Котельная №11 п. Кичера \n\nУстановленная Мощность 10,53 Гкал/ч\n\n3 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 40,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [110.0975492868713, 55.92861186313149]
-      },
-      "properties": {
-        "description": "Центральная котельная п. Кичера\n\nУстановленная мощность 14,6 Гкал/ч\n\n3 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 41,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.5804901540062, 55.78550896391866]
-      },
-      "properties": {
-        "description": "Котельная БТС п. Нижнеангарск\n\nУстановленная мощность 4,38 Гкал/ч\n\n4 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 42,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.5611459320235, 55.77654056631512]
-      },
-      "properties": {
-        "description": "Центральная котельная п. Нижнеангарск\nул. Ленина 111а\n\nУстановленная мощность 10,3 Гкал/ч\n\n12 котлов",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 43,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.552086790291, 55.76716561090476]
-      },
-      "properties": {
-        "description": "Котельная Пристань п. Нижнеангарск\n\nУстановленная мощность 0,6 Гкал/ч\n\n3 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 44,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.5857216432162, 55.79851780219441]
-      },
-      "properties": {
-        "description": "Котельная ВГСО п. Нижнеангарск\n\nУстановленная мощность 1,93 Гкал/ч\n\n4 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 45,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [109.5947164709082, 55.79503371402535]
-      },
-      "properties": {
-        "description": "Котельная МК-142, п. Нижнеангарск\n\nУстановленная мощность 2,25 Гкал/ч\n\n3 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 46,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.7919098328389, 51.87584174116111]
-      },
-      "properties": {
-        "description": "Котельная \"Баранчик\"\n\nУстановленная мощность 0,3 Гкал/ч\n\n1 котел",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 47,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.8077272907349, 51.86996389373648]
-      },
-      "properties": {
-        "description": "Котельная Центральная \n\nУстановленная мощность 0,732 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 48,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.7853155167343, 51.87350427399131]
-      },
-      "properties": {
-        "description": "Котельная школы \n\nУстановленная мощность 0,1 Гкал/ч\n\n4 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 49,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.792711204259, 51.87440749276104]
-      },
-      "properties": {
-        "description": "Котельная д/сад №21\n\nУстановленная мощность 0,2 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 50,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.0614029617614, 51.54174388554339]
-      },
-      "properties": {
-        "description": "Котельная №1 п. Утулик\n\nУстановленная мощность 1,2 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 51,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.7544146646919, 51.75206046608744]
-      },
-      "properties": {
-        "description": "Котельная ст. Ангасолка\n\nУстановленная мощность 7,68 Гкал/ч\n\n3 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 52,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.7064132030883, 51.65143322845808]
-      },
-      "properties": {
-        "description": "Котельная СОБбаза\n\nУстановленная мощность 0,5 Гкал/ч",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 53,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.7064132030883, 51.65143322845808]
-      },
-      "properties": {
-        "description": "Котельная МедСклады\n\nУстановленная мощность 1,2 Гкал/ч",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 54,
-      "geometry": { "type": "Point", "coordinates": [103.686968, 51.668511] },
-      "properties": {
-        "description": "Котельная Стройка, Слюдянка, Ул. Вербная 2а\n\nУстановленная мощность 4,22 Гкал/ч\n\n5 котлов",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 55,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.7052371268241, 51.66198643378588]
-      },
-      "properties": {
-        "description": "Котельная СМП\n\nУстановленная мощность 3,5 Гкал/ч\n\n3 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 56,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.6556242205639, 51.64795333439775]
-      },
-      "properties": {
-        "description": "Котельная Перевал \n\nУстановленная мощность 7,5 Гкал/ч\n\n3 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 57,
-      "geometry": { "type": "Point", "coordinates": [103.728709, 51.65357] },
-      "properties": {
-        "description": "Котельная Центральная, Слюдянка ул. Бабушкина 23\n\nУстановленная мощность 43,05 Гкал/ч\n\n4 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 58,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.7046660342622, 51.64366699999999]
-      },
-      "properties": {
-        "description": "Котельная РУДО, Слюдянка, ул. Слюдяная, 2\n\nУстановленная мощность 15,211 Гкал/ч\n\n3 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 59,
-      "geometry": { "type": "Point", "coordinates": [103.70618, 51.639958] },
-      "properties": {
-        "description": "Котельная Дом ребенка\n\nУстановленная мощность 0,806 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 60,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.7163649933984, 51.65700883227468]
-      },
-      "properties": {
-        "description": "Котельная Ростелеком\n\nУстановленная мощность 0,518 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 61,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.1820151683799, 51.51466159655556]
-      },
-      "properties": {
-        "description": "Котельная г. Байкальск\n\nУстановленная мощность 99 Гкал/ч \n\n4 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 62,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.6917881371109, 51.71932590415963]
-      },
-      "properties": {
-        "description": "Котельная \"Куба, с. Култук\n\nУстановленная мощность 2,68 Гкал/ч \n\n4 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 63,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.7047671520481, 51.72526749712237]
-      },
-      "properties": {
-        "description": "Котельная МБОУ СОШ №7\n\nУстановленная мощность 0,023 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 64,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.6697704676868, 51.72109656590459]
-      },
-      "properties": {
-        "description": "Котельная Мед.склады, п. Култук\n\nУстановленная мощность 0,64 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 65,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.6769783021219, 51.71891005699597]
-      },
-      "properties": {
-        "description": "Котельная \"АвтоВнешТранс\"\n\nУстановленная мощность 3,82 Гкал/ч\n\n4 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 66,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.731069, 51.95228199999999]
-      },
-      "properties": {
-        "description": "Котельная средняя школа п. Большая Речка \n\nУстановленная мощность 0,45 Гкал/ч\n\n3 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 67,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.8777909423526, 51.84660508339054]
-      },
-      "properties": {
-        "description": "Котельная п. Листвянка ул. Гудина\n\nУстановленная мощность 1,88 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 68,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.0708474266862, 52.54884981521892]
-      },
-      "properties": {
-        "description": "Котельная Бугульдейской СОШ\n\nУстановленная мощность 1 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 69,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.4149042036007, 52.80119101083242]
-      },
-      "properties": {
-        "description": "Электро котельная Подстанция\n\nУстановленная мощность 0,4 Гкал/ч\n\nЕланцы",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 70,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.404656984894, 52.79764869948267]
-      },
-      "properties": {
-        "description": "Центральная п.Еланцы\n\nУстановленная мощность 3,5 Гкал/ч\n\n5 котлов",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 71,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.4002446153039, 52.79882513345635]
-      },
-      "properties": {
-        "description": "Школьная котельная\n\nУстановленная мощность 2Гкал/ч\n\n3 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 72,
-      "geometry": { "type": "Point", "coordinates": [106.399765, 52.797446] },
-      "properties": {
-        "description": "Больничная \n\nУстановленная мощность 1,7 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 73,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.4027317691233, 52.80621432410743]
-      },
-      "properties": {
-        "description": "ГУ Гослес-хоз\n\nУстановленная мощность 1,1 Гкал/ч",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 74,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.3938742117613, 52.79503888188062]
-      },
-      "properties": {
-        "description": "АО «Сельстрой\n\nУстановленная мощность 0,5 Гкал/ч",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 75,
-      "geometry": { "type": "Point", "coordinates": [104.830413, 51.885166] },
-      "properties": {
-        "description": "Котельная п. Листвянка ул. Октябрьская\n\nУстановленная мощность 6,8 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 76,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.7576076541615, 51.64582092486452]
-      },
-      "properties": {
-        "description": "Эл котельная                         п. Сухой ручей\n\nУстановленная мощность 0,051 Гкал/ч\n\n1 котел",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 77,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.680116536193, 51.71737825566986]
-      },
-      "properties": {
-        "description": "эл. котельная ЮЭС п. Култук\n\nУстановленная мощность 0,22 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 78,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.7224953065354, 51.72978412167096]
-      },
-      "properties": {
-        "description": "4-й участок (ЭЧ-44) п. Култук\n\nУстановленная мощность 0,25 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 79,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.0767097740714, 52.54953752809678]
-      },
-      "properties": {
-        "description": "ЭлКотельная Бугульдейского ДС\n\nУстановленная мощность 0,2 Гкал/ч\n\n3 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 80,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.4057174641027, 52.79998241895521]
-      },
-      "properties": {
-        "description": "Котельная Еланцынской СОШ\n\nУстановленная мощность 1,032 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 81,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.2110869142035, 52.81871244837581]
-      },
-      "properties": {
-        "description": "Котельная Куретской СОШ\n\nУстановленная мощность 0,411 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 82,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [107.3390078742607, 53.19496969320155]
-      },
-      "properties": {
-        "description": "Котельная Хужирской СОШ\n\nУстановленная мощность 0,516 Гкал/ч\n\n3 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 83,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [107.3448002341481, 53.19167198890422]
-      },
-      "properties": {
-        "description": "Котельная Хужирского ДС\n\nУстановленная мощность 0,8 Гкал/ч\n\n1 котел",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 84,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [107.590095209452, 53.63142783201602]
-      },
-      "properties": {
-        "description": "Котельная Онгуренской СОШ\n\nУстановленная мощность 0,2 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 85,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.5028343843667, 52.87897839739406]
-      },
-      "properties": {
-        "description": "Котельная Тонтинской СОШ\n\nУстановленная мощность 0,688 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 86,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.2368581280699, 51.49814496147329]
-      },
-      "properties": {
-        "description": "Электрокотельная п. Солзан, ул. Привокзальная, 20\n\nУстановленная мощность 0,054 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 87,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.6696819499432, 51.72391712933279]
-      },
-      "properties": {
-        "description": "Эл.котельная, Култук, ул. Матросова, 23\n\nУстановленная мощность 0,69 Гкал/ч\n\n2 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 88,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.6942777520814, 51.72060934567323]
-      },
-      "properties": {
-        "description": "Эл.котельная, Култук ул. Депутатская, 4А\n\nУстановленная мощность 0,21 Гкал/ч\n\n4 котла",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 89,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.8736319421438, 51.84726984941284]
-      },
-      "properties": {
-        "description": "Электрокотельная ОАО \"ИркутскЭнерго\" в п. Листвянка\n\nУстановленная мощность 3,4 Гкал/ч\n\n1 котел",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 90,
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.8302174801735, 51.86895191143645]
-      },
-      "properties": {
-        "description": "Электрокотельная Байкал Отель\n\nУстановленная мощность 8 Гкал/ч\n\n8 котлов",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 91,
-      "geometry": { "type": "Point", "coordinates": [106.222763, 52.677594] },
-      "properties": {
-        "description": "Таловка\n\nУстановленная мощность 0,1 Гкал/ч",
-        "marker-color": "#1e98ff"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": 92,
       "geometry": {
         "type": "LineString",
         "coordinates": [
@@ -1345,9 +268,1086 @@
       },
       "properties": {
         "description": "Ковыкта - Благовещенск",
-        "stroke": "#56db40",
+        "stroke": "#1bad03",
         "stroke-width": "3",
         "stroke-opacity": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.2988092173694, 53.47989586478543]
+      },
+      "properties": {
+        "description": "Котельная  СОШ, с. Адамовское\n\nУстановленная мощность 1,02 Гкал/ч\n\nСП «Адамовское»",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.3015262319964, 52.9878051820555]
+      },
+      "properties": {
+        "description": "Котельная Горячинск курорт\n\nУстановленная мощность 3,1 Гкал/ч\n\n2 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.9766663452452, 52.80008974600682]
+      },
+      "properties": {
+        "description": "Котельная гремячинск <br/>\n\nУстановленная мощность 0,4 Гкал/ч\n\n2 котла",
+        "marker-color": "#56db40"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2245396751371, 52.94673980449835]
+      },
+      "properties": {
+        "description": "Котельная Школа Турка\n\nУстановленная мощность 1,8 Гкал/ч\n\n1 котел",
+        "marker-color": "#1e98ff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.222867827236, 52.93056482220316]
+      },
+      "properties": {
+        "description": "Котельная Турка\n\nУстановленная мощность 4,3 Гкал/ч",
+        "marker-color": "#1e98ff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.2184868973025, 52.94732535120473]
+      },
+      "properties": {
+        "description": "Котельная Турка\n\nУстановленная мощность 5,2 Гкал/ч\n\n2 котла",
+        "marker-color": "#1e98ff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.2654617611404, 53.43069034626527]
+      },
+      "properties": {
+        "description": "Котельная ООШ, с. Гусиха\n\nУстановленная мощность 0,54 Гкал/ч\n\nГП «Усть-Баргузин»",
+        "marker-color": "#1e98ff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.0273165370643, 53.40965899117119]
+      },
+      "properties": {
+        "description": "Котельная МУЗ ЦРБ, п. Усть-Баргузин\n\nУстановленная мощность 2,25 Гкал/ч\n\nГП «Усть-Баргузин»",
+        "marker-color": "#56db40"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.0402937719004, 53.40707614510968]
+      },
+      "properties": {
+        "description": "Котельная д/с«Солнышко»\n\nУстановленная мощность 1,36 Гкал/ч\n\nГП «Усть-Баргузин»",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.0378765016755, 53.39992051967699]
+      },
+      "properties": {
+        "description": "Котельная ДЮСШ\n\nУстановленная мощность 1,02 Гкал/ч\n\nГП «Усть-Баргузин»",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.0453265170654, 53.40294746445954]
+      },
+      "properties": {
+        "description": "Малая котельная\n\nУстановленная мощность 2,117 Гкал/ч\n\nГП «Усть-Баргузин»",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.8431847930825, 51.70926330228854]
+      },
+      "properties": {
+        "description": "Котельная №2, г. Бабушкин\n\nУстановленная мощность 1,81 Гкал/ч\n\nООО \"Комфорт\"",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.8518672716923, 51.71238048501738]
+      },
+      "properties": {
+        "description": "Котельная №4, г. Бабушкин\n\nУстановленная мощность 5,5 Гкал/ч\n\n ООО \"Комфорт\"",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.8620527317314, 51.71683795136048]
+      },
+      "properties": {
+        "description": "Котельная №1, г. Бабушкин\n\nУстановленная мощность 2,4 Гкал/ч\n\nООО \"Комфорт\"",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [105.75997823224, 51.68696389209332]
+      },
+      "properties": {
+        "description": "Котельная №1, Клюевка\n\nУстановленная мощность 1,2 Гкал/ч\n\nООО \"Комфорт\"",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6511103213496, 52.04864616198861]
+      },
+      "properties": {
+        "description": "Котельная №3 Кабанск\n\nУстановленная мощность 3,4 Гкал/ч\n\n6 котлов",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6427198495295, 52.0587996434296]
+      },
+      "properties": {
+        "description": "Котельная №6 Кабанск\n\nУстановленная мощность 3,4 Гкал/ч\n\n6 котлов",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.4704585618508, 52.18340786764421]
+      },
+      "properties": {
+        "description": "Котельная с. Шигаево\n\nУстановленная мощность 2,2 Гкал/ч\n\n2 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.4871901576912, 52.16989408416114]
+      },
+      "properties": {
+        "description": "Котельная с. Творогово\n\nУстановленная мощность 2,2 Гкал/ч\n\n2 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": { "type": "Point", "coordinates": [104.637972, 51.466072] },
+      "properties": {
+        "description": "Котельная №1 Выдрино\n\nУстановленная мощность 0,1 Гкал/ч\n\n6 котлов",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.648686, 51.44693399999999]
+      },
+      "properties": {
+        "description": "Котельная №2 Выдрино\n\nУстановленная мощность 1 Гкал/ч\n\n4 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.6447281632969, 51.45908626395016]
+      },
+      "properties": {
+        "description": "Котельная №3 Выдрино\n\nУстановленная мощность 0,1 Гкал/ч\n\n2 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.6559166104856, 51.4707005639044]
+      },
+      "properties": {
+        "description": "Котельная №4 Выдрино\n\nУстановленная мощность 0,5  Гкал/ч\n\n2 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.1922431209695, 52.02280496741152]
+      },
+      "properties": {
+        "description": "Котельная, с. Посольское (новостройка)\n\nУстановленная мощность 2,7 Гкал/ч\n\nООО \"Тепломастер\"",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.1841823937352, 52.02034833466897]
+      },
+      "properties": {
+        "description": "Котельная, с. Посольское (школа)\n\nУстановленная мощность 1,8 Гкал/ч\n\nООО \"Тепломастер\"",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.551431908101, 52.10751002041987]
+      },
+      "properties": {
+        "description": "Котельная, с. Колесово\n\nУстановленная мощность 1,3 Гкал/ч\n\n ООО \"Тепломастер\"",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6529169084727, 52.22524897663749]
+      },
+      "properties": {
+        "description": "Котельная №13, с. Байкало-Кудара\n\nУстановленная мощность 1,8 Гкал/ч\n\nООО \"Тепломастер\"",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.8356734836783, 52.31926293776449]
+      },
+      "properties": {
+        "description": "Котельная, с. Оймур\n\nУстановленная мощность 1,2 Гкал/ч\n\n ООО \"Тепломастер\"",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6492040383646, 52.228704770995]
+      },
+      "properties": {
+        "description": "Котельная №9, с. Байкало-Кудара\n\nУстановленная мощность 2,7 Гкал/ч\n\nООО \"Тепломастер\"",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6184191192416, 52.25331712037143]
+      },
+      "properties": {
+        "description": "Котельная, с. Корсаково\n\nУстановленная мощность 1,8 Гкал/ч\n\n ООО \"Тепломастер\"",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.7326063629672, 52.11484144997912]
+      },
+      "properties": {
+        "description": "Котельная с. Шергино\n\nУстановленная мощность 1,6 Гкал/ч\n\nОАО Передвижная механизированная колонна",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.310810962055, 55.63885445653218]
+      },
+      "properties": {
+        "description": "Котельная №6, г. Северобайкальк\t\n\nУстановленная мощность 6 Гкал/ч\n\n4 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.1896246573323, 55.36155827147278]
+      },
+      "properties": {
+        "description": "Котельная с.Байкальское\n\nУстановленная мощность 0,3 Гкал/ч\n\n3 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.3268122020318, 55.64540385780974]
+      },
+      "properties": {
+        "description": "Котельная №11 г. Северобайкальск\n\nУстановекнная мощность 12,9 Гкал/ч\n\n3 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.3581443578524, 55.64659252078427]
+      },
+      "properties": {
+        "description": "Центральная котельная \n\nУстановленная мощность 164 Гкал/ч",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": { "type": "Point", "coordinates": [109.333471, 55.622972] },
+      "properties": {
+        "description": "Котельная № 12, г. Северобайкальск\n\nУстановленная мощность 12,9 Гкал/ч\n\n3 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": { "type": "Point", "coordinates": [109.350529, 55.636366] },
+      "properties": {
+        "description": "Котельная №10, г. Северобайкальск\n\nУстановленная мощность 8,6 Гкал/ч\n\n4 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.7638280572339, 55.88123486574538]
+      },
+      "properties": {
+        "description": "Котельная с. Холодное ул. Таежная 5а\n\nУстановленная мощность 0,8 Гкал/ч\n\n4 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.1400906745686, 55.84583316160344]
+      },
+      "properties": {
+        "description": "Котельная п. Верхняя заимка\n\nУстановленная мощность 7,24 Гкал/ч\n\n4 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.102104767702, 55.93769251357615]
+      },
+      "properties": {
+        "description": "Котельная №11 п. Кичера \n\nУстановленная Мощность 10,53 Гкал/ч\n\n3 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.0975492868713, 55.92861186313149]
+      },
+      "properties": {
+        "description": "Центральная котельная п. Кичера\n\nУстановленная мощность 14,6 Гкал/ч\n\n3 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.5804901540062, 55.78550896391866]
+      },
+      "properties": {
+        "description": "Котельная БТС п. Нижнеангарск\n\nУстановленная мощность 4,38 Гкал/ч\n\n4 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.5611459320235, 55.77654056631512]
+      },
+      "properties": {
+        "description": "Центральная котельная п. Нижнеангарск\nул. Ленина 111а\n\nУстановленная мощность 10,3 Гкал/ч\n\n12 котлов",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.552086790291, 55.76716561090476]
+      },
+      "properties": {
+        "description": "Котельная Пристань п. Нижнеангарск\n\nУстановленная мощность 0,6 Гкал/ч\n\n3 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.5857216432162, 55.79851780219441]
+      },
+      "properties": {
+        "description": "Котельная ВГСО п. Нижнеангарск\n\nУстановленная мощность 1,93 Гкал/ч\n\n4 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.5947164709082, 55.79503371402535]
+      },
+      "properties": {
+        "description": "Котельная МК-142, п. Нижнеангарск\n\nУстановленная мощность 2,25 Гкал/ч\n\n3 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.7919098328389, 51.87584174116111]
+      },
+      "properties": {
+        "description": "Котельная \"Баранчик\"\n\nУстановленная мощность 0,3 Гкал/ч\n\n1 котел",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.8077272907349, 51.86996389373648]
+      },
+      "properties": {
+        "description": "Котельная Центральная \n\nУстановленная мощность 0,732 Гкал/ч\n\n2 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.7853155167343, 51.87350427399131]
+      },
+      "properties": {
+        "description": "Котельная школы \n\nУстановленная мощность 0,1 Гкал/ч\n\n4 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.792711204259, 51.87440749276104]
+      },
+      "properties": {
+        "description": "Котельная д/сад №21\n\nУстановленная мощность 0,2 Гкал/ч\n\n2 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.0614029617614, 51.54174388554339]
+      },
+      "properties": {
+        "description": "Котельная №1 п. Утулик\n\nУстановленная мощность 1,2 Гкал/ч\n\n2 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.7544146646919, 51.75206046608744]
+      },
+      "properties": {
+        "description": "Котельная ст. Ангасолка\n\nУстановленная мощность 7,68 Гкал/ч\n\n3 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.7064132030883, 51.65143322845808]
+      },
+      "properties": {
+        "description": "Котельная СОБбаза\n\nУстановленная мощность 0,5 Гкал/ч",
+        "marker-color": "#1e98ff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.7064132030883, 51.65143322845808]
+      },
+      "properties": {
+        "description": "Котельная МедСклады\n\nУстановленная мощность 1,2 Гкал/ч",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": { "type": "Point", "coordinates": [103.686968, 51.668511] },
+      "properties": {
+        "description": "Котельная Стройка, Слюдянка, Ул. Вербная 2а\n\nУстановленная мощность 4,22 Гкал/ч\n\n5 котлов",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.7052371268241, 51.66198643378588]
+      },
+      "properties": {
+        "description": "Котельная СМП\n\nУстановленная мощность 3,5 Гкал/ч\n\n3 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.6556242205639, 51.64795333439775]
+      },
+      "properties": {
+        "description": "Котельная Перевал \n\nУстановленная мощность 7,5 Гкал/ч\n\n3 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": { "type": "Point", "coordinates": [103.728709, 51.65357] },
+      "properties": {
+        "description": "Котельная Центральная, Слюдянка ул. Бабушкина 23\n\nУстановленная мощность 43,05 Гкал/ч\n\n4 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.7046660342622, 51.64366699999999]
+      },
+      "properties": {
+        "description": "Котельная РУДО, Слюдянка, ул. Слюдяная, 2\n\nУстановленная мощность 15,211 Гкал/ч\n\n3 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": { "type": "Point", "coordinates": [103.70618, 51.639958] },
+      "properties": {
+        "description": "Котельная Дом ребенка\n\nУстановленная мощность 0,806 Гкал/ч\n\n2 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.7163649933984, 51.65700883227468]
+      },
+      "properties": {
+        "description": "Котельная Ростелеком\n\nУстановленная мощность 0,518 Гкал/ч\n\n2 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.1820151683799, 51.51466159655556]
+      },
+      "properties": {
+        "description": "Котельная г. Байкальск\n\nУстановленная мощность 99 Гкал/ч \n\n4 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.6917881371109, 51.71932590415963]
+      },
+      "properties": {
+        "description": "Котельная \"Куба, с. Култук\n\nУстановленная мощность 2,68 Гкал/ч \n\n4 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.7047671520481, 51.72526749712237]
+      },
+      "properties": {
+        "description": "Котельная МБОУ СОШ №7\n\nУстановленная мощность 0,023 Гкал/ч\n\n2 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.6697704676868, 51.72109656590459]
+      },
+      "properties": {
+        "description": "Котельная Мед.склады, п. Култук\n\nУстановленная мощность 0,64 Гкал/ч\n\n2 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.6769783021219, 51.71891005699597]
+      },
+      "properties": {
+        "description": "Котельная \"АвтоВнешТранс\"\n\nУстановленная мощность 3,82 Гкал/ч\n\n4 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.731069, 51.95228199999999]
+      },
+      "properties": {
+        "description": "Котельная средняя школа п. Большая Речка \n\nУстановленная мощность 0,45 Гкал/ч\n\n3 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.8777909423526, 51.84660508339054]
+      },
+      "properties": {
+        "description": "Котельная п. Листвянка ул. Гудина\n\nУстановленная мощность 1,88 Гкал/ч\n\n2 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.0708474266862, 52.54884981521892]
+      },
+      "properties": {
+        "description": "Котельная Бугульдейской СОШ\n\nУстановленная мощность 1 Гкал/ч\n\n2 котла",
+        "marker-color": "#1e98ff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.4149042036007, 52.80119101083242]
+      },
+      "properties": {
+        "description": "Электро котельная Подстанция\n\nУстановленная мощность 0,4 Гкал/ч\n\nЕланцы",
+        "marker-color": "#b51eff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.404656984894, 52.79764869948267]
+      },
+      "properties": {
+        "description": "Центральная п.Еланцы\n\nУстановленная мощность 3,5 Гкал/ч\n\n5 котлов",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.4002446153039, 52.79882513345635]
+      },
+      "properties": {
+        "description": "Школьная котельная\n\nУстановленная мощность 2Гкал/ч\n\n3 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": { "type": "Point", "coordinates": [106.399765, 52.797446] },
+      "properties": {
+        "description": "Больничная \n\nУстановленная мощность 1,7 Гкал/ч\n\n2 котла",
+        "marker-color": "#b3b3b3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.4027317691233, 52.80621432410743]
+      },
+      "properties": {
+        "description": "ГУ Гослес-хоз\n\nУстановленная мощность 1,1 Гкал/ч",
+        "marker-color": "#56db40"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.3938742117613, 52.79503888188062]
+      },
+      "properties": {
+        "description": "АО «Сельстрой\n\nУстановленная мощность 0,5 Гкал/ч",
+        "marker-color": "#56db40"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": { "type": "Point", "coordinates": [104.830413, 51.885166] },
+      "properties": {
+        "description": "Котельная п. Листвянка ул. Октябрьская\n\nУстановленная мощность 6,8 Гкал/ч\n\n2 котла",
+        "marker-color": "#ffd21e"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.7576076541615, 51.64582092486452]
+      },
+      "properties": {
+        "description": "Эл котельная                         п. Сухой ручей\n\nУстановленная мощность 0,051 Гкал/ч\n\n1 котел",
+        "marker-color": "#b51eff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.680116536193, 51.71737825566986]
+      },
+      "properties": {
+        "description": "эл. котельная ЮЭС п. Култук\n\nУстановленная мощность 0,22 Гкал/ч\n\n2 котла",
+        "marker-color": "#b51eff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.7224953065354, 51.72978412167096]
+      },
+      "properties": {
+        "description": "4-й участок (ЭЧ-44) п. Култук\n\nУстановленная мощность 0,25 Гкал/ч\n\n2 котла",
+        "marker-color": "#b51eff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.0767097740714, 52.54953752809678]
+      },
+      "properties": {
+        "description": "ЭлКотельная Бугульдейского ДС\n\nУстановленная мощность 0,2 Гкал/ч\n\n3 котла",
+        "marker-color": "#b51eff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.4057174641027, 52.79998241895521]
+      },
+      "properties": {
+        "description": "Котельная Еланцынской СОШ\n\nУстановленная мощность 1,032 Гкал/ч\n\n2 котла",
+        "marker-color": "#1e98ff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.2110869142035, 52.81871244837581]
+      },
+      "properties": {
+        "description": "Котельная Куретской СОШ\n\nУстановленная мощность 0,411 Гкал/ч\n\n2 котла",
+        "marker-color": "#b51eff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.3390078742607, 53.19496969320155]
+      },
+      "properties": {
+        "description": "Котельная Хужирской СОШ\n\nУстановленная мощность 0,516 Гкал/ч\n\n3 котла",
+        "marker-color": "#b51eff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.3448002341481, 53.19167198890422]
+      },
+      "properties": {
+        "description": "Котельная Хужирского ДС\n\nУстановленная мощность 0,8 Гкал/ч\n\n1 котел",
+        "marker-color": "#b51eff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.590095209452, 53.63142783201602]
+      },
+      "properties": {
+        "description": "Котельная Онгуренской СОШ\n\nУстановленная мощность 0,2 Гкал/ч\n\n2 котла",
+        "marker-color": "#56db40"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.5028343843667, 52.87897839739406]
+      },
+      "properties": {
+        "description": "Котельная Тонтинской СОШ\n\nУстановленная мощность 0,688 Гкал/ч\n\n2 котла",
+        "marker-color": "#56db40"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.2368581280699, 51.49814496147329]
+      },
+      "properties": {
+        "description": "Электрокотельная п. Солзан, ул. Привокзальная, 20\n\nУстановленная мощность 0,054 Гкал/ч\n\n2 котла",
+        "marker-color": "#b51eff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.6696819499432, 51.72391712933279]
+      },
+      "properties": {
+        "description": "Эл.котельная, Култук, ул. Матросова, 23\n\nУстановленная мощность 0,69 Гкал/ч\n\n2 котла",
+        "marker-color": "#b51eff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.6942777520814, 51.72060934567323]
+      },
+      "properties": {
+        "description": "Эл.котельная, Култук ул. Депутатская, 4А\n\nУстановленная мощность 0,21 Гкал/ч\n\n4 котла",
+        "marker-color": "#b51eff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.8736319421438, 51.84726984941284]
+      },
+      "properties": {
+        "description": "Электрокотельная ОАО \"ИркутскЭнерго\" в п. Листвянка\n\nУстановленная мощность 3,4 Гкал/ч\n\n1 котел",
+        "marker-color": "#b51eff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [104.8302174801735, 51.86895191143645]
+      },
+      "properties": {
+        "description": "Электрокотельная Байкал Отель\n\nУстановленная мощность 8 Гкал/ч\n\n8 котлов",
+        "marker-color": "#b51eff"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "geometry": { "type": "Point", "coordinates": [106.222763, 52.677594] },
+      "properties": {
+        "description": "Таловка\n\nУстановленная мощность 0,1 Гкал/ч",
+        "marker-color": "#1e98ff"
       }
     }
   ]

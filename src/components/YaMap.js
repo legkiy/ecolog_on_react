@@ -4,9 +4,9 @@ import { useEffect } from 'react';
 export default function YaMap({ scriptIndex }) {
   const urls = [
     //now script with cherem
-    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A79adc590518903f186b6ea6d945d6221fc5c43469c28a544ab123b83c9e67e28&amp;width=447&amp;height=445&amp;lang=ru_RU&amp;scroll=true',
+    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A79adc590518903f186b6ea6d945d6221fc5c43469c28a544ab123b83c9e67e28&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
     //coal script
-    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9652247e6b84ac970072b95d77fbe77dca40ca7410991b61d9a5ed0e96fab8f6&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
+    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A964b525d13d22f3e62d0094cd7e27e1c78a69e184fc959859336134baf6a4631&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
     //map with LAP
     'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8cb571e2838a57fe3900df867bc6ea8ccb01643e902d92b8ebfc8a5a00a30528&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
   ];

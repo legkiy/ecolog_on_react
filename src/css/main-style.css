@@ -246,22 +246,22 @@ body {
   border-radius: 5px;
 }
 .ico-legend:nth-child(1)::before {
-  background-color: #808080;
+  background-color: #595959; /* черемховский */
 }
 .ico-legend:nth-child(2)::before {
-  background-color: #bfbfbf;
+  background-color: #b3b3b3; /* прочий уголь */
 }
 .ico-legend:nth-child(3)::before {
-  background-color: #74c460;
+  background-color: #56db40; /* древесина */
 }
 .ico-legend:nth-child(4)::before {
-  background-color: #d6ce5a;
+  background-color: #ffd21e; /* мазут */
 }
 .ico-legend:nth-child(5)::before {
-  background-color: #8bbfff;
+  background-color: #1e98ff; /* газ */
 }
 .ico-legend:nth-child(6)::before {
-  background-color: #c497ff;
+  background-color: #b51eff; /* электро */
 }
 .centr-items {
   margin: auto;

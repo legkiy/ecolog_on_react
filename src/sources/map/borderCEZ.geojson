@@ -268,7 +268,7 @@
       },
       "properties": {
         "description": "Граница ЦЭЗ",
-        "stroke": "#56db40",
+        "stroke": "#1bad03",
         "stroke-width": "3",
         "stroke-opacity": 1
       }
