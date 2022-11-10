@@ -94,6 +94,7 @@ function BarChart({ chartOut }) {
     // responsive: true,
     scales: {
       x: {
+        max: 30,
         stacked: true,
         grid: {
           display: false,
