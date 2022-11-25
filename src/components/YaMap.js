@@ -5,14 +5,15 @@ export default function YaMap({ scriptIndex }) {
   const urls = [
     //now script with cherem
     'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A348ab2921a417af486e1c724d73b0ff8f0b8af9d2e9d6dc77cb9b93eba8122cb&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
+
     //coal script
-    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A51a235b9121f62a63e2477d0e6d4cfbd1f173fe1fdb5498ff2a4a8dc44fc9470&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true',
+    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A348ab2921a417af486e1c724d73b0ff8f0b8af9d2e9d6dc77cb9b93eba8122cb&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
     //electro script
-    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2b9618de49aa18cfa2c464d8c17e05698372573f0cb6402418a6b08922a00612&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true',
+    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A589b3831b444362c71bee9acd47159602001b3c2a8755c949c6539bf4c106236&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
     //gas script
-    '',
+    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A752e951aaa597af01c5a6e9fcf7774908c7fdde94a7994011ef16124b910fdb5&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
     //renew energy
-    '',
+    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad45033bef372af85fe0bedbf969feb6b64fc3687248356d0a89376585a7e949e&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
   ];
 
   useEffect(() => {
