@@ -251,6 +251,8 @@ body {
   height: 1rem;
   border-radius: 5px;
 }
+/* ed4543 */
+
 .ico-legend:nth-child(1)::before {
   background-color: #595959; /* черемховский */
 }
