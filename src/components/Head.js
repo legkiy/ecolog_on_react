@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../img/logo-white.png';
 import { IoArrowBackOutline } from 'react-icons/io5';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 export default function Head() {
   return (
@@ -19,6 +20,19 @@ export default function Head() {
             Российской академии наук
           </h2>
         </a>
+        <div className="head-text contacts">
+          <div className="contact">
+            <BsFillPersonLinesFill />
+            <p>Исполнители: </p>
+            <a
+              href="https://isem.irk.ru/institute/departments/60/"
+              className="link department-60"
+            >
+              <p>отдел 60</p>
+            </a>
+          </div>
+          <p>Контакты: nord@isem.irk.ru, nikita.max@isem.irk.ru</p>
+        </div>
       </div>
     </header>
   );

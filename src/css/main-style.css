@@ -31,9 +31,23 @@ body {
   color: white;
   margin-right: 20px;
 }
+.contacts {
+  margin: auto;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.contact p {
+  margin-left: 5px;
+}
+.department-60 {
+  text-decoration: underline;
+}
 .box-80 {
   margin: auto;
-  width: 1536px;
+  width: 80%;
 }
 .links {
   display: flex;
