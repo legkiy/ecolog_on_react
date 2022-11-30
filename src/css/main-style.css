@@ -47,7 +47,7 @@ body {
 }
 .box-80 {
   margin: auto;
-  width: 80%;
+  width: 1536px;
 }
 .links {
   display: flex;
@@ -72,7 +72,7 @@ body {
   text-align: justify;
   font-size: 1rem;
   margin: auto;
-  width: 1400px;
+  width: 90%;
   padding: 5px 0;
 }
 .center-inside {
