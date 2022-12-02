@@ -34,9 +34,16 @@ export default function Head() {
           <div className="contact">
             Контакты:
             <p>
-              Иванова Ирина Юьевна nord@isem.irk.ru (содержание страницы),
-              <br /> Максаков Никита Владимирович nikita.max@isem.irk.ru (тех.
-              реализация)
+              Иванова Ирина Юьевна{' '}
+              <a className="mail" href="mailto:nord@isem.irk.ru">
+                nord@isem.irk.ru
+              </a>{' '}
+              (содержание страницы),
+              <br /> Максаков Никита Владимирович{' '}
+              <a className="mail" href="mailto:nikita.max@isem.irk.ru">
+                nikita.max@isem.irk.ru
+              </a>{' '}
+              (тех. реализация)
             </p>
           </div>
         </div>
