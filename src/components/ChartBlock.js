@@ -12,8 +12,16 @@ import script3Bur from './charts/data/amount/gas_script/bur_gas_script.json';
 import script4Irk from './charts/data/amount/renew_script/irk_renew_script.json';
 import script4Bur from './charts/data/amount/renew_script/bur_renew_script.json';
 
-import powerIrk from './charts/data/power/curAmount/powerIrk.json';
-import powerBur from './charts/data/power/curAmount/powerBur.json';
+import powerCurIrk from './charts/data/power/curAmount/powerIrk.json';
+import powerCurBur from './charts/data/power/curAmount/powerBur.json';
+import powerCoalIrk from './charts/data/power/coal_script/powerIrk.json';
+import powerCoalBur from './charts/data/power/coal_script/powerBur.json';
+import powerElectraIrk from './charts/data/power/electra_script/powerIrk.json';
+import powerElectraBur from './charts/data/power/electra_script/powerBur.json';
+import powerGasIrk from './charts/data/power/gas_script/powerIrk.json';
+import powerGasBur from './charts/data/power/gas_script/powerBur.json';
+import powerRenewIrk from './charts/data/power/renew_script/powerIrk.json';
+import powerRenewBur from './charts/data/power/renew_script/powerBur.json';
 
 export default function ChartBlock({ scriptIndex }) {
   const amountIrk = [
@@ -29,6 +37,20 @@ export default function ChartBlock({ scriptIndex }) {
     script2Bur,
     script3Bur,
     script4Bur,
+  ];
+  const powerIrk = [
+    powerCurIrk,
+    powerCoalIrk,
+    powerElectraIrk,
+    powerGasIrk,
+    powerRenewIrk,
+  ];
+  const powerBur = [
+    powerCurBur,
+    powerCoalBur,
+    powerElectraBur,
+    powerGasBur,
+    powerRenewBur,
   ];
 
   return (
@@ -48,7 +70,7 @@ export default function ChartBlock({ scriptIndex }) {
                 <br /> Гкал/ч
               </h3>
               <div className="donut">
-                <DonutChart chartOut={powerIrk} />
+                <DonutChart chartOut={powerIrk[scriptIndex]} />
               </div>
             </div>
           </div>
@@ -71,7 +93,7 @@ export default function ChartBlock({ scriptIndex }) {
           </div>
           <div className="donut-box">
             <div className="donut">
-              <DonutChart chartOut={powerBur} />
+              <DonutChart chartOut={powerBur[scriptIndex]} />
             </div>
           </div>
           <div className="bar-box">
@@ -89,6 +111,12 @@ export default function ChartBlock({ scriptIndex }) {
           <li className="ico-legend">мазут</li>
           <li className="ico-legend">газ</li>
           <li className="ico-legend">эл/энергия</li>
+          {scriptIndex === 4 && (
+            <>
+              <li className="ico-legend">ВИЭ</li>
+              <li className="ico-legend">Тепловые насосы</li>
+            </>
+          )}
         </ul>
       </div>
     </div>

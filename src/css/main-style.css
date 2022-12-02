@@ -290,6 +290,12 @@ body {
 .ico-legend:nth-child(6)::before {
   background-color: #b51eff; /* электро */
 }
+.ico-legend:nth-child(7)::before {
+  background-color: #ed4543; /* возобновляемые */
+}
+.ico-legend:nth-child(8)::before {
+  background-color: #f371d1; /* тепловые насосы */
+}
 .centr-items {
   margin: auto;
 }
