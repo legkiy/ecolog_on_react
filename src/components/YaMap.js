@@ -5,9 +5,8 @@ export default function YaMap({ scriptIndex }) {
   const urls = [
     //now script with cherem
     'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A348ab2921a417af486e1c724d73b0ff8f0b8af9d2e9d6dc77cb9b93eba8122cb&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
-
     //coal script
-    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A348ab2921a417af486e1c724d73b0ff8f0b8af9d2e9d6dc77cb9b93eba8122cb&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
+    'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ad23699d514f7cbf0166cf175a2c869a086c4ec4eb01d4d6db923ea3e45a7bbcb&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
     //electro script
     'https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A589b3831b444362c71bee9acd47159602001b3c2a8755c949c6539bf4c106236&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true',
     //gas script
