@@ -24,34 +24,10 @@ import powerRenewIrk from './charts/data/power/renew_script/powerIrk.json';
 import powerRenewBur from './charts/data/power/renew_script/powerBur.json';
 
 export default function ChartBlock({ scriptIndex }) {
-  const amountIrk = [
-    curAmountIrk,
-    script1Irk,
-    script2Irk,
-    script3Irk,
-    script4Irk,
-  ];
-  const amountBur = [
-    curAmountBur,
-    script1Bur,
-    script2Bur,
-    script3Bur,
-    script4Bur,
-  ];
-  const powerIrk = [
-    powerCurIrk,
-    powerCoalIrk,
-    powerElectraIrk,
-    powerGasIrk,
-    powerRenewIrk,
-  ];
-  const powerBur = [
-    powerCurBur,
-    powerCoalBur,
-    powerElectraBur,
-    powerGasBur,
-    powerRenewBur,
-  ];
+  const amountIrk = [curAmountIrk, script1Irk, script2Irk, script3Irk, script4Irk];
+  const amountBur = [curAmountBur, script1Bur, script2Bur, script3Bur, script4Bur];
+  const powerIrk = [powerCurIrk, powerCoalIrk, powerElectraIrk, powerGasIrk, powerRenewIrk];
+  const powerBur = [powerCurBur, powerCoalBur, powerElectraBur, powerGasBur, powerRenewBur];
 
   return (
     <div className="flex-box">

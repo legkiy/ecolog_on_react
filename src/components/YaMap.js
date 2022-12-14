@@ -27,9 +27,7 @@ export default function YaMap({ scriptIndex }) {
 
   return (
     <div className="right-box">
-      <h2 className="banner">
-        Расположение объектов энергетической инфраструктуры
-      </h2>
+      <h2 className="banner">Расположение объектов энергетической инфраструктуры</h2>
       <div className="ya-map" id="ya-map"></div>
     </div>
   );

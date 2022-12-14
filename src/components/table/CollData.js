@@ -1,9 +1,7 @@
 import React from 'react';
 
 export default function CollData({ coll, scripts, curState }) {
-  let perInTable = Math.ceil(
-    ((scripts[coll] - curState[coll]) / curState[coll]) * 100
-  );
+  let perInTable = Math.ceil(((scripts[coll] - curState[coll]) / curState[coll]) * 100);
 
   if (curState[coll] === 0 && perInTable > 0) perInTable = 100;
   else if (curState[coll] === 0) perInTable = 0;

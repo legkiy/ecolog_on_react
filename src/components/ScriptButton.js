@@ -25,12 +25,7 @@ const SCRIPT_MAP = {
   termal: 8,
 };
 
-export default function Button({
-  setScriptIndex,
-  scriptCase,
-  scriptDiscriptions,
-  scriptIndex,
-}) {
+export default function Button({ setScriptIndex, scriptCase, scriptDiscriptions, scriptIndex }) {
   function getScriptIcon(scriptCase) {
     switch (scriptCase) {
       case 'coal':
@@ -42,9 +37,7 @@ export default function Button({
       case 'gas':
         return <GiFuelTank />;
       case 'renew':
-        return (
-          <img src={recyclePower} alt={''} className="img-recyclePower"></img>
-        );
+        return <img src={recyclePower} alt={''} className="img-recyclePower"></img>;
       case 'solar':
         return <GiSolarPower />;
       case 'wind':
@@ -62,12 +55,7 @@ export default function Button({
   };
 
   return (
-    <Tippy
-      content={scriptDiscriptions}
-      interactive={true}
-      placement={'bottom'}
-      appendTo={'parent'}
-    >
+    <Tippy content={scriptDiscriptions} interactive={true} placement={'bottom'} appendTo={'parent'}>
       <button
         className={`script-selection-button ${
           Object.keys(SCRIPT_MAP)[scriptIndex] === scriptCase && 'selected'

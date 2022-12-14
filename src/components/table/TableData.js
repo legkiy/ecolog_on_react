@@ -39,11 +39,7 @@ function TableData({ scriptIndex }) {
           {scriptIndex !== 0 ? (
             scripts[scriptIndex].map((scripts) =>
               curState.id === scripts.id ? (
-                <TableScriptChosen
-                  key={scripts.id}
-                  scripts={scripts}
-                  curState={curState}
-                />
+                <TableScriptChosen key={scripts.id} scripts={scripts} curState={curState} />
               ) : null
             )
           ) : (

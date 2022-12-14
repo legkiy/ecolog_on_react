@@ -16,25 +16,22 @@ export default function Head() {
           <h2 className="head-text">
             Федеральное государственное бюджетное учреждение науки
             <br />
-            Институт систем энергетики им. Л.А. Мелентьева Сибирского отделения
-            Российской академии наук
+            Институт систем энергетики им. Л.А. Мелентьева Сибирского отделения Российской академии
+            наук
           </h2>
         </a>
         <div className="head-text contacts">
           <div className="contact">
             <BsFillPersonLinesFill />
             <p>Исполнители: </p>
-            <a
-              href="https://isem.irk.ru/institute/departments/60/"
-              className="link department-60"
-            >
+            <a href="https://isem.irk.ru/institute/departments/60/" className="link department-60">
               <p>отдел 60</p>
             </a>
           </div>
           <div className="contact">
             Контакты:
             <p>
-              Иванова Ирина Юьевна{' '}
+              Иванова Ирина Юрьевна{' '}
               <a className="mail" href="mailto:nord@isem.irk.ru">
                 nord@isem.irk.ru
               </a>{' '}
