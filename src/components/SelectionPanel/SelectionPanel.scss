@@ -1,4 +1,15 @@
 .selectionPanel {
+  display: flex;
+  background-color: rgb(21, 95, 141);
+  color: white;
+  height: 39px;
+  padding: 0 10px;
+  margin: 10px 0;
+  align-items: center;
+
+  h3 {
+    font-weight: 400;
+  }
 }
 
 @media only screen and (max-width: 600px) {

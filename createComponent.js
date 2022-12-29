@@ -3,7 +3,10 @@ const fs = require('fs');
 const getExportLineTemplate = (name) => `export { default } from './${name}'`;
 const getComponentTemplate = (name, lowerName) => `import './${name}.scss'
 
-const ${name} = () => {
+interface IProps${name}{
+}
+
+const ${name} = ({}:IProps${name}) => {
   return <div className='${lowerName}'></div>
 }
 export default ${name}`;
