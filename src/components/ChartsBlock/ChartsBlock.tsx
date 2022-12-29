@@ -13,15 +13,21 @@ import gasCaseBur from './BarChart/amount/gas_script/bur_gas_script.json';
 import renewCaseIrk from './BarChart/amount/renew_script/irk_renew_script.json';
 import renewCaseBur from './BarChart/amount/renew_script/bur_renew_script.json';
 
+import { RootState } from '../../app/store';
+import { useDispatch, useSelector } from 'react-redux';
+
 interface IPropsChartsBlock {}
 
 const ChartsBlock = ({}: IPropsChartsBlock) => {
+  const dispatch = useDispatch();
+  const caseIndex = useSelector((state: RootState) => state.case.caseIndex);
+
   const amountIrk = [curAmountIrk, coalCasetIrk, electraCaseIrk, gasCaseIrk, renewCaseIrk];
   const amountBur = [curAmountBur, coalCaseBur, electraCaseBur, gasCaseBur, renewCaseBur];
 
   return (
     <div className="chartsBlock">
-      <BarChart caseOut={amountIrk[1]} />
+      <BarChart caseOut={amountIrk[caseIndex]} />
     </div>
   );
 };

@@ -1,7 +1,10 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
+import caseSlice from '../features/caseSlice/case';
 
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+    case: caseSlice,
+  },
 });
 
 export type AppDispatch = typeof store.dispatch;

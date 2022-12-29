@@ -71,6 +71,7 @@ const BarChart = ({ caseOut }: IPropsBarChart) => {
   };
 
   const options: any = {
+    responsive: true,
     indexAxis: 'y',
     maintainAspectRatio: false,
     layout: {
