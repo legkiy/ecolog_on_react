@@ -1,0 +1,29 @@
+.button {
+  display: flex;
+  margin: 0 12px;
+  border: none;
+  color: white;
+  background: local;
+  cursor: pointer;
+  transform: scale(2);
+  border-radius: 4px;
+  .no-select {
+    transform: scale(0.5);
+    font-size: 23px;
+    margin: 0 1px;
+    padding: 5px;
+    border: none;
+    color: white;
+    background: local;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+}
+.img-recyclePower {
+  height: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+  }
+}
