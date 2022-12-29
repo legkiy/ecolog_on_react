@@ -33,11 +33,13 @@ const Button = ({ caseName }: IPropsButton) => {
         return <GiFuelTank />;
       case 'renew':
         return <img src={recyclePower} alt={''} className="img-recyclePower"></img>;
-      case 'noSelect':
-        return <p className='no-select'>Текущее состояние</p>;
       default:
     }
   }
-  return <button className="button">{getScriptIcon(caseName)}</button>;
+  return (
+    <button className="button" type="button">
+      {getScriptIcon(caseName)}
+    </button>
+  );
 };
 export default Button;

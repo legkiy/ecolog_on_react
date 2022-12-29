@@ -9,7 +9,10 @@ const SelectionPanel = () => {
       <Button caseName={'solar'} />
       <Button caseName={'wind'} />
       <Button caseName={'termal'} />
-      <Button caseName={'noSelect'} />
+      <button className="no-select" type="button">
+        <h3>Текущее состояние</h3>
+      </button>
+      <h3>Сценарии</h3>
       <Button caseName={'coal'} />
       <Button caseName={'electra'} />
       <Button caseName={'gas'} />
