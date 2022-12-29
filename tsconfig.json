@@ -14,9 +14,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve",
-    "incremental": true
+    "jsx": "react-jsx"
   },
-  "include": ["pages/src", "types", "createComponent.js", "pages/App.tsx"],
-  "exclude": ["node_modules"]
+  "include": ["src", "createComponent.js", "custom.d.ts"]
 }

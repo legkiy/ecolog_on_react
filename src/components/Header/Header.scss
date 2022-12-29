@@ -1,0 +1,53 @@
+.header {
+  width: 100%;
+  min-width: max-content;
+  background-color: #0e476b;
+  display: flex;
+  padding: 5px;
+  h2 {
+    text-align: left;
+    font-weight: 400;
+  }
+  * {
+    font-size: 15px;
+    color: #fff;
+  }
+}
+
+.head {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.back-link {
+  margin-right: 10px;
+}
+
+.contacts {
+  margin-left: auto;
+}
+
+.contact {
+  display: flex;
+  text-align: left;
+}
+
+.dapartmet-60 {
+  text-decoration: underline;
+}
+
+.mail {
+  text-decoration: underline !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+  }
+}
