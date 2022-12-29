@@ -70,7 +70,7 @@ const BarChart = ({ caseOut }: IPropsBarChart) => {
     ],
   };
 
-  const options = {
+  const options: any = {
     indexAxis: 'y',
     maintainAspectRatio: false,
     layout: {
