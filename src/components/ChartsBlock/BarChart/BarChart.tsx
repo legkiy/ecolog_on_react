@@ -13,7 +13,7 @@ import { Bar } from 'react-chartjs-2';
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 interface IPropsBarChart {
-  caseOut: {
+  amountCaseOut: {
     id: number;
     localName: string;
     cherem_coal: number;
@@ -25,14 +25,14 @@ interface IPropsBarChart {
   }[];
 }
 
-const BarChart = ({ caseOut }: IPropsBarChart) => {
-  const labels = caseOut.map((chosenScript) => chosenScript.localName);
-  const cheremCoal = caseOut.map((chosenScript) => chosenScript.cherem_coal);
-  const coal = caseOut.map((chosenScript) => chosenScript.coal);
-  const wood = caseOut.map((chosenScript) => chosenScript.wood);
-  const oil = caseOut.map((chosenScript) => chosenScript.oil);
-  const gas = caseOut.map((chosenScript) => chosenScript.gas);
-  const electric = caseOut.map((chosenScript) => chosenScript.electric);
+const BarChart = ({ amountCaseOut }: IPropsBarChart) => {
+  const labels = amountCaseOut.map((chosenScript) => chosenScript.localName);
+  const cheremCoal = amountCaseOut.map((chosenScript) => chosenScript.cherem_coal);
+  const coal = amountCaseOut.map((chosenScript) => chosenScript.coal);
+  const wood = amountCaseOut.map((chosenScript) => chosenScript.wood);
+  const oil = amountCaseOut.map((chosenScript) => chosenScript.oil);
+  const gas = amountCaseOut.map((chosenScript) => chosenScript.gas);
+  const electric = amountCaseOut.map((chosenScript) => chosenScript.electric);
 
   const data = {
     labels: labels,
