@@ -1,0 +1,24 @@
+.button {
+  display: flex;
+  margin: 0 12px;
+  padding: 2px;
+  border: none;
+  color: white;
+  background: local;
+  cursor: pointer;
+  transform: scale(2);
+  border-radius: 4px;
+}
+
+.button:hover,
+.no-select:hover {
+  background: rgb(13, 72, 109);
+}
+.img-recyclePower {
+  height: 0.9rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+  }
+}

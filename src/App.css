@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.main {
+  width: 90%;
+  margin: auto;
+  background-color: #fff;
+}
+.discription p {
+  text-align: justify;
+  padding: 0 40px;
+}
+
+.title {
+  text-align: center;
+  color: #aa7700;
+  font-weight: 500;
+  margin: 1px auto;
+  font-size: 1.5rem;
+}

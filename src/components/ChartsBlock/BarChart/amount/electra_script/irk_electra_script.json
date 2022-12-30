@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "localName": "Ольхонский",
+    "cherem_coal": 0,
+    "coal": 0,
+    "wood": 4,
+    "oil": 0,
+    "gas": 0,
+    "electric": 14
+  },
+  {
+    "id": 2,
+    "localName": "Иркутский",
+    "cherem_coal": 0,
+    "coal": 0,
+    "wood": 0,
+    "oil": 0,
+    "gas": 0,
+    "electric": 5
+  },
+  {
+    "id": 3,
+    "localName": "Слюдянский",
+    "cherem_coal": 0,
+    "coal": 0,
+    "wood": 0,
+    "oil": 0,
+    "gas": 0,
+    "electric": 26
+  }
+]
