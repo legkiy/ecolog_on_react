@@ -25,6 +25,10 @@ interface IPropsBarChart {
   }[];
 }
 
+ChartJS.defaults.font.family = 'Roboto';
+ChartJS.defaults.font.size = 14;
+ChartJS.defaults.color = 'black';
+
 const BarChart = ({ amountCaseOut }: IPropsBarChart) => {
   const labels = amountCaseOut.map((chosenScript) => chosenScript.localName);
   const cheremCoal = amountCaseOut.map((chosenScript) => chosenScript.cherem_coal);
@@ -71,7 +75,6 @@ const BarChart = ({ amountCaseOut }: IPropsBarChart) => {
   };
 
   const options: any = {
-    responsive: true,
     indexAxis: 'y',
     maintainAspectRatio: false,
     layout: {
@@ -94,7 +97,6 @@ const BarChart = ({ amountCaseOut }: IPropsBarChart) => {
         },
       },
     },
-    // responsive: true,
     scales: {
       x: {
         max: 30,

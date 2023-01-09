@@ -1,4 +1,22 @@
 .chartsBlock {
+  width: 80%;
+}
+
+.amount-irk {
+  width: 420px;
+  margin-left: auto;
+
+  .barChart {
+    height: 135px;
+  }
+}
+
+.amount-bur {
+  width: 470px;
+
+  .barChart {
+    height: 200px;
+  }
 }
 
 @media only screen and (max-width: 600px) {

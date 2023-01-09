@@ -71,10 +71,38 @@ const ChartsBlock = ({}: IPropsChartsBlock) => {
 
   return (
     <div className="chartsBlock">
-      <BarChart amountCaseOut={amountIrk[caseIndex]} />
-      <BarChart amountCaseOut={amountBur[caseIndex]} />
-      <DonatChart powerCaseOut={powerIrk[caseIndex]} />
-      <DonatChart powerCaseOut={powerBur[caseIndex]} />
+      <table>
+        <tr>
+          <td></td>
+          <td>
+            Установленная мощность,
+            <br /> Гкал/ч
+          </td>
+          <td> Кол-во котельных</td>
+        </tr>
+        <tr>
+          <td>Иркутская область</td>
+          <td>
+            <DonatChart powerCaseOut={powerIrk[caseIndex]} />
+          </td>
+          <td className="amount-block">
+            <div className="amount-irk ">
+              <BarChart amountCaseOut={amountIrk[caseIndex]} />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>Республика Бурятия</td>
+          <td>
+            <DonatChart powerCaseOut={powerBur[caseIndex]} />
+          </td>
+          <td className="amount-bur">
+            <div className="amount-bur">
+              <BarChart amountCaseOut={amountBur[caseIndex]} />
+            </div>
+          </td>
+        </tr>
+      </table>
     </div>
   );
 };
