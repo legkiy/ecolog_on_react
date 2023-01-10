@@ -26,12 +26,11 @@ import powerRenewIrk from './DonatChart/power/renew_script/powerIrk.json';
 import powerRenewBur from './DonatChart/power/renew_script/powerBur.json';
 
 import { RootState } from '../../app/store';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 interface IPropsChartsBlock {}
 
 const ChartsBlock = ({}: IPropsChartsBlock) => {
-  const dispatch = useDispatch();
   const caseIndex = useSelector((state: RootState) => state.case.caseIndex);
 
   const amountIrk = [amountCurIrk, amountCoalIrk, amountElectraIrk, amountGasIrk, amountRenewIrk];
