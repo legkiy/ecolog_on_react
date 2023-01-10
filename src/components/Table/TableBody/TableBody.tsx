@@ -13,14 +13,14 @@ import { useSelector } from 'react-redux';
 interface IPropsTableBody {}
 
 const TableBody = ({}: IPropsTableBody) => {
-  const scripts = [null, tableCoal, tableElectra, tableGas, tableRenew];
+  const scripts = [tableCurr, tableCoal, tableElectra, tableGas, tableRenew];
   const caseIndex = useSelector((state: RootState) => state.case.caseIndex);
 
   return (
     <tbody className="tableBody">
       {tableCurr.map((tableCurr, index) => (
         <>
-          <tr>
+          <tr key={index}>
             <td rowSpan={2}>{tableCurr.localName}</td>
             <td>{tableCurr.cherem_coal ? tableCurr.cherem_coal : '-'}</td>
             <td>{tableCurr.coal ? tableCurr.coal : '-'}</td>
@@ -37,12 +37,28 @@ const TableBody = ({}: IPropsTableBody) => {
           {caseIndex !== 0 ? (
             scripts[caseIndex].map((scripts) =>
               tableCurr.id === scripts.id ? (
-                <CalculatePercent scripts={scripts} curState={curState} />
+                <tr key={scripts.id}>
+                  <CalculatePercent
+                    scripts={scripts}
+                    tableCurr={tableCurr}
+                    collumn={'cherem_coal'}
+                  />
+                  <CalculatePercent scripts={scripts} tableCurr={tableCurr} collumn={'coal'} />
+                  <CalculatePercent scripts={scripts} tableCurr={tableCurr} collumn={'wood'} />
+                  <CalculatePercent scripts={scripts} tableCurr={tableCurr} collumn={'oil'} />
+                  <CalculatePercent scripts={scripts} tableCurr={tableCurr} collumn={'gas'} />
+                  <CalculatePercent scripts={scripts} tableCurr={tableCurr} collumn={'electric'} />
+                  <CalculatePercent scripts={scripts} tableCurr={tableCurr} collumn={'solid'} />
+                  <CalculatePercent scripts={scripts} tableCurr={tableCurr} collumn={'sulfur'} />
+                  <CalculatePercent scripts={scripts} tableCurr={tableCurr} collumn={'nitrogen'} />
+                  <CalculatePercent scripts={scripts} tableCurr={tableCurr} collumn={'carbon'} />
+                  <CalculatePercent scripts={scripts} tableCurr={tableCurr} collumn={'ash'} />
+                </tr>
               ) : null
             )
           ) : (
             <tr>
-              <td colSpan={10} className="dont-chose">
+              <td colSpan={11} className="dont-chose">
                 Выберите сценарий
               </td>
             </tr>

@@ -1,27 +1,33 @@
-export default function CalculatePercent({}) {
-  let perInTable = Math.ceil(((scripts[coll] - curState[coll]) / curState[coll]) * 100);
+interface IPropsTableBody {
+  scripts: any;
+  tableCurr: any;
+  collumn: string;
+}
 
-  if (curState[coll] === 0 && perInTable > 0) perInTable = 100;
-  else if (curState[coll] === 0) perInTable = 0;
+const CalculatePercent = ({ scripts, tableCurr, collumn }: IPropsTableBody) => {
+  let perInTable = Math.ceil(((scripts[collumn] - tableCurr[collumn]) / tableCurr[collumn]) * 100);
+
+  if (tableCurr[collumn] === 0 && perInTable > 0) perInTable = 100;
+  else if (tableCurr[collumn] === 0) perInTable = 0;
 
   return (
-    <tr>
       <td
         className={
-          scripts[coll] < curState[coll]
+          scripts[collumn] < tableCurr[collumn]
             ? 'better'
-            : scripts[coll] > curState[coll]
+            : scripts[collumn] > tableCurr[collumn]
             ? 'worse'
             : 'equally'
         }
       >
         {perInTable + '%'}
-        {/* {(curState[coll] ? perInTable : 100).toFixed(
+        {/* {(tableCurr[collumn] ? perInTable : 100).toFixed(
         1
       ) + '%'} */}
-        {/* {scripts[coll] === 0 ? '-' : scripts[coll]} */}
-        {/* {Math.ceil(curState[coll] ? perInTable : curState[coll]).toFixed(1) + '%'} */}
+        {/* {scripts[collumn] === 0 ? '-' : scripts[collumn]} */}
+        {/* {Math.ceil(tableCurr[collumn] ? perInTable : tableCurr[collumn]).toFixed(1) + '%'} */}
       </td>
-    </tr>
   );
-}
+};
+
+export default CalculatePercent;
