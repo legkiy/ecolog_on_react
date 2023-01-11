@@ -1,12 +1,18 @@
 import ChartsBlock from '../ChartsBlock';
 import Table from '../Table';
+import YandexMap from '../YandexMap';
 import './DynamicContent.scss';
 
 const DynamicContent = () => {
   return (
     <div className="dynamicContent">
-      <ChartsBlock />
-      <Table />
+      <div className="left-block">
+        <ChartsBlock />
+        <Table />
+      </div>
+      <div className="right-block">
+        <YandexMap />
+      </div>
     </div>
   );
 };
