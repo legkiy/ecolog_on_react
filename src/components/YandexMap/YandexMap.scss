@@ -1,0 +1,11 @@
+.yandexMap {
+  height: 80%;
+}
+.ya-map {
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .yandexMap {
+  }
+}
