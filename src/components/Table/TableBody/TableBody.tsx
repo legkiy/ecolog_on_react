@@ -21,7 +21,7 @@ const TableBody = ({}: IPropsTableBody) => {
       {tableCurr.map((tableCurr, index) => (
         <>
           <tr key={index}>
-            <td rowSpan={2}>{tableCurr.localName}</td>
+            <td className='reg-name' rowSpan={2}>{tableCurr.localName}</td>
             <td>{tableCurr.cherem_coal ? tableCurr.cherem_coal : '-'}</td>
             <td>{tableCurr.coal ? tableCurr.coal : '-'}</td>
             <td>{tableCurr.wood ? tableCurr.wood : '-'}</td>

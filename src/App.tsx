@@ -1,5 +1,6 @@
 import './App.css';
 import DynamicContent from './components/DynamicContent';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import SelectionPanel from './components/SelectionPanel';
 
@@ -28,6 +29,7 @@ function App() {
         <SelectionPanel />
         <DynamicContent />
       </main>
+      <Footer />
     </div>
   );
 }

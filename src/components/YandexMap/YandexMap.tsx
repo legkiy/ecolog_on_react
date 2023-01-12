@@ -34,7 +34,7 @@ const YandexMap = ({}: IPropsYandexMap) => {
   return (
     <div className="yandexMap">
       <div>
-        <h2 className="banner">Расположение объектов энергетической инфраструктуры</h2>
+        <h3 className="ya-map-title">Расположение объектов энергетической инфраструктуры</h3>
       </div>
       <div className="ya-map" id="ya-map"></div>
     </div>

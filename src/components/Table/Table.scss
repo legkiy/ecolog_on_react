@@ -5,6 +5,20 @@
     border: 1px solid rgba(148, 148, 148, 0.384);
     padding: 2px 5px;
   }
+  td:first-child {
+    border-left: none;
+  }
+  td:last-child {
+    border-right: none;
+  }
+  tr:last-child {
+    border-bottom: none;
+  }
+  thead {
+    td {
+      border-top: none;
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {

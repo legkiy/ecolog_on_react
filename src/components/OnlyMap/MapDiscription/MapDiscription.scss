@@ -1,0 +1,12 @@
+.mapDiscription {
+  text-align: justify;
+  display: flex;
+  ul {
+    padding: 10px 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mapDiscription {
+  }
+}

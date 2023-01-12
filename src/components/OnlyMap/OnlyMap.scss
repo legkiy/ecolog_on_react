@@ -1,0 +1,13 @@
+.onlyMap {
+  height: 80vh;
+  margin: 0 50px;
+}
+
+.ya-map-box {
+  height: 85%;
+}
+
+@media only screen and (max-width: 600px) {
+  .onlyMap {
+  }
+}

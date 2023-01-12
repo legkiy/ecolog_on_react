@@ -73,11 +73,27 @@ const ChartsBlock = ({}: IPropsChartsBlock) => {
       <table>
         <tr>
           <td></td>
-          <td>
+          <td style={{width:'200px'}}>
             Установленная мощность,
             <br /> Гкал/ч
           </td>
           <td> Кол-во котельных</td>
+          <td rowSpan={3}>
+            <ul className="bar-legend">
+              <li className="ico-legend">черемховский уголь</li>
+              <li className="ico-legend">прочий уголь</li>
+              <li className="ico-legend">древесина</li>
+              <li className="ico-legend">мазут</li>
+              <li className="ico-legend">газ</li>
+              <li className="ico-legend">эл/энергия</li>
+              {caseIndex === 4 && (
+                <>
+                  <li className="ico-legend">ВИЭ</li>
+                  <li className="ico-legend">Тепловые насосы</li>
+                </>
+              )}
+            </ul>
+          </td>
         </tr>
         <tr>
           <td>Иркутская область</td>

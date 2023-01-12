@@ -1,4 +1,12 @@
 .footer {
+  background-color: rgb(14, 71, 107);
+  width: 100%;
+  color: white;
+  text-align: justify;
+  p{
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .footer {
