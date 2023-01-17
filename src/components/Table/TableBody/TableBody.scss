@@ -1,9 +1,26 @@
 .tableBody {
 }
+
 .reg-name {
   text-align: left;
   padding: 0 !important;
   width: 160px;
+}
+
+.dont-chose {
+  color: rgba(88, 88, 88, 0.603);
+}
+
+.better {
+  background: rgba(157, 240, 157, 0.582);
+}
+
+.worse {
+  background: rgba(238, 137, 137, 0.568);
+}
+
+.equally {
+  background: rgba(250, 248, 143, 0.582);
 }
 
 @media only screen and (max-width: 600px) {

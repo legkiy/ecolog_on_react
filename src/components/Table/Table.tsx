@@ -62,6 +62,7 @@ const Table = ({}: IPropsTable) => {
       </thead>
       <TableBody />
     </table>
+    
   );
 };
 export default Table;
