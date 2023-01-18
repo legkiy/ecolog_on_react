@@ -9,15 +9,20 @@ import {
 } from 'react-icons/gi';
 import { BsThermometerHalf } from 'react-icons/bs';
 import recyclePower from './recyclePower.png';
+
+import Tippy from 'tippy.js';
+import 'tippy.js/dist/tippy.css';
+
 import { RootState } from '../../../app/store';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCaseIndex } from '../../../features/caseSlice/case';
 
 interface IPropsButton {
   caseName: string;
+  scriptDiscriptions: any;
 }
 
-const Button = ({ caseName }: IPropsButton) => {
+const Button = ({ caseName, scriptDiscriptions }: IPropsButton) => {
   const dispatch = useDispatch();
   const caseIndex = useSelector((state: RootState) => state.case.caseIndex);
 
@@ -60,9 +65,15 @@ const Button = ({ caseName }: IPropsButton) => {
   };
 
   return (
-    <button className="button" type="button" onClick={handleOnClick}>
-      {getScriptIcon(caseName)}
-    </button>
+    <Tippy content={scriptDiscriptions} interactive={true} placement={'bottom'} appendTo={'parent'}>
+      <button
+        className={`button ${Object.keys(SCRIPT_MAP)[caseIndex] === caseName && 'selected'}`}
+        type="button"
+        onClick={handleOnClick}
+      >
+        {getScriptIcon(caseName)}
+      </button>
+    </Tippy>
   );
 };
 export default Button;

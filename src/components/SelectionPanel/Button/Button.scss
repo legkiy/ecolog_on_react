@@ -18,6 +18,10 @@
   height: 0.9rem;
 }
 
+.selected {
+  opacity: 0.6;
+}
+
 @media only screen and (max-width: 600px) {
   .button {
   }
