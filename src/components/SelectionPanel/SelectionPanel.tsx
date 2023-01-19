@@ -18,7 +18,7 @@ const SelectionPanel = () => {
         caseName={'wood'}
         scriptDiscriptions={
           <div className="tippy-div">
-            <p>Производители древесного топлива</p>
+            <h4>Производители древесного топлива</h4>
           </div>
         }
       />
@@ -26,7 +26,7 @@ const SelectionPanel = () => {
         caseName={'solar'}
         scriptDiscriptions={
           <div className="tippy-div">
-            <p>Показатели гелиопотенциала </p>
+            <h4>Показатели гелиопотенциала </h4>
           </div>
         }
       />
@@ -34,7 +34,7 @@ const SelectionPanel = () => {
         caseName={'wind'}
         scriptDiscriptions={
           <div className="tippy-div">
-            <p>Показатели ветропотенциала</p>
+            <h4>Показатели ветропотенциала</h4>
           </div>
         }
       />
@@ -42,7 +42,7 @@ const SelectionPanel = () => {
         caseName={'termal'}
         scriptDiscriptions={
           <div className="tippy-div">
-            <p>Показатели геопотенциала</p>
+            <h4>Показатели геопотенциала</h4>
           </div>
         }
       />

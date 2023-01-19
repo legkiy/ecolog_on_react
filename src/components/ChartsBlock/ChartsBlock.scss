@@ -1,5 +1,6 @@
 .chartsBlock {
   width: 100%;
+  z-index: 1;
 }
 
 .amount-irk {
@@ -39,6 +40,7 @@
   width: 1rem;
   height: 1rem;
   border-radius: 5px;
+  z-index: 1;
 }
 
 .ico-legend:nth-child(1)::before {
