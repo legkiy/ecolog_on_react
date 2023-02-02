@@ -19,7 +19,7 @@ const DonatChart = ({ powerCaseOut }: IPropsDonatChart) => {
       {
         data: powerCaseOut.data,
         backgroundColor: powerCaseOut.color,
-        label: 132312,
+        label: '',
       },
     ],
   };
