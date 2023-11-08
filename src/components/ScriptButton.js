@@ -45,7 +45,7 @@ export default function Button({ setScriptIndex, scriptCase, scriptDiscriptions,
       case 'termal':
         return <BsThermometerHalf />;
       case 'noSelect':
-        return <p>Текущее состояние</p>;
+        return <p>Current state</p>;
       default:
     }
   }

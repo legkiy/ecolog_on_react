@@ -8,22 +8,28 @@ function Container() {
     <div className="container box-80">
       <div className="discription">
         <h1 className="title">
-          Экологический мониторинг объектов теплоэнергетики центральной экологической зоны
-          Байкальской природной территории
+          Environmental monitoring of thermal power facilities in the central
+          ecological zone of the Baikal natural territory
         </h1>
         <p>
-          Информационно-аналитическая система предназначена для мониторинга изменений экологических
-          характеристик функционирования объектов теплоэнергетики Байкальской природной территории
-          при реализации различных сценариев развития. Для этих целей создана база данных,
-          включающая производственные показатели электростанций и коммунальных котельных,
-          оказывающих влияние на природную среду прибрежных районов оз. Байкал, объемы сжигаемого
-          топлива и его качественные характеристики. Приведены оценки массы выбросов загрязняющих
-          веществ, диоксида углерода в атмосферу и образования золошлаковых отходов от
-          электростанций и котельных на основе разработанной математической модели. Представлена
-          информация базы данных показателей возобновляемых природных энергоресурсов.
+          The information and analytical system is designed to monitor changes
+          in the environmental characteristics of the functioning of thermal
+          power facilities in the Baikal natural territory during the
+          implementation of various development scenarios. For these purposes, a
+          database has been created that includes production indicators of power
+          plants and municipal boiler houses that affect the natural environment
+          of the coastal areas of the lake. Baikal, volumes of fuel burned and
+          its quality characteristics. Estimates of the mass of emissions of
+          pollutants, carbon dioxide into the atmosphere and the formation of
+          ash and slag waste from power plants and boiler houses are given based
+          on the developed mathematical model. Information from a database of
+          indicators of renewable natural energy resources is presented.
         </p>
       </div>
-      <ScriptSlection setScriptIndex={setScriptIndex} scriptIndex={scriptIndex} />
+      <ScriptSlection
+        setScriptIndex={setScriptIndex}
+        scriptIndex={scriptIndex}
+      />
       <MainBox scriptIndex={scriptIndex} />
     </div>
   );

@@ -5,7 +5,7 @@ function ScriptSlection({ setScriptIndex, scriptIndex }) {
   return (
     <div className="script-selection-box center-inside">
       <div className="center-inside">
-        <h2 className="script-selection-title">Энергетические ресурсы</h2>
+        <h2 className="script-selection-title">Energetic resources</h2>
         <ScriptButton
           scriptIndex={scriptIndex}
           scriptCase={'wood'}
@@ -54,10 +54,10 @@ function ScriptSlection({ setScriptIndex, scriptIndex }) {
           onClick={() => setScriptIndex(0)}
           type="button"
         >
-          Текущее состояние
+          Current state
         </button>
         <div className="horizontal-border"></div>
-        <h2 className="script-selection-title">Cценарии</h2>
+        <h2 className="script-selection-title">Scenario</h2>
         <ScriptButton
           scriptIndex={scriptIndex}
           scriptCase={'coal'}
