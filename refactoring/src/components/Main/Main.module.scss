@@ -1,0 +1,11 @@
+@import '../../../style/mixins.scss';
+
+.main {
+  margin: auto;
+  background-color: white;
+  width: 1350px;
+  @include lTablet() {
+    width: auto;
+    margin: 0 20px;
+  }
+}

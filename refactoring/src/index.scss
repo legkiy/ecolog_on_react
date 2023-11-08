@@ -14,7 +14,11 @@ code {
 
 html,
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
-  background: linear-gradient(150deg, white, rgb(166, 192, 203)) fixed;
+  background: linear-gradient(130deg, white, rgb(166, 192, 203)) fixed;
+}
+#root {
+  height: 100%;
 }

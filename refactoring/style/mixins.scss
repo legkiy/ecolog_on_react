@@ -1,0 +1,23 @@
+@mixin customScreen($whith) {
+  @media screen and (max-width: $whith) {
+    @content;
+  }
+}
+
+@mixin smallDesc {
+  @include customScreen(1600px) {
+    @content;
+  }
+}
+
+@mixin lTablet {
+  @include customScreen(1400px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @include customScreen(900px) {
+    @content;
+  }
+}
